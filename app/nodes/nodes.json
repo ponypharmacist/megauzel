@@ -1,0 +1,23 @@
+[
+  {
+    "code": "1.",
+    "id": "1",
+    "name": "Грохот",
+    "imageUrl": "images/1.jpg",
+    "description": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
+  },
+  {
+    "code": "2.",
+    "id": "2",
+    "name": "Бочка",
+    "imageUrl": "images/2.jpg",
+    "description": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb)."
+  },
+  {
+    "code": "3.",
+    "id": "3",
+    "name": "Платформа",
+    "imageUrl": "images/3.jpg",
+    "description": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
+  }
+]

@@ -16,12 +16,14 @@
       <div class="col-md-9 content">
         <!-- Everything goes here -->
         <div class="content-wrapper panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <ol class="breadcrumb">
+            <li><a role="button" data-toggle="collapse" data-parent="#accordion" href="#item-0">КА-160</a></li>
+            <li><a role="button" data-toggle="collapse" data-parent="#accordion" href="#item-1">1. Грохот</a></li>
+            <li class="active">1.1. Вибратор</li>
+          </ol>
 
           <div class="panel panel-default">
             <div id="item-0" class="panel-collapse collapse in" role="tabpanel">
-              <ol class="breadcrumb">
-                <li class="active">КА-160</li>
-              </ol>
               <div class="image-map">
                 <a class="map-marker" style="top:15%; left:33%;"
                 data-toggle="collapse" data-parent="#accordion" href="#item-1">A</a>
@@ -35,10 +37,6 @@
 
           <div class="panel panel-default">
             <div id="item-1" class="panel-collapse collapse" role="tabpanel">
-              <ol class="breadcrumb">
-                <li><a role="button" data-toggle="collapse" data-parent="#accordion" href="#item-0">КА-160</a></li>
-                <li class="active">1. Грохот</li>
-              </ol>
               <p>1. Мегаузел. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
               <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
               <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
@@ -47,11 +45,6 @@
 
           <div class="panel panel-default">
             <div id="item-1-1" class="panel-collapse collapse" role="tabpanel">
-              <ol class="breadcrumb">
-                <li><a role="button" data-toggle="collapse" data-parent="#accordion" href="#item-0">КА-160</a></li>
-                <li><a role="button" data-toggle="collapse" data-parent="#accordion" href="#item-1">1. Грохот</a></li>
-                <li class="active">1.1. Вибратор</li>
-              </ol>
               <p>1.1. Узел. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
             </div>
           </div>
@@ -64,10 +57,6 @@
 
           <div class="panel panel-default">
             <div id="item-2" class="panel-collapse collapse" role="tabpanel">
-              <ol class="breadcrumb">
-                <li><a role="button" data-toggle="collapse" data-parent="#accordion" href="#item-0">КА-160</a></li>
-                <li class="active">2. Мегабочка</li>
-              </ol>
               <p>2. Мегаузел. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
             </div>
           </div>
@@ -127,6 +116,8 @@
       </div>
     </div>
   <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/angular/angular.js"></script>
+
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
 </body>

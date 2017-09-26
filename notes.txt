@@ -1,0 +1,9 @@
+
+
+=== Реализация поиска фильтрацией рипитера ===
+Search: <input ng-model="$ctrl.query" />
+<ul class="phones">
+  <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query">
+
+
+https://github.com/500tech/angular-tree-component - дерево с дочками и мамками
