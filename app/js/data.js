@@ -1,7 +1,6 @@
-// demo data
 var abz = [
   { id: 'id01',
-    name: '1. Бункер готового асфальта',
+    name: 'Бункер готового асфальта',
     description: '(описание детали)',
     constructorNumber: '04АБЗ-001.00.00.000СБ',
     catalogNumber: '4.1.',
@@ -56,7 +55,12 @@ var abz = [
     ] // end Uzels array
   },
   { id: 'id02',
-    name: '2. Что-то еще',
+    name: 'Устройство разгрузки асфальта',
+    description: '(описание детали)',
+    children: ''
+  },
+  { id: 'id03',
+    name: 'Бункер негабарита',
     description: '(описание детали)',
     children: ''
   }
