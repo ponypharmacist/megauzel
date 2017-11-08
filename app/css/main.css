@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #ebebeb;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+a {
+  transition: all 0.25s ease-in-out;
+}
+
+/* General styles */
+.container-fluid,
+.container-fluid .row {
+  height: 100%;
+}
+
+.content, .sidebar {
+  height: 100%;
+}
+
+.content {
+  background-color: #f5f5f5;
+  overflow-y: scroll;
+}
+
+.sidebar {
+  background-color: #d9d9d9;
+  overflow-y: scroll;
+  padding-left: 32px;
+}
+
+
+/* Menu block */
+.list-unstyled {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+/* Content block */
+.content-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.breadcrumb {
+  margin-top: 16px;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.content-wrapper img {
+  max-width: 100%;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.panel p {
+  padding: 8px 6px;
+  margin: 0;
+}
+
+
+/* Image mapping */
+.image-map {
+  position: relative;
+}
+
+.map-marker {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 0, 0.4);
+  margin-left: -15px;
+  margin-top: -15px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+
+.map-marker:hover {
+  background: rgba(255, 255, 0, 1);
+  text-decoration: none;
+  color: #000;
+}
+
+.marker-area {
+  text-align: left;
+  text-indent: 8px;
+}
+
+
+/* Tree-vue component */
+#tree-root {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 110%;
+  list-style-type: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+#tree-root ul {
+  display: none;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+
+.expand-link, .expand-link:visited, .expand-link:focus {
+  text-decoration: none;
+  color: #000;
+  font-family: monospace;
+  font-weight: bold;
+}
+.expand-link:hover {
+  color: red;
+  text-decoration: none;
+}
