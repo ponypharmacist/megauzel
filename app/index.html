@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vue Stuff</title>
+  <title>AbzCat</title>
 
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -21,15 +21,15 @@
           </ol>
 
           <div id="descriptionPanel" class="panel panel-default">
-            <div class="image-map">
+            <!--<div class="image-map">
               <a class="map-marker marker-area" style="top:24%; left:33%; width:20%; height:10%;">A</a>
               <a class="map-marker" style="top:45%; left:23%;">B</a>
               <img src="images/placeholder.jpg" alt=""/>
-            </div>
-            <h3 id="nodeName">Название узла</h3>
-            <p id="nodeConstructionNumber"></p>
-            <p id="nodeCatalogNumber"></p>
-            <p id="nodeDescription"></p>
+            </div>-->
+            <div id="nodeName" class="description-box">Название узла</div>
+            <div id="nodeConstructionNumber" class="description-box"></div>
+            <div id="nodeCatalogNumber" class="description-box"></div>
+            <div id="nodeDescription" class="description-box"></div>
           </div>
         </div><!-- This closes Accordion -->
       </div><!-- end Content -->
@@ -39,6 +39,7 @@
 
         <!-- Фильтрация должна открывать все дерево узлов и ... как-то временно оставлять видимыми названия мегаузлов при этом реально фильтруя только их подузлы -->
         <input id="filter-input" placeholder="Найти детали"/>
+        <span class="filter-hint">Нажмите Esc, чтобы сбросить фильтр</span>
 
         <ol id="tree-root">
         </ol>

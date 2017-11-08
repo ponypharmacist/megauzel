@@ -78,6 +78,21 @@ a {
   margin: 0;
 }
 
+.description-box {
+  display: block;
+  line-height: 28px;
+  background-color: #eee;
+}
+#nodeName {
+  font-weight: bold;
+}
+#nodeConstructionNumber {}
+#nodeCatalogNumber {}
+#nodeDescription {
+  line-height: 20px;
+  padding: 4px 0;
+}
+
 
 /* Image mapping */
 .image-map {
@@ -130,10 +145,16 @@ a {
   height: 64px;
   line-height: 32px;
   padding: 17px 12px 15px 44px;
-  color: #3e2c04;
+  color: #584316;
   background: #d7cbb3 url('../images/search.svg') no-repeat 12px 55% / 24px 24px;
 }
 #filter-input:focus {
+}
+.filter-hint {
+  display: none;
+  font-size: 12px;
+  color: #999;
+  padding: 8px 10px 0 44px;
 }
 
 #tree-root {
@@ -142,22 +163,39 @@ a {
   padding: 0 18px 0 44px;
   margin: 24px 0 0 0;
   font-size: 14px;
+  list-style-type: none;
 }
-
 #tree-root ul {
   display: none;
   list-style-type: none;
   margin-left: 0;
-  padding-left: 12px;
-  padding-bottom: 12px;
+  padding:0 0 12px 16px;
 }
-
+#tree-root > li > span {
+  text-align: right;
+  width: 24px;
+  float: left;
+  margin-left: -32px;
+}
+#tree-root a {
+  cursor: pointer;
+}
 .expand-link, .expand-link:visited, .expand-link:focus {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #000;
   font-weight: bold;
 }
 .expand-link:hover {
   color: red;
-  text-decoration: none;
+}
+#tree-root.being-filtered {
+}
+#tree-root.being-filtered ul {
+  padding: 0;
+  display: block;
+}
+#tree-root.being-filtered li {
+}
+}
+#tree-root.being-filtered li a {
 }
