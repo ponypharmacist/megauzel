@@ -75,27 +75,34 @@ a {
   max-width: 100%;
   padding: 16px 16px 48px;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .description-box {
-  display: block;
+  display: inline-block;
   line-height: 28px;
 }
 
 #nodeName {
+  width: 100%;
   font-weight: bold;
   line-height: 24px;
   padding: 4px 0 8px;
   font-size: 18px;
 }
 #nodeConstructionNumber {
+  width: 50%;
   line-height: 20px;
   padding-bottom: 4px
 }
 #nodeCatalogNumber {
+  width: 50%;
   line-height: 20px;
 }
 #nodeDescription {
+  width: 100%;
   line-height: 20px;
   padding: 4px 16px 4px 0;
 }
@@ -171,13 +178,15 @@ a {
 /*======================================*/
 /* Image mapping */
 /*======================================*/
+#image-maps {
+  margin: 6px 0;
+  width: 100%;
+}
 #descriptionPanel img {
   max-width: 100%;
 }
-
 .image-map {
   position: relative;
-  margin-bottom: 12px;
 }
 .map-marker {
   position: absolute;

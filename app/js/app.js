@@ -1,7 +1,7 @@
 var treeHtml = '';
 
 //============================================
-// Rendering
+// Рендерим дерево
 //============================================
 function renderTree() {
   abz.forEach(function(megauzel, i, abz) {
@@ -13,6 +13,9 @@ function renderTree() {
   $('#tree-root').html(treeHtml);
 };
 
+//============================================
+// Рендерим детишек 1 урв. для дерева
+//============================================
 function renderChildren(uzel, parentIndex) {
   let thisUzelChildren = uzel.children;
   let thisUzelId = uzel.id;
@@ -25,6 +28,9 @@ function renderChildren(uzel, parentIndex) {
   return childrenHtml;
 };
 
+//============================================
+// По клику рендерим в области контента инфу
+//============================================
 function renderNode(i, k) {
   let target = '';
   if (i >= 0 && k >= 0) {
@@ -32,6 +38,9 @@ function renderNode(i, k) {
   } else if (i >= 0) {
     target = abz[i];
   } else {};
+
+  target.imageMaps ? $('#image-maps').html(renderImageMaps(target.imageMaps)) : $('#image-maps').html('');
+
   $('#nodeName').html(target.name);
   $('#nodeConstructionNumber').html(target.constructorNumber ? 'Номер конструкторской документации: <br/><b>' + target.constructorNumber + '</b>' : '');
   $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <br/><b>' + target.catalogNumber + '</b>' : '');
@@ -40,6 +49,28 @@ function renderNode(i, k) {
   renderBreadcrumbs(i, k);
 };
 
+//============================================
+// Рендерим картинки с маркерами
+//============================================
+function renderImageMaps(imageMapsList) {
+  let imageMapsHtml = '';
+  let mapList = imageMapsList;
+  mapList.forEach(function(imageMap, p, mapList) {
+    imageMapsHtml += '<div class="image-map">';
+
+    let imageMapMarkers = imageMap.mapMarkers;
+    imageMapMarkers.forEach(function(iMM, q, imageMapMarkers) {
+      imageMapsHtml = '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker" style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%;">' + iMM.mapMarkerTitle + '</a>';
+    });
+
+    imageMapsHtml += '<img src="images/' + imageMap.imageURL + '" alt=""/></div>';
+  });
+  return imageMapsHtml;
+};
+
+//============================================
+// Показываем хлебокрошки
+//============================================
 function renderBreadcrumbs(i, k) {
   // i && !k - if level 1
   let renderedBreadcrumbs = '';

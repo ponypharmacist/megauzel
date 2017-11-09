@@ -17,12 +17,12 @@ var abz = [
     constructorNumber: '04АБЗ-001.00.00.000СБ',
     catalogNumber: '4.1',
     imageMaps: [
-      { imageMap: '',
+      { imageURL: 'placeholder.jpg',
         mapMarkers: [
           { mapMarkerTitle: 'A',
             mapMarkerX: '23',
             mapMarkerY: '45',
-            mapMarkerLink: 'nodes.children[0].children[0]'
+            mapMarkerLink: '1,2'
           }
         ]
       }
