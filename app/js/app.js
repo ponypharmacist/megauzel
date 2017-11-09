@@ -60,7 +60,7 @@ function renderImageMaps(imageMapsList) {
 
     let imageMapMarkers = imageMap.mapMarkers;
     imageMapMarkers.forEach(function(iMM, q, imageMapMarkers) {
-      imageMapsHtml = '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker" style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%;">' + iMM.mapMarkerTitle + '</a>';
+      imageMapsHtml += '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker" style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%;">' + iMM.mapMarkerTitle + '</a>';
     });
 
     imageMapsHtml += '<img src="images/' + imageMap.imageURL + '" alt=""/></div>';
