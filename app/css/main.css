@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
+/*======================================*/
+/* General styles */
+/*======================================*/
 html, body {
   height: 100%;
 }
@@ -15,58 +17,52 @@ a {
   transition: all 0.25s ease-in-out;
 }
 
-/* General styles */
-.container-fluid,
-.container-fluid .row,
+.container-custom,
 .content,
 .sidebar {
   height: 100%;
 }
 
-.content {
-  background-color: #f5f5f5;
-  overflow-y: scroll;
-  padding: 0;
-}
 
 /*======================================*/
 /* Content block */
 /*======================================*/
-.content-wrapper {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 0 16px 16px;
-  margin: 0;
+.container-custom {
+  width: 100%;
+  padding-right: 400px;
 }
-
+.content {
+  background-color: #f5f5f5;
+  overflow-y: scroll;
+  padding: 0;
+  width: 100%;
+}
 .breadcrumb {
   height: 64px;
   line-height: 32px;
   padding: 18px 16px 14px 16px;
   font-size: 15px;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #d7cbb3;
   border-radius: 0
 }
+.breadcrumb a {
+  color: #584316;
+  font-weight: 700;
+}
+.breadcrumb > li + li::before {
+  color: #584316;
+  padding: 0 5px 0 9px;
+}
 
-.content-wrapper img {
+
+/*======================================*/
+/* Description content block */
+/*======================================*/
+#descriptionPanel {
   max-width: 100%;
-}
-
-.panel-group .panel + .panel {
-  margin-top: 0;
-}
-
-.panel {
-  border: none;
-  background: transparent;
-  box-shadow: none;
-  padding-top: 14px;
-  padding-bottom: 16px;
-}
-
-.panel p {
-  padding: 8px 6px;
+  max-height: 100%;
+  padding: 16px;
   margin: 0;
 }
 
@@ -75,55 +71,33 @@ a {
   line-height: 28px;
   background-color: #eee;
 }
+
 #nodeName {
   font-weight: bold;
+  line-height: 20px;
+  padding: 4px 0;
 }
-#nodeConstructionNumber {}
-#nodeCatalogNumber {}
+#nodeConstructionNumber {
+  line-height: 20px;
+  padding-bottom: 4px
+}
+#nodeCatalogNumber {
+  line-height: 20px;
+}
 #nodeDescription {
   line-height: 20px;
   padding: 4px 0;
 }
 
 
-/* Image mapping */
-.image-map {
-  position: relative;
-}
-
-.map-marker {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background: rgba(255, 255, 0, 0.4);
-  margin-left: -15px;
-  margin-top: -15px;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-  transition: all 0.35s ease-in-out;
-}
-
-.map-marker:hover {
-  background: rgba(255, 255, 0, 1);
-  text-decoration: none;
-  color: #000;
-}
-
-.marker-area {
-  text-align: left;
-  text-indent: 8px;
-}
-
-
+/*======================================*/
 /* Tree view stuff */
+/*======================================*/
 .sidebar {
-  background-color: #d9d9d9;
+  float: right;
+  width: 400px;
+  margin-right: -400px;
+  background-color: #e5e5e5;
   overflow-y: scroll;
   padding-left: 32px;
   padding: 0 0 24px 0 !important;
@@ -136,9 +110,9 @@ a {
   width: 100%;
   height: 64px;
   line-height: 32px;
-  padding: 17px 12px 15px 44px;
+  padding: 17px 12px 15px 56px;
   color: #584316;
-  background: #d7cbb3 url('../images/search.svg') no-repeat 12px 55% / 24px 24px;
+  background: #d7cbb3 url('../images/search.svg') no-repeat 24px 55% / 24px 24px;
 }
 #filter-input:focus {
 }
@@ -146,13 +120,13 @@ a {
   display: none;
   font-size: 12px;
   color: #999;
-  padding: 8px 10px 0 44px;
+  padding: 8px 10px 0 56px;
 }
 
 #tree-root {
   font-family: "Consolas", "courier new", monospace;
   font-size: 110%;
-  padding: 0 18px 0 44px;
+  padding: 0 18px 0 56px;
   margin: 20px 0 0 0;
   font-size: 14px;
   list-style-type: none;
@@ -175,6 +149,7 @@ a {
 #tree-root a {
   cursor: pointer;
 }
+
 .expand-link, .expand-link:visited, .expand-link:focus {
   text-decoration: none !important;
   color: #000;
@@ -183,14 +158,48 @@ a {
 .expand-link:hover {
   color: red;
 }
-#tree-root.being-filtered {
-}
+
 #tree-root.being-filtered ul {
   padding: 0;
   display: block;
 }
-#tree-root.being-filtered li {
+#tree-root.being-filtered .expand-link { display:none; }
+#tree-root.being-filtered li a {}
+
+
+/*======================================*/
+/* Image mapping */
+/*======================================*/
+#descriptionPanel img {
+  max-width: 100%;
 }
+
+.image-map {
+  position: relative;
 }
-#tree-root.being-filtered li a {
+.map-marker {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 0, 0.4);
+  margin-left: -15px;
+  margin-top: -15px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+.map-marker:hover {
+  background: rgba(255, 255, 0, 1);
+  text-decoration: none;
+  color: #000;
+}
+.marker-area {
+  text-align: left;
+  text-indent: 8px;
 }

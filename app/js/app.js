@@ -33,8 +33,8 @@ function renderNode(i, k) {
     target = abz[i];
   } else {};
   $('#nodeName').html(target.name);
-  $('#nodeConstructionNumber').html(target.constructorNumber ? target.constructorNumber : '');
-  $('#nodeCatalogNumber').html(target.catalogNumber ? target.catalogNumber : '');
+  $('#nodeConstructionNumber').html(target.constructorNumber ? 'Номер конструкторской документации: <br/>' + target.constructorNumber : '');
+  $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <br/>' + target.catalogNumber : '');
   $('#nodeDescription').html(target.description ? target.description : '');
 
   renderBreadcrumbs(i, k);

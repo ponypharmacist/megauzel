@@ -10,40 +10,31 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <div id="app" class="container-fluid">
-    <div class="row">
-      <div class="col-md-9 content">
-        <ol id="breadcrumbs" class="breadcrumb">
-          <li class="active"><a href="">КА-160</a></li>
-        </ol>
+  <div class="container-custom">
+    <div class="sidebar">
+      <input id="filter-input" placeholder="Найти детали"/>
+      <span class="filter-hint">Нажмите Esc, чтобы сбросить фильтр</span>
+      <ol id="tree-root"></ol>
+    </div> <!-- /sidebar -->
 
-        <div class="content-wrapper panel-group">
+    <div class="content">
+      <ol id="breadcrumbs" class="breadcrumb">
+        <li class="active"><a href="">КА-160</a></li>
+      </ol>
 
-          <div id="descriptionPanel" class="panel panel-default">
-            <!--<div class="image-map">
-              <a class="map-marker marker-area" style="top:24%; left:33%; width:20%; height:10%;">A</a>
-              <a class="map-marker" style="top:45%; left:23%;">B</a>
-              <img src="images/placeholder.jpg" alt=""/>
-            </div>-->
-            <div id="nodeName" class="description-box">Название узла</div>
-            <div id="nodeConstructionNumber" class="description-box"></div>
-            <div id="nodeCatalogNumber" class="description-box"></div>
-            <div id="nodeDescription" class="description-box"></div>
-          </div>
-        </div><!-- This closes Accordion -->
-      </div><!-- end Content -->
+      <div id="descriptionPanel">
+        <!--<div class="image-map">
+          <a class="map-marker marker-area" style="top:24%; left:33%; width:20%; height:10%;">A</a>
+          <a class="map-marker" style="top:45%; left:23%;">B</a>
+          <img src="images/placeholder.jpg" alt=""/>
+        </div>-->
 
-      <!-- Sidebar menu block -->
-      <div class="col-md-3 sidebar">
-
-        <!-- Фильтрация должна открывать все дерево узлов и ... как-то временно оставлять видимыми названия мегаузлов при этом реально фильтруя только их подузлы -->
-        <input id="filter-input" placeholder="Найти детали"/>
-        <span class="filter-hint">Нажмите Esc, чтобы сбросить фильтр</span>
-
-        <ol id="tree-root">
-        </ol>
-      </div> <!-- /sidebar -->
-    </div> <!-- /row -->
+        <div id="nodeName" class="description-box">Название узла</div>
+        <div id="nodeConstructionNumber" class="description-box"></div>
+        <div id="nodeCatalogNumber" class="description-box"></div>
+        <div id="nodeDescription" class="description-box"></div>
+      </div>
+    </div><!-- end Content -->
   </div> <!-- /container-fluid -->
 
   <script src="js/jquery-3.2.1.js"></script>
