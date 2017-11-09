@@ -131,13 +131,13 @@ var abz = [
     catalogNumber: '4.3.1',
     children: [
       { id: 'id0401',
-        name: 'Вал (1 шт.)',
+        name: 'Вал',
         description: '(описание детали)',
         constructorNumber: '04АБЗ-003.01.00.019',
         catalogNumber: '4.3.1.19'
       },
       { id: 'id0402',
-        name: 'Вал (1 шт.)',
+        name: 'Вал',
         description: '(описание детали)',
         constructorNumber: '04АБЗ-003.01.00.020',
         catalogNumber: '4.3.1.20'
@@ -197,7 +197,7 @@ var abz = [
         catalogNumber: '3.3.1.29'
       },
       { id: 'id0412',
-        name: 'Шкив (1 шт.)',
+        name: 'Шкив',
         description: '(описание детали)',
         constructorNumber: '04АБЗ-003.01.00.030',
         catalogNumber: '4.3.1.30'
@@ -411,7 +411,7 @@ var abz = [
         catalogNumber: '3.3.1.2.3'
       },
       { id: 'id0503',
-        name: 'Сапун (1 шт.)',
+        name: 'Сапун',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.10.00.000СБ',
         catalogNumber: '3.3.10.21'
@@ -509,14 +509,6 @@ var abz = [
     ]
   },
 
-/*
-Тензодатчик (2 шт.)		4.4.10.93
-Аммортизатор (2 шт.)		4.4.10.95
-Нагреватель хомутовый 		4.4.10.104
-Пневмоцилиндр		6.90.4.106
-Электронагреватель		4.4.10.108
-Клапан аварийный	04АБЗ-004.10.03.000СБ	4.4.10.3
-*/
   // 6.
   { id: 'id06',
     name: 'Весы битумные',
@@ -525,40 +517,40 @@ var abz = [
     catalogNumber: '4.4.10',
     children: [
       { id: 'id0601',
-        name: '',
+        name: 'Тензодатчик (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '4.4.10.93'
       },
       { id: 'id0602',
-        name: '',
+        name: 'Аммортизатор (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '4.4.10.95'
       },
       { id: 'id0603',
-        name: '',
+        name: 'Нагреватель хомутовый',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '4.4.10.104'
       },
       { id: 'id0604',
-        name: '',
+        name: 'Пневмоцилиндр',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '6.90.4.106'
       },
       { id: 'id0605',
-        name: '',
+        name: 'Электронагреватель',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '4.4.10.108'
       },
       { id: 'id0606',
-        name: '',
+        name: 'Клапан аварийный',
         description: '(описание детали)',
-        constructorNumber: '',
-        catalogNumber: ''
+        constructorNumber: '04АБЗ-004.10.03.000СБ',
+        catalogNumber: '4.4.10.3'
       }
     ]
   },
@@ -571,10 +563,22 @@ var abz = [
     catalogNumber: '2.4.2',
     children: [
       { id: 'id0701',
-        name: '',
+        name: 'Тензодатчик (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '2.4.2.93'
+      },
+      { id: 'id0702',
+        name: 'Аммортизатор (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '2.4.2.95'
+      },
+      { id: 'id0703',
+        name: 'Заслонка поворотная',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '2.4.2.97'
       }
     ]
   },
@@ -587,10 +591,28 @@ var abz = [
     catalogNumber: '4.4.3',
     children: [
       { id: 'id0801',
-        name: '',
+        name: 'Затвор',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-004.03.01.000-МСБ',
+        catalogNumber: '4.4.3.1.М'
+      },
+      { id: 'id0802',
+        name: 'Тензодатчик (3 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '4.4.3.100'
+      },
+      { id: 'id0803',
+        name: 'Аммортизатор (3 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '4.4.3.103'
+      },
+      { id: 'id0804',
+        name: 'Пневмоцилиндр',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '6.90.4.75'
       }
     ]
   },
@@ -603,10 +625,22 @@ var abz = [
     catalogNumber: '8.4.6',
     children: [
       { id: 'id0901',
-        name: '',
+        name: 'Тензодатчик (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '8.4.6.67'
+      },
+      { id: 'id0902',
+        name: 'Заслонка поворотная',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '8.4.6.72'
+      },
+      { id: 'id0903',
+        name: 'Демпфер (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '02АБЗ-004.06.00.023(3)-01',
+        catalogNumber: '2.4.6.23'
       }
     ]
   },
@@ -619,10 +653,16 @@ var abz = [
     catalogNumber: '4.5.2',
     children: [
       { id: 'id1001',
-        name: '',
+        name: 'Затвор (5 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-004.03.01.000-МСБ',
+        catalogNumber: '4.4.3.1.М'
+      },
+      { id: 'id1002',
+        name: 'Пневмоцилиндр (5 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '6.90.4.75'
       }
     ]
   },
@@ -635,10 +675,130 @@ var abz = [
     catalogNumber: '8.5.3',
     children: [
       { id: 'id1101',
-        name: '',
+        name: 'Заслонка поворотная',
         description: '(описание детали)',
         constructorNumber: '',
+        catalogNumber: '8.5.3.6'
+      },
+      { id: 'id1102',
+        name: 'Шнек',
+        description: '(описание детали)',
+        constructorNumber: '08АБЗ-005.03.01.200-М',
+        catalogNumber: '8.5.3.1.2'
+      },
+      { id: 'id1103',
+        name: 'Мотор-редуктор',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '8.5.3.1.56'
+      },
+      { id: 'id1104',
+        name: 'Рукав соединительный',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-004.00.00.018',
+        catalogNumber: '4.4.18'
+      },
+      { id: 'id1105',
+        name: 'Рукав соединительный',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-004.00.00.019',
+        catalogNumber: '4.4.19'
+      },
+      { id: 'id1106',
+        name: 'Рукав соединительный',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-004.00.00.020',
+        catalogNumber: '4.4.20'
+      },
+      { id: 'id1107',
+        name: 'Рукав соединительный',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-004.00.00.021',
+        catalogNumber: '4.4.21'
+      },
+      { id: 'id1108',
+        name: 'Промежуточный бункер (п.у!)',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.00.00.000-М1',
         catalogNumber: ''
+      },
+      { id: 'id1109',
+        name: 'Ротационный датчик уровня',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.01.13.000СБ-01-М1',
+        catalogNumber: '4.5.1.13'
+      },
+      { id: 'id1110',
+        name: 'Ротационный датчик уровня (5 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.01.14.000СБ-М1',
+        catalogNumber: '4.5.1.14'
+      },
+      { id: 'id1111',
+        name: 'Транспортер шнековый',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.02.00.000-М1',
+        catalogNumber: '4.5.2.М1'
+      },
+      { id: 'id1112',
+        name: 'Мотор-редуктор',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '4.5.2.56'
+      },
+      { id: 'id1113',
+        name: 'Шнек',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.02.02.000СБ-М1',
+        catalogNumber: '4.5.2.2.М1'
+      },
+      { id: 'id1114',
+        name: 'Цапфа',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.02.02.003-М1',
+        catalogNumber: '4.5.2.2.3.М1'
+      },
+      { id: 'id1115',
+        name: 'Цапфа',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-011.01.07.002',
+        catalogNumber: '4.11.1.7.2'
+      },
+      { id: 'id1116',
+        name: 'Втулка (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-011.01.07.005',
+        catalogNumber: '4.11.1.7.5'
+      },
+      { id: 'id1117',
+        name: 'Перо шнека',
+        description: '(описание детали)',
+        constructorNumber: '04АБЗ-005.02.02.006-М1',
+        catalogNumber: '4.5.2.2.6М1'
+      },
+      { id: 'id1118',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '4.5.2.45'
+      },
+      { id: 'id1119',
+        name: 'Манжета (3 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '4.5.2.48'
+      },
+      { id: 'id1120',
+        name: 'Шпонка',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '4.5.2.47'
+      },
+      { id: 'id1121',
+        name: 'Набивка (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '4.5.2.50'
       }
     ]
   },
@@ -651,10 +811,112 @@ var abz = [
     catalogNumber: '1.7.2.М1',
     children: [
       { id: 'id1201',
-        name: '',
+        name: 'Кожух (54 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'ГН-001.02.11.000АСБ',
+        catalogNumber: '1.7.2.2.А'
+      },
+      { id: 'id1202',
+        name: 'Отбойник',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.03.000СБ',
+        catalogNumber: '1.7.2.3'
+      },
+      { id: 'id1203',
+        name: 'Балка зацепная',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.04.000СБ',
+        catalogNumber: '1.7.2.4'
+      },
+      { id: 'id1204',
+        name: 'Балка опорная (25 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.05.000СБ',
+        catalogNumber: '1.7.2.5'
+      },
+      { id: 'id1205',
+        name: 'Балка натяжная (9 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.07.000-М1СБ',
+        catalogNumber: '1.7.2.7.М1'
+      },
+      { id: 'id1206',
+        name: 'Крюк (54 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'ГН-001.02.15.000СБ',
+        catalogNumber: '1.7.2.15.8'
+      },
+      { id: 'id1207',
+        name: 'Сито',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.09.000СБ',
+        catalogNumber: '1.7.2.9'
+      },
+      { id: 'id1208',
+        name: 'Сито',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.09.000-01СБ',
+        catalogNumber: '1.7.2.10'
+      },
+      { id: 'id1209',
+        name: 'Сито',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.09.000-02СБ',
+        catalogNumber: '1.7.2.11'
+      },
+      { id: 'id1210',
+        name: 'Сито',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.09.000-03СБ',
+        catalogNumber: '1.7.2.12'
+      },
+      { id: 'id1211',
+        name: 'Сито',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.09.000-04СБ',
+        catalogNumber: '1.7.2.13'
+      },
+      { id: 'id1212',
+        name: 'Сито',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.09.000-05СБ',
+        catalogNumber: '1.7.2.14'
+      },
+      { id: 'id1213',
+        name: 'Втулка (54 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'ГН-001.02.17.000',
+        catalogNumber: '1.7.2.24'
+      },
+      { id: 'id1214',
+        name: 'Шкив (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.009-01-М',
+        catalogNumber: '1.7.2.1.25.М'
+      },
+      { id: 'id1215',
+        name: 'Электродвигатель (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '1.7.2.50'
+      },
+      { id: 'id1216',
+        name: 'Ремень (6 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '1.7.2.52'
+      },
+      { id: 'id1217',
+        name: 'Пружина (54 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'ГН-001.02.00.019',
+        catalogNumber: '1.7.2.22'
+      },
+      { id: 'id1218',
+        name: 'Пружина (8 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '1.7.32'
       }
     ]
   },
@@ -667,10 +929,94 @@ var abz = [
     catalogNumber: '1.7.2.1.М1',
     children: [
       { id: 'id1301',
-        name: '',
+        name: 'Вал (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.012-М1',
+        catalogNumber: '1.7.2.1.12.М1'
+      },
+      { id: 'id1302',
+        name: 'Стакан (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.005-М1',
+        catalogNumber: '1.7.2.1.5.М1'
+      },
+      { id: 'id1303',
+        name: 'Крышка (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.006-М1',
+        catalogNumber: '1.7.2.1.6.М1'
+      },
+      { id: 'id1304',
+        name: 'Кольцо (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.008-М1',
+        catalogNumber: '1.7.2.1.8.М1'
+      },
+      { id: 'id1305',
+        name: 'Шкив (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.009-М1',
+        catalogNumber: '1.7.2.1.9.М1'
+      },
+      { id: 'id1306',
+        name: 'Втулка (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.013-М1',
+        catalogNumber: '1.7.2.1.13.М1'
+      },
+      { id: 'id1307',
+        name: 'Груз (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.015-М1',
+        catalogNumber: '1.7.2.1.15.М1'
+      },
+      { id: 'id1308',
+        name: 'Груз (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.015-01-М1',
+        catalogNumber: '1.7.2.1.16.М1'
+      },
+      { id: 'id1309',
+        name: 'Кольцо (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.017-М1',
+        catalogNumber: '1.7.2.1.17.М1'
+      },
+      { id: 'id1310',
+        name: 'Шайба (8 шт.)',
+        description: '(описание детали)',
+        constructorNumber: 'АБЗ-007.02.01.018-М1',
+        catalogNumber: '1.7.2.1.18.М1'
+      },
+      { id: 'id1311',
+        name: 'Подшипник (4 шт.)',
         description: '(описание детали)',
         constructorNumber: '',
-        catalogNumber: ''
+        catalogNumber: '1.7.2.1.35'
+      },
+      { id: 'id1312',
+        name: 'Манжета (8 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '1.7.2.1.37'
+      },
+      { id: 'id1313',
+        name: 'Кольцо (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '1.7.2.1.39'
+      },
+      { id: 'id1314',
+        name: 'Шпонка (2 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '1.7.2.1.41'
+      },
+      { id: 'id1315',
+        name: 'Шпонка (4 шт.)',
+        description: '(описание детали)',
+        constructorNumber: '',
+        catalogNumber: '1.7.2.1.42'
       }
     ]
   },
@@ -683,7 +1029,7 @@ var abz = [
     catalogNumber: '1.7.3',
     children: [
       { id: 'id1401',
-        name: 'Рычаг (1 шт.)',
+        name: 'Рычаг',
         description: '(описание детали)',
         constructorNumber: 'АБЗ-007.03.00.014',
         catalogNumber: '1.7.3.14'
@@ -695,13 +1041,13 @@ var abz = [
         catalogNumber: '1.7.3.47'
       },
       { id: 'id1403',
-        name: 'Рукав соединительный (1 шт.)',
+        name: 'Рукав соединительный',
         description: '(описание детали)',
         constructorNumber: 'АБЗ-007.03.00.015',
         catalogNumber: '1.7.3.15'
       },
       { id: 'id1404',
-        name: 'Пневмоцилиндр (1 шт.)',
+        name: 'Пневмоцилиндр',
         description: '(описание детали)',
         constructorNumber: '',
         catalogNumber: '6.90.7'
@@ -709,88 +1055,3 @@ var abz = [
     ]
   }
 ] // end Megauzels array
-
-
-
-
-/*
-7	Весы пыли
-		Тензодатчик-2шт.		2.4.2.93
-		Аммортизатор-2шт.		2.4.2.95
-		Заслонка поворотная-1шт.		2.4.2.97
-
-8	Весы минерала
-		Затвор-1шт.	04АБЗ-004.03.01.000-МСБ	4.4.3.1.М
-		Тензодатчик-3шт.		4.4.3.100
-		Аммортизатор-3шт.		4.4.3.103
-		Пневмоцилиндр-1шт		6.90.4.75
-
-9	  Весы ВИТАТОПа
-		Тензодатчик-2шт.		8.4.6.67
-		Заслонка поворотная-1шт.		8.4.6.72
-		Демпфер-4шт.	02АБЗ-004.06.00.023(3)-01	2.4.6.23
-
-10	Бункер минерала
-		Затвор-5шт.	04АБЗ-004.03.01.000-МСБ	4.4.3.1.М
-		Пневмоцилиндр-5шт		6.90.4.75
-
-11	Бункер пыли
-		Заслонка поворотная-1шт.		8.5.3.6
-		Шнек-1шт.	08АБЗ-005.03.01.200-М	8.5.3.1.2
-		Мотор-редуктор-1шт.		8.5.3.1.56
-		Рукав соединит.-1шт.	04АБЗ-004.00.00.018	4.4.18
-		Рукав соединит.-1шт.	04АБЗ-004.00.00.019	4.4.19
-		Рукав соединит.-1шт.	04АБЗ-004.00.00.020	4.4.20
-		Рукав соединит.-1шт.	04АБЗ-004.00.00.021	4.4.21
-	  Промежуточный бункер  (п.у!)		04АБЗ-005.00.00.000-М1
-		Ротационный датчик уровня-1шт.	04АБЗ-005.01.13.000СБ-01-М1	4.5.1.13
-		Ротационный датчик уровня-5шт.	04АБЗ-005.01.14.000СБ-М1	4.5.1.14
-		Транспортер шнековый-1шт.	04АБЗ-005.02.00.000-М1	4.5.2.М1
-		Мотор-редуктор-1шт.		4.5.2.56
-		Шнек-1шт.	04АБЗ-005.02.02.000СБ-М1	4.5.2.2.М1
-		Цапфа-1шт.	04АБЗ-005.02.02.003-М1	4.5.2.2.3.М1
-		Цапфа-1шт.	04АБЗ-011.01.07.002	4.11.1.7.2
-		Втулка-2шт.	04АБЗ-011.01.07.005	4.11.1.7.5
-		Перо шнека-1шт.	04АБЗ-005.02.02.006-М1	4.5.2.2.6М1
-		Подшипник-2шт.		4.5.2.45
-		Манжета-3шт.		4.5.2.48
-		Шпонка-1шт.		4.5.2.47
-		Набивка-2шт.		4.5.2.50
-
-12	Короб грохота
-		Кожух 54 шт.	ГН-001.02.11.000АСБ	1.7.2.2.А
-		Отбойник 1 шт.	АБЗ-007.02.03.000СБ	1.7.2.3
-		Балка зацепная 1 шт.	АБЗ-007.02.04.000СБ	1.7.2.4
-		Балка опорная-25шт.	АБЗ-007.02.05.000СБ	1.7.2.5
-		Балка натяжная 9 шт.	АБЗ-007.02.07.000-М1СБ	1.7.2.7.М1
-		Крюк 54 шт.	ГН-001.02.15.000СБ	1.7.2.15.8
-		Сито 1 шт.	АБЗ-007.02.09.000СБ	1.7.2.9
-		Сито 1 шт.	АБЗ-007.02.09.000-01СБ	1.7.2.10
-		Сито 1 шт.	АБЗ-007.02.09.000-02СБ	1.7.2.11
-		Сито 1 шт.	АБЗ-007.02.09.000-03СБ	1.7.2.12
-		Сито 1 шт.	АБЗ-007.02.09.000-04СБ	1.7.2.13
-		Сито 1 шт.	АБЗ-007.02.09.000-05СБ	1.7.2.14
-		Втулка-54шт.	ГН-001.02.17.000	1.7.2.24
-		Шкив 2 шт.	АБЗ-007.02.01.009-01-М	1.7.2.1.25.М
-		Электродвигатель 2 шт.		1.7.2.50
-		Ремень 6 шт.		1.7.2.52
-		Пружина 54 шт.	ГН-001.02.00.019	1.7.2.22
-		Пружина 8 шт.		1.7.32
-
-13	Вибратор
-		Вал 2 шт.	АБЗ-007.02.01.012-М1	1.7.2.1.12.М1
-		Стакан 4 шт.	АБЗ-007.02.01.005-М1	1.7.2.1.5.М1
-		Крышка 4 шт.	АБЗ-007.02.01.006-М1	1.7.2.1.6.М1
-		Кольцо 4 шт.	АБЗ-007.02.01.008-М1	1.7.2.1.8.М1
-		Шкив 2 шт.	АБЗ-007.02.01.009-М1	1.7.2.1.9.М1
-		Втулка 4 шт.	АБЗ-007.02.01.013-М1	1.7.2.1.13.М1
-		Груз 2 шт.	АБЗ-007.02.01.015-М1	1.7.2.1.15.М1
-		Груз 2 шт.	АБЗ-007.02.01.015-01-М1	1.7.2.1.16.М1
-		Кольцо 2 шт.	АБЗ-007.02.01.017-М1	1.7.2.1.17.М1
-		Шайба 8 шт.	АБЗ-007.02.01.018-М1	1.7.2.1.18.М1
-		Подшипник 4 шт.		1.7.2.1.35
-		Манжета 8 шт.		1.7.2.1.37
-		Кольцо 4 шт.		1.7.2.1.39
-		Шпонка 2 шт.		1.7.2.1.41
-		Шпонка 4 шт.		1.7.2.1.42
-*/

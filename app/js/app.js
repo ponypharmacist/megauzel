@@ -33,8 +33,8 @@ function renderNode(i, k) {
     target = abz[i];
   } else {};
   $('#nodeName').html(target.name);
-  $('#nodeConstructionNumber').html(target.constructorNumber ? 'Номер конструкторской документации: <br/>' + target.constructorNumber : '');
-  $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <br/>' + target.catalogNumber : '');
+  $('#nodeConstructionNumber').html(target.constructorNumber ? 'Номер конструкторской документации: <br/><b>' + target.constructorNumber + '</b>' : '');
+  $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <br/><b>' + target.catalogNumber + '</b>' : '');
   $('#nodeDescription').html(target.description ? target.description : '');
 
   renderBreadcrumbs(i, k);
@@ -86,7 +86,7 @@ $(document).ready(function(){
     $('.filter-hint').css('display', 'inline-block');
     let a, i;
     let filter = $(this).val().toUpperCase();
-    let li = $('#tree-root li');
+    let li = $('#tree-root ul li');
 
     for (i = 0; i < li.length; i++) {
       a = li[i].getElementsByTagName("a")[0];
