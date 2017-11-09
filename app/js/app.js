@@ -1,8 +1,11 @@
 var treeHtml = '';
 
+//============================================
+// Rendering
+//============================================
 function renderTree() {
   abz.forEach(function(megauzel, i, abz) {
-    treeHtml += '<li><span>' + (i + 1) + '.</span>'
+    treeHtml += '<li><span>' + i + '.</span>'
     treeHtml += '<a onclick="renderNode(' + i + ');">' + megauzel.name + '</a>'
     treeHtml += megauzel.children ? renderChildren(megauzel, i) : '</li>';
   });
@@ -24,22 +27,51 @@ function renderChildren(uzel, parentIndex) {
 
 function renderNode(i, k) {
   let target = '';
-  if (i >= 0) {
-    console.log('First condition');
-    target = abz[i];
-  } else if (i >= 0 && k >= 0) {
+  if (i >= 0 && k >= 0) {
     target = abz[i].children[k];
+  } else if (i >= 0) {
+    target = abz[i];
   } else {};
   $('#nodeName').html(target.name);
   $('#nodeConstructionNumber').html(target.constructorNumber ? target.constructorNumber : '');
   $('#nodeCatalogNumber').html(target.catalogNumber ? target.catalogNumber : '');
   $('#nodeDescription').html(target.description ? target.description : '');
+
+  renderBreadcrumbs(i, k);
 };
 
+function renderBreadcrumbs(i, k) {
+  // i && !k - if level 1
+  let renderedBreadcrumbs = '';
+  let targetLvl1 = '';
+  let targetLvl2 = '';
+
+  if (i >= 0 && k >= 0) {
+    targetLvl1 = abz[i];
+    targetLvl2 = abz[i].children[k];
+    renderedBreadcrumbs += '<li><a href="">КА-160</a></li>';
+    renderedBreadcrumbs += '<li><a href="">' + targetLvl1.name + '</a></li>';
+    renderedBreadcrumbs += '<li class="active"><a href="">' + targetLvl2.name + '</a></li>';
+  } else if (i >= 0) {
+    targetLvl1 = abz[i];
+    renderedBreadcrumbs += '<li><a href="">КА-160</a></li>';
+    renderedBreadcrumbs += '<li class="active"><a href="">' + targetLvl1.name + '</a></li>';
+  } else {
+    renderedBreadcrumbs += '<li class="active"><a href="">КА-160</a></li>';
+  };
+
+  $('#breadcrumbs').html(renderedBreadcrumbs);
+};
+
+
+//============================================
+// Document Ready
+//============================================
 $(document).ready(function(){
   // Рендерим список узлов
   renderTree();
 
+  // [+] и [-] кнопки
   $('.expand-link').on('click', function(){
     $('#childrenof-' + $(this).attr('rel')).toggle();
     $(this).toggleClass('expanded');
@@ -48,14 +80,7 @@ $(document).ready(function(){
     } else { $(this).html('[+]'); };
   });
 
-  $(document).keyup(function(e) {
-    if (e.keyCode == 27) {
-      $('#tree-root').removeClass('being-filtered');
-      $('#tree-root li').css('display', '');
-      $('.filter-hint').css('display', 'none');
-    } else {};
-  });
-
+  // Фильтр-поиск списка
   $('#filter-input').on('keyup', function(){
     $('#tree-root').addClass('being-filtered');
     $('.filter-hint').css('display', 'inline-block');
@@ -72,4 +97,15 @@ $(document).ready(function(){
       }
     }
   });
+  // Выключаем поиск на Esc
+  $(document).keyup(function(e) {
+    if (e.keyCode == 27) {
+      $('#tree-root').removeClass('being-filtered');
+      $('#tree-root li').css('display', '');
+      $('.filter-hint').css('display', 'none');
+    } else {};
+  });
+
+  // ...
+
 });
