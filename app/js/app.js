@@ -39,7 +39,7 @@ function renderNode(i, k) {
     target = abz[i];
   } else {};
 
-  target.imageMaps ? $('#image-maps').html(renderImageMaps(target.imageMaps)) : $('#image-maps').html('');
+  target.images ? $('#image-maps').html(renderImages(target.images)) : $('#image-maps').html('');
 
   $('#nodeName').html(target.name);
   $('#nodeConstructionNumber').html(target.constructorNumber ? 'Номер конструкторской документации: <br/><b>' + target.constructorNumber + '</b>' : '');
@@ -52,20 +52,25 @@ function renderNode(i, k) {
 //============================================
 // Рендерим картинки с маркерами
 //============================================
-function renderImageMaps(imageMapsList) {
+function renderImages(imagesList) {
   let imageMapsHtml = '';
-  let mapList = imageMapsList;
+  let mapList = imagesList;
   mapList.forEach(function(imageMap, p, mapList) {
     imageMapsHtml += '<div class="image-map">';
-
-    let imageMapMarkers = imageMap.mapMarkers;
-    imageMapMarkers.forEach(function(iMM, q, imageMapMarkers) {
-      imageMapsHtml += '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker" style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%;">' + iMM.mapMarkerTitle + '</a>';
-    });
-
+    imageMapsHtml += imageMap.mapMarkers ? getImageMapMarkers(imageMap.mapMarkers) : '';
     imageMapsHtml += '<img src="images/' + imageMap.imageURL + '" alt=""/></div>';
   });
   return imageMapsHtml;
+};
+
+function getImageMapMarkers(markersArray) {
+  let iMMHtml = '';
+  markersArray.forEach(function(iMM, q, markersArray) {
+    iMMHtml += '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker"'
+    iMMHtml += ' style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%; width:' + (iMM.mapMarkerW ? iMM.mapMarkerW : '') + 'px; height:' + (iMM.mapMarkerH ? iMM.mapMarkerH : '') + 'px;">'
+    iMMHtml += '' + iMM.mapMarkerTitle + '</a>';
+  });
+  return iMMHtml;
 };
 
 //============================================
@@ -81,7 +86,7 @@ function renderBreadcrumbs(i, k) {
     targetLvl1 = abz[i];
     targetLvl2 = abz[i].children[k];
     renderedBreadcrumbs += '<li><a href="">КА-160</a></li>';
-    renderedBreadcrumbs += '<li><a href="">' + targetLvl1.name + '</a></li>';
+    renderedBreadcrumbs += '<li><a onclick="renderNode(' + i + ');">' + targetLvl1.name + '</a></li>';
     renderedBreadcrumbs += '<li class="active"><a href="">' + targetLvl2.name + '</a></li>';
   } else if (i >= 0) {
     targetLvl1 = abz[i];

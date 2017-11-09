@@ -4,7 +4,6 @@
 // Подсветка открытого узла
 
 // Wave said:
-// Улучшить читаемость справа
 // Три ступени реализовать (пока уточнить как?) - зеленое - мегаузлы
 
 var abz = [
@@ -20,7 +19,7 @@ var abz = [
     description: '(описание детали)',
     constructorNumber: '04АБЗ-001.00.00.000СБ',
     catalogNumber: '4.1',
-    imageMaps: [
+    images: [
       { imageURL: 'placeholder.jpg',
         mapMarkers: [
           { mapMarkerTitle: 'A',
@@ -401,18 +400,44 @@ var abz = [
     description: '(описание детали)',
     constructorNumber: '03АБЗ-003.01.02.000СБ',
     catalogNumber: '3.3.1.2',
+    images: [
+      { imageURL: '3.3.1.2.jpg',
+        mapMarkers: [
+          { mapMarkerTitle: '',
+            mapMarkerX: '4',
+            mapMarkerY: '49',
+            mapMarkerW: '82',
+            mapMarkerH: '30',
+            mapMarkerLink: '5,0'
+          },
+          { mapMarkerTitle: '',
+            mapMarkerX: '71',
+            mapMarkerY: '62.5',
+            mapMarkerW: '82',
+            mapMarkerH: '30',
+            mapMarkerLink: '5,1'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id0501',
         name: 'Вал-шестерня (под шкив) (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.01.02.200СБ',
-        catalogNumber: '3.3.1.2.2'
+        catalogNumber: '3.3.1.2.2',
+        images: [
+          { imageURL: '3.3.1.2.2.jpg' }
+        ]
       },
       { id: 'id0502',
         name: 'Ступица (выходного вала) (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.01.02.300СБ',
-        catalogNumber: '3.3.1.2.3'
+        catalogNumber: '3.3.1.2.3',
+        images: [
+          { imageURL: '3.3.1.2.3.jpg' }
+        ]
       },
       { id: 'id0503',
         name: 'Сапун',
@@ -424,19 +449,28 @@ var abz = [
         name: 'Зубчатый венец (4 шт.)',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.01.02.007',
-        catalogNumber: '3.3.1.2.7'
+        catalogNumber: '3.3.1.2.7',
+        images: [
+          { imageURL: '3.3.1.2.7.jpg' }
+        ]
       },
       { id: 'id0505',
         name: 'Вал-шестерня (промежуточной ступицы) (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.01.02.008',
-        catalogNumber: '3.3.1.2.8'
+        catalogNumber: '3.3.1.2.8',
+        images: [
+          { imageURL: '3.3.1.2.8.jpg' }
+        ]
       },
       { id: 'id0506',
         name: 'Ступица (промежуточная) (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.01.02.015',
-        catalogNumber: '3.3.1.2.15'
+        catalogNumber: '3.3.1.2.15',
+        images: [
+          { imageURL: '3.3.1.2.15.jpg' }
+        ]
       },
       { id: 'id0507',
         name: 'Шкив (2 шт.)',
