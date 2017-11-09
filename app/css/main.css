@@ -131,13 +131,31 @@ a {
   padding: 8px 10px 0 56px;
 }
 
+@font-face {
+  font-family: 'OpenSans-CondBold';
+  src: url('../fonts/OpenSans-CondensedBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-CondensedBold.otf')  format('opentype'),
+  url('../fonts/OpenSans-CondensedBold.woff') format('woff'),
+  url('../fonts/OpenSans-CondensedBold.ttf')  format('truetype'),
+  url('../fonts/OpenSans-CondensedBold.svg#OpenSans-CondBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #tree-root {
-  font-family: "Consolas", "courier new", monospace;
+  font-family: "Tahoma", "Arial", sans-serif;
   font-size: 110%;
   padding: 0 18px 48px 56px;
   margin: 20px 0 0 0;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 26px;
   list-style-type: none;
+}
+#tree-root > li {
+  padding: 2px 0;
+}
+#tree-root > li:first-child > span {
+  display: none;
 }
 #tree-root ul {
   display: none;
@@ -150,9 +168,6 @@ a {
   width: 24px;
   float: left;
   margin-left: -32px;
-}
-#tree-root > li:first-child > span {
-  display: none;
 }
 #tree-root a {
   cursor: pointer;
@@ -167,8 +182,10 @@ a {
   color: red;
 }
 
-#tree-root.being-filtered ul {
+#tree-root.being-filtered > li {
   padding: 0;
+}
+#tree-root.being-filtered ul {
   display: block;
 }
 #tree-root.being-filtered .expand-link { display:none; }
