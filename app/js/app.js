@@ -67,7 +67,8 @@ function getImageMapMarkers(markersArray) {
   let iMMHtml = '';
   markersArray.forEach(function(iMM, q, markersArray) {
     iMMHtml += '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker"'
-    iMMHtml += ' style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%; width:' + (iMM.mapMarkerW ? iMM.mapMarkerW : '') + 'px; height:' + (iMM.mapMarkerH ? iMM.mapMarkerH : '') + 'px;">'
+    iMMHtml += ' style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%; width:' + (iMM.mapMarkerW ? iMM.mapMarkerW : '2') + '%; height:' + (iMM.mapMarkerH ? iMM.mapMarkerH : '2') + '%;';
+    iMMHtml += 'margin-left:-' + (iMM.mapMarkerW ? iMM.mapMarkerW / 2 : '1') + '; margin-top:-' + (iMM.mapMarkerH ? iMM.mapMarkerH / 2 : '1') + ';">'
     iMMHtml += '' + iMM.mapMarkerTitle + '</a>';
   });
   return iMMHtml;
@@ -99,13 +100,17 @@ function renderBreadcrumbs(i, k) {
   $('#breadcrumbs').html(renderedBreadcrumbs);
 };
 
-
 //============================================
 // Document Ready
 //============================================
 $(document).ready(function(){
   // Рендерим список узлов
   renderTree();
+
+  // Рендерим этикетки для мегаузлов
+  $('<div class="megauzel-tag">Устройство смесительное</div>').insertAfter('#childrenof-id03');
+  $('<div class="megauzel-tag">Устройство взвешивания</div>').insertAfter('#childrenof-id05');
+  $('<div class="megauzel-tag">Грохот</div>').insertAfter('#childrenof-id11');
 
   // [+] и [-] кнопки
   $('.expand-link').on('click', function(){
@@ -125,13 +130,21 @@ $(document).ready(function(){
     let li = $('#tree-root ul li');
 
     for (i = 0; i < li.length; i++) {
-      a = li[i].getElementsByTagName("a")[0];
+      a = li[i].getElementsByTagName('a')[0];
       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
+        li[i].style.display = '';
       } else {
-        li[i].style.display = "none";
+        li[i].style.display = 'none';
       }
     }
+    // Прячем родительские узлы, у которых нет детей
+    $('#tree-root > ul').each( function(index, element) {
+      if ($(this).children(':visible').length == 0) {
+        $(this).prev().css('display', 'none');
+      } else {
+        $(this).prev().css('display', 'visible');
+      }
+    });
   });
   // Выключаем поиск на Esc
   $(document).keyup(function(e) {

@@ -1,11 +1,3 @@
-// === Выбор узла из маркера на чертеже, ===
-//     Получать родителя для узлов автоматически? и хранить в параметре узла? Вставлять сразу в ссылку кастомными параметрами?
-//     как открыть целевой элемент дерева снаружи, без кликов по дереву?
-// Подсветка открытого узла
-
-// Wave said:
-// Три ступени реализовать (пока уточнить как?) - зеленое - мегаузлы
-
 var abz = [
   { id: 'id00',
     name: 'Асфальтосмесительная Установка',
@@ -404,17 +396,17 @@ var abz = [
       { imageURL: '3.3.1.2.jpg',
         mapMarkers: [
           { mapMarkerTitle: '',
-            mapMarkerX: '4',
-            mapMarkerY: '49',
-            mapMarkerW: '82',
-            mapMarkerH: '30',
+            mapMarkerX: '2.5',
+            mapMarkerY: '47',
+            mapMarkerW: '9.8',
+            mapMarkerH: '4',
             mapMarkerLink: '5,0'
           },
           { mapMarkerTitle: '',
-            mapMarkerX: '71',
-            mapMarkerY: '62.5',
-            mapMarkerW: '82',
-            mapMarkerH: '30',
+            mapMarkerX: '69.5',
+            mapMarkerY: '60.5',
+            mapMarkerW: '9.8',
+            mapMarkerH: '4',
             mapMarkerLink: '5,1'
           }
         ]
@@ -443,7 +435,10 @@ var abz = [
         name: 'Сапун',
         description: '(описание детали)',
         constructorNumber: '03АБЗ-003.10.00.000СБ',
-        catalogNumber: '3.3.10.21'
+        catalogNumber: '3.3.10.21',
+        images: [
+          { imageURL: '3.3.10.21.jpg' }
+        ]
       },
       { id: 'id0504',
         name: 'Зубчатый венец (4 шт.)',
@@ -476,7 +471,10 @@ var abz = [
         name: 'Шкив (2 шт.)',
         description: '(описание детали)',
         constructorNumber: '04АБЗ-003.01.02.016',
-        catalogNumber: '4.3.1.2.16'
+        catalogNumber: '4.3.1.2.16',
+        images: [
+          { imageURL: '4.3.1.2.16.jpg' }
+        ]
       },
       { id: 'id0508',
         name: 'Подшипник (2 шт.)',
