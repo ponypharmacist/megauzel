@@ -66,9 +66,10 @@ function renderImages(imagesList) {
 function getImageMapMarkers(markersArray) {
   let iMMHtml = '';
   markersArray.forEach(function(iMM, q, markersArray) {
-    iMMHtml += '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker"'
-    iMMHtml += ' style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%; width:' + (iMM.mapMarkerW ? iMM.mapMarkerW : '2') + '%; height:' + (iMM.mapMarkerH ? iMM.mapMarkerH : '2') + '%;';
-    iMMHtml += 'margin-left:-' + (iMM.mapMarkerW ? iMM.mapMarkerW / 2 : '1') + '; margin-top:-' + (iMM.mapMarkerH ? iMM.mapMarkerH / 2 : '1') + ';">'
+    iMMHtml += '<a onclick="renderNode(' + iMM.mapMarkerLink + ');" class="map-marker"';
+    iMMHtml += ' style="top:' + iMM.mapMarkerY + '%; left:' + iMM.mapMarkerX + '%;';
+    iMMHtml += ' width:' + (iMM.mapMarkerW ? iMM.mapMarkerW + '%' : '30px') + '; height:' + (iMM.mapMarkerH ? iMM.mapMarkerH + '%' : '30px') + ';';
+    iMMHtml += ' margin-left:-' + (iMM.mapMarkerW ? (iMM.mapMarkerW / 2) + '%' : '15px') + '; margin-top:-' + (iMM.mapMarkerH ? (iMM.mapMarkerH / 2) + '%' : '15px') + ';">'
     iMMHtml += '' + iMM.mapMarkerTitle + '</a>';
   });
   return iMMHtml;

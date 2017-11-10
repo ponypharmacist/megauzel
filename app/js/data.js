@@ -396,15 +396,15 @@ var abz = [
       { imageURL: '3.3.1.2.jpg',
         mapMarkers: [
           { mapMarkerTitle: '',
-            mapMarkerX: '2.5',
-            mapMarkerY: '47',
+            mapMarkerX: '7',
+            mapMarkerY: '49.3',
             mapMarkerW: '9.8',
             mapMarkerH: '4',
             mapMarkerLink: '5,0'
           },
           { mapMarkerTitle: '',
-            mapMarkerX: '69.5',
-            mapMarkerY: '60.5',
+            mapMarkerX: '74',
+            mapMarkerY: '62.8',
             mapMarkerW: '9.8',
             mapMarkerH: '4',
             mapMarkerLink: '5,1'
