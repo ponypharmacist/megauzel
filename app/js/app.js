@@ -5,7 +5,7 @@ var treeHtml = '';
 //============================================
 function renderTree() {
   abz.forEach(function(megauzel, i, abz) {
-    treeHtml += '<li><span>' + i + '.</span>'
+    treeHtml += '<li id="' + megauzel.id + '"><span>' + i + '.</span>'
     treeHtml += '<a onclick="renderNode(' + i + ');">' + megauzel.name + '</a>'
     treeHtml += megauzel.children ? renderChildren(megauzel, i) : '</li>';
   });
@@ -47,6 +47,22 @@ function renderNode(i, k) {
   $('#nodeDescription').html(target.description ? target.description : '');
 
   renderBreadcrumbs(i, k);
+  highlightCurrent(i, k);
+};
+
+//============================================
+// Подсвечиваем в списке текущий узел
+//============================================
+function highlightCurrent(i, k) {
+  $('#tree-root .selected').removeClass('selected');
+  if (i >= 0 && k >= 0) {
+    $('#childrenof-' + abz[i].id).addClass('selected');
+    let targetList = $('#childrenof-' + abz[i].id + ' li');
+    $(targetList[k]).addClass('selected');
+  } else if (i >= 0) {
+    $('#' + abz[i].id).addClass('selected');
+  } else {
+  };
 };
 
 //============================================

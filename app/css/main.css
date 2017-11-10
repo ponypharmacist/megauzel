@@ -156,6 +156,7 @@ a {
   display: none;
 }
 #tree-root ul {
+  font-weight: normal !important;
   display: none;
   list-style-type: none;
   width: 100%;
@@ -204,6 +205,10 @@ a {
 }
 #tree-root.being-filtered .megauzel-tag { display: none; }
 
+#tree-root li.selected { font-weight: bold; }
+#tree-root ul li.selected { font-weight: bold !important; }
+#tree-root li.selected a { color: #333; }
+#tree-root ul.selected { display: block !important; }
 
 /*======================================*/
 /* Image mapping */
