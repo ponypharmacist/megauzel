@@ -42,7 +42,6 @@ function renderNode(i, k) {
   target.images ? $('#image-maps').html(renderImages(target.images)) : $('#image-maps').html('');
 
   $('#nodeName').html(target.name);
-  // $('#nodeConstructionNumber').html(target.constructorNumber ? 'Номер конструкторской документации: <br/><b>' + target.constructorNumber + '</b>' : '');
   $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <b>' + target.catalogNumber + '</b>' : '');
   $('#nodeDescription').html(target.description ? target.description : '');
 
