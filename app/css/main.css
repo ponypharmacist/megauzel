@@ -50,9 +50,9 @@ a {
 
 /* Breadcrumbs */
 .breadcrumb {
-  height: 64px;
-  line-height: 32px;
-  padding: 18px 16px 14px 16px;
+  height: 32px;
+  line-height: 16px;
+  padding: 8px 16px 8px 16px;
   font-size: 15px;
   margin: 0;
   background-color: #d7cbb3;
@@ -66,6 +66,34 @@ a {
 .breadcrumb > li + li::before {
   color: #584316;
   padding: 0 5px 0 9px;
+}
+.breadcrumb li.active {
+  color: #584316;
+  font-weight: 700;  
+}
+#site-menu {
+  height: 32px;
+  line-height: 16px;
+  padding: 10px 16px 4px 16px;
+  font-size: 15px;
+  margin: 0;
+  list-style-type: none;
+  background-color: #d7cbb3;
+}
+#site-menu li {
+  display: inline-block;
+  padding-right: 6px;
+}
+#site-menu li a {
+  text-decoration: underline;
+  color: #584316;
+  padding: 4px 6px;
+  margin-left: -6px;
+  border-radius: 4px;
+}
+#site-menu li a:hover {
+  color: #000000;
+  background-color: rgba(255,255,255,0.2);
 }
 
 

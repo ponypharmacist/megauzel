@@ -1,7 +1,7 @@
 var treeHtml = '';
 
 //============================================
-// Р РµРЅРґРµСЂРёРј РґРµСЂРµРІРѕ
+// Рендерим дерево
 //============================================
 function renderTree() {
   abz.forEach(function(megauzel, i, abz) {
@@ -14,7 +14,7 @@ function renderTree() {
 };
 
 //============================================
-// Р РµРЅРґРµСЂРёРј РґРµС‚РёС€РµРє 1 СѓСЂРІ. РґР»СЏ РґРµСЂРµРІР°
+// Рендерим детишек 1 урв. для дерева
 //============================================
 function renderChildren(uzel, parentIndex) {
   let thisUzelChildren = uzel.children;
@@ -29,7 +29,7 @@ function renderChildren(uzel, parentIndex) {
 };
 
 //============================================
-// РџРѕ РєР»РёРєСѓ СЂРµРЅРґРµСЂРёРј РІ РѕР±Р»Р°СЃС‚Рё РєРѕРЅС‚РµРЅС‚Р° РёРЅС„Сѓ
+// По клику рендерим в области контента инфу
 //============================================
 function renderNode(i, k) {
   let target = '';
@@ -42,7 +42,7 @@ function renderNode(i, k) {
   target.images ? $('#image-maps').html(renderImages(target.images)) : $('#image-maps').html('');
 
   $('#nodeName').html(target.name);
-  $('#nodeCatalogNumber').html(target.catalogNumber ? 'РќРѕРјРµСЂ РІ РєР°С‚Р°Р»РѕРіРµ: <b>' + target.catalogNumber + '</b>' : '');
+  $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <b>' + target.catalogNumber + '</b>' : '');
   $('#nodeDescription').html(target.description ? target.description : '');
 
   renderBreadcrumbs(i, k);
@@ -50,7 +50,7 @@ function renderNode(i, k) {
 };
 
 //============================================
-// РџРѕРґСЃРІРµС‡РёРІР°РµРј РІ СЃРїРёСЃРєРµ С‚РµРєСѓС‰РёР№ СѓР·РµР»
+// Подсвечиваем в списке текущий узел
 //============================================
 function highlightCurrent(i, k) {
   $('#tree-root .selected').removeClass('selected');
@@ -65,7 +65,7 @@ function highlightCurrent(i, k) {
 };
 
 //============================================
-// Р РµРЅРґРµСЂРёРј РєР°СЂС‚РёРЅРєРё СЃ РјР°СЂРєРµСЂР°РјРё
+// Рендерим картинки с маркерами
 //============================================
 function renderImages(imagesList) {
   let imageMapsHtml = '';
@@ -91,7 +91,7 @@ function getImageMapMarkers(markersArray) {
 };
 
 //============================================
-// РџРѕРєР°Р·С‹РІР°РµРј С…Р»РµР±РѕРєСЂРѕС€РєРё
+// Показываем хлебокрошки
 //============================================
 function renderBreadcrumbs(i, k) {
   // i && !k - if level 1
@@ -102,15 +102,15 @@ function renderBreadcrumbs(i, k) {
   if (i >= 0 && k >= 0) {
     targetLvl1 = abz[i];
     targetLvl2 = abz[i].children[k];
-    renderedBreadcrumbs += '<li><a href="">РљРђ-160</a></li>';
+    renderedBreadcrumbs += '<li><a href="http://koloksha.ru/parts-catalog/">КА-160</a></li>';
     renderedBreadcrumbs += '<li><a onclick="renderNode(' + i + ');">' + targetLvl1.name + '</a></li>';
-    renderedBreadcrumbs += '<li class="active"><a href="">' + targetLvl2.name + '</a></li>';
+    renderedBreadcrumbs += '<li class="active">' + targetLvl2.name + '</li>';
   } else if (i >= 0) {
     targetLvl1 = abz[i];
-    renderedBreadcrumbs += '<li><a href="">РљРђ-160</a></li>';
-    renderedBreadcrumbs += '<li class="active"><a href="">' + targetLvl1.name + '</a></li>';
+    renderedBreadcrumbs += '<li><a href="">КА-160</a></li>';
+    renderedBreadcrumbs += '<li class="active">' + targetLvl1.name + '</li>';
   } else {
-    renderedBreadcrumbs += '<li class="active"><a href="">РљРђ-160</a></li>';
+    renderedBreadcrumbs += '<li class="active"><a>КА-160</a></li>';
   };
 
   $('#breadcrumbs').html(renderedBreadcrumbs);
@@ -120,15 +120,15 @@ function renderBreadcrumbs(i, k) {
 // Document Ready
 //============================================
 $(document).ready(function(){
-  // Р РµРЅРґРµСЂРёРј СЃРїРёСЃРѕРє СѓР·Р»РѕРІ
+  // Рендерим список узлов
   renderTree();
 
-  // Р РµРЅРґРµСЂРёРј СЌС‚РёРєРµС‚РєРё РґР»СЏ РјРµРіР°СѓР·Р»РѕРІ
-  $('<div class="megauzel-tag">РЈСЃС‚СЂРѕР№СЃС‚РІРѕ СЃРјРµСЃРёС‚РµР»СЊРЅРѕРµ</div>').insertAfter('#childrenof-id03');
-  $('<div class="megauzel-tag">РЈСЃС‚СЂРѕР№СЃС‚РІРѕ РІР·РІРµС€РёРІР°РЅРёСЏ</div>').insertAfter('#childrenof-id05');
-  $('<div class="megauzel-tag">Р“СЂРѕС…РѕС‚</div>').insertAfter('#childrenof-id11');
+  // Рендерим этикетки для мегаузлов
+  $('<div class="megauzel-tag">Устройство смесительное</div>').insertAfter('#childrenof-id03');
+  $('<div class="megauzel-tag">Устройство взвешивания</div>').insertAfter('#childrenof-id05');
+  $('<div class="megauzel-tag">Грохот</div>').insertAfter('#childrenof-id11');
 
-  // [+] Рё [-] РєРЅРѕРїРєРё
+  // [+] и [-] кнопки
   $('.expand-link').on('click', function(){
     $('#childrenof-' + $(this).attr('rel')).toggle();
     $(this).toggleClass('expanded');
@@ -137,7 +137,7 @@ $(document).ready(function(){
     } else { $(this).html('[+]'); };
   });
 
-  // Р¤РёР»СЊС‚СЂ-РїРѕРёСЃРє СЃРїРёСЃРєР°
+  // Фильтр-поиск списка
   $('#filter-input').on('keyup', function(){
     $('#tree-root').addClass('being-filtered');
     $('.filter-hint').css('display', 'inline-block');
@@ -153,7 +153,7 @@ $(document).ready(function(){
         li[i].style.display = 'none';
       }
     }
-    // РџСЂСЏС‡РµРј СЂРѕРґРёС‚РµР»СЊСЃРєРёРµ СѓР·Р»С‹, Сѓ РєРѕС‚РѕСЂС‹С… РЅРµС‚ РґРµС‚РµР№
+    // Прячем родительские узлы, у которых нет детей
     $('#tree-root > ul').each( function(index, element) {
       if ($(this).children(':visible').length == 0) {
         $(this).prev().css('display', 'none');
@@ -162,7 +162,7 @@ $(document).ready(function(){
       }
     });
   });
-  // Р’С‹РєР»СЋС‡Р°РµРј РїРѕРёСЃРє РЅР° Esc
+  // Выключаем поиск на Esc
   $(document).keyup(function(e) {
     if (e.keyCode == 27) {
       $('#tree-root').removeClass('being-filtered');

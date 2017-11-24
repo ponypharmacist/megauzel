@@ -1,13 +1,13 @@
 var abz = [
   { id: 'id00',
-    name: 'РђСЃС„Р°Р»СЊС‚РѕСЃРјРµСЃРёС‚РµР»СЊРЅР°СЏ РЈСЃС‚Р°РЅРѕРІРєР°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)'
+    name: 'Асфальтосмесительная Установка',
+    description: '(описание)'
   },
 
   // 1.
   { id: 'id01',
-    name: 'Р‘СѓРЅРєРµСЂ РіРѕС‚РѕРІРѕРіРѕ Р°СЃС„Р°Р»СЊС‚Р°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Бункер готового асфальта',
+    description: '(описание)',
     catalogNumber: '4.1',
     images: [
       { imageURL: 'placeholder.jpg',
@@ -22,33 +22,33 @@ var abz = [
     ],
     children: [
       { id: 'id0101',
-        name: 'Р—Р°С‚РІРѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Затвор',
+        description: '(описание)',
         catalogNumber: '4.1.3'
       },
       { id: 'id0102',
-        name: 'Р—Р°С‚РІРѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Затвор',
+        description: '(описание)',
         catalogNumber: '4.1.4'
       },
       { id: 'id0103',
-        name: 'РљСЂРѕРЅС€С‚РµР№РЅ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Кронштейн',
+        description: '(описание)',
         catalogNumber: '4.1.6'
       },
       { id: 'id0104',
-        name: 'РљСЂРѕРЅС€С‚РµР№РЅ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Кронштейн',
+        description: '(описание)',
         catalogNumber: '4.1.7'
       },
       { id: 'id0105',
-        name: 'РџРѕРґС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.1.49'
       },
       { id: 'id0106',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр (2 шт.)',
+        description: '(описание)',
         catalogNumber: '6.90.1.51'
       }
     ] // end Uzels array
@@ -56,23 +56,23 @@ var abz = [
 
   // 2.
   { id: 'id02',
-    name: 'РЈСЃС‚СЂРѕР№СЃС‚РІРѕ СЂР°Р·РіСЂСѓР·РєРё Р°СЃС„Р°Р»СЊС‚Р°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Устройство разгрузки асфальта',
+    description: '(описание)',
     catalogNumber: '8.2',
     children: [
       { id: 'id0201',
-        name: 'Р—Р°С‚РІРѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Затвор',
+        description: '(описание)',
         catalogNumber: '4.2.3'
       },
       { id: 'id0202',
-        name: 'РљСЂРѕРЅС€С‚РµР№РЅ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Кронштейн',
+        description: '(описание)',
         catalogNumber: '4.2.11'
       },
       { id: 'id0203',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр (2 шт.)',
+        description: '(описание)',
         catalogNumber: '6.90.2.75'
       }
     ]
@@ -80,23 +80,23 @@ var abz = [
 
   // 3.
   { id: 'id03',
-    name: 'Р‘СѓРЅРєРµСЂ РЅРµРіР°Р±Р°СЂРёС‚Р°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Бункер негабарита',
+    description: '(описание)',
     catalogNumber: '4.23',
     children: [
       { id: 'id0301',
-        name: 'РљРѕСЂРѕР±-Р·Р°С‚РІРѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Короб-затвор',
+        description: '(описание)',
         catalogNumber: '5.23.4'
       },
       { id: 'id0302',
-        name: 'Р”Р°С‚С‡РёРє СѓСЂРѕРІРЅСЏ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Датчик уровня',
+        description: '(описание)',
         catalogNumber: '8.4.5'
       },
       { id: 'id0303',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр',
+        description: '(описание)',
         catalogNumber: '4.23.04.17'
       }
     ]
@@ -104,223 +104,223 @@ var abz = [
 
   // 4.
   { id: 'id04',
-    name: 'РњРµС€Р°Р»РєР°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Мешалка',
+    description: '(описание)',
     catalogNumber: '4.3.1',
     children: [
       { id: 'id0401',
-        name: 'Р’Р°Р»',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Вал',
+        description: '(описание)',
         catalogNumber: '4.3.1.19'
       },
       { id: 'id0402',
-        name: 'Р’Р°Р»',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Вал',
+        description: '(описание)',
         catalogNumber: '4.3.1.20'
       },
       { id: 'id0403',
-        name: 'Р’С‚СѓР»РєР° (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Втулка (4 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.21'
       },
       { id: 'id0404',
-        name: 'Р¤Р»Р°РЅРµС† (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Фланец (4 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.22'
       },
       { id: 'id0405',
-        name: 'Р’С‚СѓР»РєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Втулка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.23'
       },
       { id: 'id0406',
-        name: 'Р’С‚СѓР»РєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Втулка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.24'
       },
       { id: 'id0407',
-        name: 'РћС‚СЂР°Р¶Р°С‚РµР»СЊ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Отражатель (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.25'
       },
       { id: 'id0408',
-        name: 'РЁР°Р№Р±Р° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шайба (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.26'
       },
       { id: 'id0409',
-        name: 'РљСЂС‹С€РєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Крышка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.27'
       },
       { id: 'id0410',
-        name: 'РљСЂС‹С€РєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Крышка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.28'
       },
       { id: 'id0411',
-        name: 'РљСЂС‹С€РєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Крышка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.29'
       },
       { id: 'id0412',
-        name: 'РЁРєРёРІ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шкив',
+        description: '(описание)',
         catalogNumber: '4.3.1.30'
       },
       { id: 'id0413',
-        name: 'РћС‚СЂР°Р¶Р°С‚РµР»СЊ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Отражатель (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.32'
       },
       { id: 'id0414',
-        name: 'РџСЂРѕРєР»Р°РґРєР° (12 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Прокладка (12 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.4'
       },
       { id: 'id0415',
-        name: 'РљРѕР»СЊС†Рѕ РЅР°Р¶РёРјРЅРѕРµ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Кольцо нажимное (4 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.58'
       },
       { id: 'id0416',
-        name: 'Р›РѕРїР°СЃС‚СЊ (12 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лопасть (12 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.3'
       },
       { id: 'id0417',
-        name: 'РЎС‚РѕР№РєР° РїСЂР°РІР°СЏ (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Стойка правая (8 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.2'
       },
       { id: 'id0418',
-        name: 'РЎС‚РѕР№РєР° Р»РµРІР°СЏ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Стойка левая (4 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.1'
       },
       { id: 'id0419',
-        name: 'РЎС‚СѓРїРёС†Р° (Р±СѓРіРµР»СЊ) (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ступица (бугель) (8 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.5'
       },
       { id: 'id0420',
-        name: 'Р‘РѕР»С‚ Рњ20 (24 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Болт М20 (24 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.7'
       },
       { id: 'id0421',
-        name: 'Р‘РѕР»С‚ Рњ30 (20 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Болт М30 (20 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.8'
       },
       { id: 'id0422',
-        name: 'Р“Р°Р№РєР° Рњ20 (48 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Гайка М20 (48 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.9'
       },
       { id: 'id0423',
-        name: 'Р“Р°Р№РєР° Рњ30 (40 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Гайка М30 (40 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.10'
       },
       { id: 'id0424',
-        name: 'РЁР°Р№Р±Р° С‚Р°СЂРµР»СЊС‡Р°С‚Р°СЏ (24 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шайба тарельчатая (24 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.11'
       },
       { id: 'id0425',
-        name: 'РЁР°Р№Р±Р° 30 (20 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шайба 30 (20 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.13.12'
       },
       { id: 'id0426',
-        name: 'Р›РёСЃС‚ РёР·РЅР°С€РёРІР°СЋС‰РёР№СЃСЏ (30 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лист изнашивающийся (30 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.35'
       },
       { id: 'id0427',
-        name: 'Р›РёСЃС‚ РёР·РЅР°С€РёРІР°СЋС‰РёР№СЃСЏ (10 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лист изнашивающийся (10 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.36'
       },
       { id: 'id0428',
-        name: 'Р›РёСЃС‚ РёР·РЅР°С€РёРІР°СЋС‰РёР№СЃСЏ (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лист изнашивающийся (8 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.37'
       },
       { id: 'id0429',
-        name: 'Р›РёСЃС‚ РёР·РЅР°С€РёРІР°СЋС‰РёР№СЃСЏ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лист изнашивающийся (4 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.38'
       },
       { id: 'id0430',
-        name: 'Р›РёСЃС‚ РёР·РЅР°С€РёРІР°СЋС‰РёР№СЃСЏ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лист изнашивающийся (4 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.39'
       },
       { id: 'id0431',
-        name: 'Р›РёСЃС‚ РёР·РЅР°С€РёРІР°СЋС‰РёР№СЃСЏ (6 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Лист изнашивающийся (6 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.40'
       },
       { id: 'id0432',
-        name: 'Р’СЃС‚Р°РІРєР°',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Вставка',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.41'
       },
       { id: 'id0433',
-        name: 'Р’СЃС‚Р°РІРєР°',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Вставка',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.42'
       },
       { id: 'id0434',
-        name: 'Р’РёРЅС‚ Рњ12 (156 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Винт М12 (156 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.45'
       },
       { id: 'id0435',
-        name: 'РЁР°Р№Р±Р° 12.65Р“ (156 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шайба 12.65Г (156 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.46'
       },
       { id: 'id0436',
-        name: 'Р“Р°Р№РєР° Рњ12 (156 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Гайка М12 (156 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.47'
       },
       { id: 'id0437',
-        name: 'РЁР°Р№Р±Р° 12 (156 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шайба 12 (156 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.15.48'
       },
       { id: 'id0438',
-        name: 'РџРѕРґС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.120'
       },
       { id: 'id0439',
-        name: 'РџРѕРґС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.121'
       },
       { id: 'id0440',
-        name: 'РњР°РЅР¶РµС‚Р° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Манжета (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.126'
       },
       { id: 'id0441',
-        name: 'Р РµРјРµРЅСЊ (12 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ремень (12 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.131'
       },
       { id: 'id0442',
-        name: 'Р­Р»РµРєС‚СЂРѕРґРІРёРіР°С‚РµР»СЊ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Электродвигатель (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.130'
       },
       { id: 'id0443',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр (2 шт.)',
+        description: '(описание)',
         catalogNumber: '6.90.3.132'
       }
     ]
@@ -328,8 +328,8 @@ var abz = [
 
   // 5.
   { id: 'id05',
-    name: 'Р РµРґСѓРєС‚РѕСЂ',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Редуктор',
+    description: '(описание)',
     catalogNumber: '3.3.1.2',
     images: [
       { imageURL: '3.3.1.2.jpg',
@@ -437,114 +437,114 @@ var abz = [
     ],
     children: [
       { id: 'id0501',
-        name: 'Р’Р°Р»-С€РµСЃС‚РµСЂРЅСЏ (РїРѕРґ С€РєРёРІ) (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Вал-шестерня (под шкив) (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.2',
         images: [
           { imageURL: '3.3.1.2.2.jpg' }
         ]
       },
       { id: 'id0502',
-        name: 'РЎС‚СѓРїРёС†Р° (РІС‹С…РѕРґРЅРѕРіРѕ РІР°Р»Р°) (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ступица (выходного вала) (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.3',
         images: [
           { imageURL: '3.3.1.2.3.jpg' }
         ]
       },
       { id: 'id0503',
-        name: 'РЎР°РїСѓРЅ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сапун',
+        description: '(описание)',
         catalogNumber: '3.3.10.21',
         images: [
           { imageURL: '3.3.10.21.jpg' }
         ]
       },
       { id: 'id0504',
-        name: 'Р—СѓР±С‡Р°С‚С‹Р№ РІРµРЅРµС† (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Зубчатый венец (4 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.7',
         images: [
           { imageURL: '3.3.1.2.7.jpg' }
         ]
       },
       { id: 'id0505',
-        name: 'Р’Р°Р»-С€РµСЃС‚РµСЂРЅСЏ (РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕР№ СЃС‚СѓРїРёС†С‹) (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Вал-шестерня (промежуточной ступицы) (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.8',
         images: [
           { imageURL: '3.3.1.2.8.jpg' }
         ]
       },
       { id: 'id0506',
-        name: 'РЎС‚СѓРїРёС†Р° (РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅР°СЏ) (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ступица (промежуточная) (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.15',
         images: [
           { imageURL: '3.3.1.2.15.jpg' }
         ]
       },
       { id: 'id0507',
-        name: 'РЁРєРёРІ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шкив (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.3.1.2.16',
         images: [
           { imageURL: '4.3.1.2.16.jpg' }
         ]
       },
       { id: 'id0508',
-        name: 'РџРѕРґС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.50'
       },
       { id: 'id0509',
-        name: 'РџРѕРґС€РёРїРЅРёРє (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (8 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.51'
       },
       { id: 'id0510',
-        name: 'РџРѕРґС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.52'
       },
       { id: 'id0511',
-        name: 'РњР°РЅР¶РµС‚Р° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Манжета (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.55'
       },
       { id: 'id0512',
-        name: 'РњР°РЅР¶РµС‚Р° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Манжета (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.56'
       },
       { id: 'id0513',
-        name: 'РЁРїРѕРЅРєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шпонка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.58'
       },
       { id: 'id0514',
-        name: 'РЁРїРѕРЅРєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шпонка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '3.3.1.2.59'
       },
       { id: 'id0515',
-        name: 'Р—Р°С‚РІРѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Затвор',
+        description: '(описание)',
         catalogNumber: '4.3.1.3'
       },
       { id: 'id0516',
-        name: 'Р С‹С‡Р°Рі',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рычаг',
+        description: '(описание)',
         catalogNumber: '4.3.1.10'
       },
       { id: 'id0517',
-        name: 'Р С‹С‡Р°Рі',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рычаг',
+        description: '(описание)',
         catalogNumber: '4.3.1.11'
       },
       { id: 'id0518',
-        name: 'РљРѕСЂРѕР± РІ СЃР±РѕСЂРµ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Короб в сборе',
+        description: '(описание)',
         catalogNumber: '4.3.2'
       }
     ]
@@ -552,38 +552,38 @@ var abz = [
 
   // 6.
   { id: 'id06',
-    name: 'Р’РµСЃС‹ Р±РёС‚СѓРјРЅС‹Рµ',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Весы битумные',
+    description: '(описание)',
     catalogNumber: '4.4.10',
     children: [
       { id: 'id0601',
-        name: 'РўРµРЅР·РѕРґР°С‚С‡РёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Тензодатчик (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.4.10.93'
       },
       { id: 'id0602',
-        name: 'РђРјРјРѕСЂС‚РёР·Р°С‚РѕСЂ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Аммортизатор (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.4.10.95'
       },
       { id: 'id0603',
-        name: 'РќР°РіСЂРµРІР°С‚РµР»СЊ С…РѕРјСѓС‚РѕРІС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Нагреватель хомутовый',
+        description: '(описание)',
         catalogNumber: '4.4.10.104'
       },
       { id: 'id0604',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр',
+        description: '(описание)',
         catalogNumber: '6.90.4.106'
       },
       { id: 'id0605',
-        name: 'Р­Р»РµРєС‚СЂРѕРЅР°РіСЂРµРІР°С‚РµР»СЊ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Электронагреватель',
+        description: '(описание)',
         catalogNumber: '4.4.10.108'
       },
       { id: 'id0606',
-        name: 'РљР»Р°РїР°РЅ Р°РІР°СЂРёР№РЅС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Клапан аварийный',
+        description: '(описание)',
         catalogNumber: '4.4.10.3'
       }
     ]
@@ -591,23 +591,23 @@ var abz = [
 
   // 7.
   { id: 'id07',
-    name: 'Р’РµСЃС‹ РїС‹Р»Рё',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Весы пыли',
+    description: '(описание)',
     catalogNumber: '2.4.2',
     children: [
       { id: 'id0701',
-        name: 'РўРµРЅР·РѕРґР°С‚С‡РёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Тензодатчик (2 шт.)',
+        description: '(описание)',
         catalogNumber: '2.4.2.93'
       },
       { id: 'id0702',
-        name: 'РђРјРјРѕСЂС‚РёР·Р°С‚РѕСЂ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Аммортизатор (2 шт.)',
+        description: '(описание)',
         catalogNumber: '2.4.2.95'
       },
       { id: 'id0703',
-        name: 'Р—Р°СЃР»РѕРЅРєР° РїРѕРІРѕСЂРѕС‚РЅР°СЏ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Заслонка поворотная',
+        description: '(описание)',
         catalogNumber: '2.4.2.97'
       }
     ]
@@ -615,28 +615,28 @@ var abz = [
 
   // 8.
   { id: 'id08',
-    name: 'Р’РµСЃС‹ РјРёРЅРµСЂР°Р»Р°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Весы минерала',
+    description: '(описание)',
     catalogNumber: '4.4.3',
     children: [
       { id: 'id0801',
-        name: 'Р—Р°С‚РІРѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '4.4.3.1.Рњ'
+        name: 'Затвор',
+        description: '(описание)',
+        catalogNumber: '4.4.3.1.М'
       },
       { id: 'id0802',
-        name: 'РўРµРЅР·РѕРґР°С‚С‡РёРє (3 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Тензодатчик (3 шт.)',
+        description: '(описание)',
         catalogNumber: '4.4.3.100'
       },
       { id: 'id0803',
-        name: 'РђРјРјРѕСЂС‚РёР·Р°С‚РѕСЂ (3 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Аммортизатор (3 шт.)',
+        description: '(описание)',
         catalogNumber: '4.4.3.103'
       },
       { id: 'id0804',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр',
+        description: '(описание)',
         catalogNumber: '6.90.4.75'
       }
     ]
@@ -644,23 +644,23 @@ var abz = [
 
   // 9.
   { id: 'id09',
-    name: 'Р’РµСЃС‹ Р’РРђРўРћРџР°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Весы ВИАТОПа',
+    description: '(описание)',
     catalogNumber: '8.4.6',
     children: [
       { id: 'id0901',
-        name: 'РўРµРЅР·РѕРґР°С‚С‡РёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Тензодатчик (2 шт.)',
+        description: '(описание)',
         catalogNumber: '8.4.6.67'
       },
       { id: 'id0902',
-        name: 'Р—Р°СЃР»РѕРЅРєР° РїРѕРІРѕСЂРѕС‚РЅР°СЏ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Заслонка поворотная',
+        description: '(описание)',
         catalogNumber: '8.4.6.72'
       },
       { id: 'id0903',
-        name: 'Р”РµРјРїС„РµСЂ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Демпфер (4 шт.)',
+        description: '(описание)',
         catalogNumber: '2.4.6.23'
       }
     ]
@@ -668,18 +668,18 @@ var abz = [
 
   // 10.
   { id: 'id10',
-    name: 'Р‘СѓРЅРєРµСЂ РјРёРЅРµСЂР°Р»Р°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Бункер минерала',
+    description: '(описание)',
     catalogNumber: '4.5.2',
     children: [
       { id: 'id1001',
-        name: 'Р—Р°С‚РІРѕСЂ (5 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '4.4.3.1.Рњ'
+        name: 'Затвор (5 шт.)',
+        description: '(описание)',
+        catalogNumber: '4.4.3.1.М'
       },
       { id: 'id1002',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ (5 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр (5 шт.)',
+        description: '(описание)',
         catalogNumber: '6.90.4.75'
       }
     ]
@@ -687,113 +687,113 @@ var abz = [
 
   // 11.
   { id: 'id11',
-    name: 'Р‘СѓРЅРєРµСЂ РїС‹Р»Рё',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Бункер пыли',
+    description: '(описание)',
     catalogNumber: '8.5.3',
     children: [
       { id: 'id1101',
-        name: 'Р—Р°СЃР»РѕРЅРєР° РїРѕРІРѕСЂРѕС‚РЅР°СЏ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Заслонка поворотная',
+        description: '(описание)',
         catalogNumber: '8.5.3.6'
       },
       { id: 'id1102',
-        name: 'РЁРЅРµРє',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шнек',
+        description: '(описание)',
         catalogNumber: '8.5.3.1.2'
       },
       { id: 'id1103',
-        name: 'РњРѕС‚РѕСЂ-СЂРµРґСѓРєС‚РѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Мотор-редуктор',
+        description: '(описание)',
         catalogNumber: '8.5.3.1.56'
       },
       { id: 'id1104',
-        name: 'Р СѓРєР°РІ СЃРѕРµРґРёРЅРёС‚РµР»СЊРЅС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рукав соединительный',
+        description: '(описание)',
         catalogNumber: '4.4.18'
       },
       { id: 'id1105',
-        name: 'Р СѓРєР°РІ СЃРѕРµРґРёРЅРёС‚РµР»СЊРЅС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рукав соединительный',
+        description: '(описание)',
         catalogNumber: '4.4.19'
       },
       { id: 'id1106',
-        name: 'Р СѓРєР°РІ СЃРѕРµРґРёРЅРёС‚РµР»СЊРЅС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рукав соединительный',
+        description: '(описание)',
         catalogNumber: '4.4.20'
       },
       { id: 'id1107',
-        name: 'Р СѓРєР°РІ СЃРѕРµРґРёРЅРёС‚РµР»СЊРЅС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рукав соединительный',
+        description: '(описание)',
         catalogNumber: '4.4.21'
       },
       { id: 'id1108',
-        name: 'РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅС‹Р№ Р±СѓРЅРєРµСЂ (Рї.Сѓ!)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Промежуточный бункер (п.у!)',
+        description: '(описание)',
         catalogNumber: ''
       },
       { id: 'id1109',
-        name: 'Р РѕС‚Р°С†РёРѕРЅРЅС‹Р№ РґР°С‚С‡РёРє СѓСЂРѕРІРЅСЏ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ротационный датчик уровня',
+        description: '(описание)',
         catalogNumber: '4.5.1.13'
       },
       { id: 'id1110',
-        name: 'Р РѕС‚Р°С†РёРѕРЅРЅС‹Р№ РґР°С‚С‡РёРє СѓСЂРѕРІРЅСЏ (5 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ротационный датчик уровня (5 шт.)',
+        description: '(описание)',
         catalogNumber: '4.5.1.14'
       },
       { id: 'id1111',
-        name: 'РўСЂР°РЅСЃРїРѕСЂС‚РµСЂ С€РЅРµРєРѕРІС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '4.5.2.Рњ1'
+        name: 'Транспортер шнековый',
+        description: '(описание)',
+        catalogNumber: '4.5.2.М1'
       },
       { id: 'id1112',
-        name: 'РњРѕС‚РѕСЂ-СЂРµРґСѓРєС‚РѕСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Мотор-редуктор',
+        description: '(описание)',
         catalogNumber: '4.5.2.56'
       },
       { id: 'id1113',
-        name: 'РЁРЅРµРє',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '4.5.2.2.Рњ1'
+        name: 'Шнек',
+        description: '(описание)',
+        catalogNumber: '4.5.2.2.М1'
       },
       { id: 'id1114',
-        name: 'Р¦Р°РїС„Р°',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '4.5.2.2.3.Рњ1'
+        name: 'Цапфа',
+        description: '(описание)',
+        catalogNumber: '4.5.2.2.3.М1'
       },
       { id: 'id1115',
-        name: 'Р¦Р°РїС„Р°',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Цапфа',
+        description: '(описание)',
         catalogNumber: '4.11.1.7.2'
       },
       { id: 'id1116',
-        name: 'Р’С‚СѓР»РєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Втулка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.11.1.7.5'
       },
       { id: 'id1117',
-        name: 'РџРµСЂРѕ С€РЅРµРєР°',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '4.5.2.2.6Рњ1'
+        name: 'Перо шнека',
+        description: '(описание)',
+        catalogNumber: '4.5.2.2.6М1'
       },
       { id: 'id1118',
-        name: 'РџРѕРґС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.5.2.45'
       },
       { id: 'id1119',
-        name: 'РњР°РЅР¶РµС‚Р° (3 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Манжета (3 шт.)',
+        description: '(описание)',
         catalogNumber: '4.5.2.48'
       },
       { id: 'id1120',
-        name: 'РЁРїРѕРЅРєР°',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шпонка',
+        description: '(описание)',
         catalogNumber: '4.5.2.47'
       },
       { id: 'id1121',
-        name: 'РќР°Р±РёРІРєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Набивка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '4.5.2.50'
       }
     ]
@@ -801,98 +801,98 @@ var abz = [
 
   // 12.
   { id: 'id12',
-    name: 'РљРѕСЂРѕР± РіСЂРѕС…РѕС‚Р°',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
-    catalogNumber: '1.7.2.Рњ1',
+    name: 'Короб грохота',
+    description: '(описание)',
+    catalogNumber: '1.7.2.М1',
     children: [
       { id: 'id1201',
-        name: 'РљРѕР¶СѓС… (54 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.2.Рђ'
+        name: 'Кожух (54 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.2.А'
       },
       { id: 'id1202',
-        name: 'РћС‚Р±РѕР№РЅРёРє',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Отбойник',
+        description: '(описание)',
         catalogNumber: '1.7.2.3'
       },
       { id: 'id1203',
-        name: 'Р‘Р°Р»РєР° Р·Р°С†РµРїРЅР°СЏ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Балка зацепная',
+        description: '(описание)',
         catalogNumber: '1.7.2.4'
       },
       { id: 'id1204',
-        name: 'Р‘Р°Р»РєР° РѕРїРѕСЂРЅР°СЏ (25 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Балка опорная (25 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.5'
       },
       { id: 'id1205',
-        name: 'Р‘Р°Р»РєР° РЅР°С‚СЏР¶РЅР°СЏ (9 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.7.Рњ1'
+        name: 'Балка натяжная (9 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.7.М1'
       },
       { id: 'id1206',
-        name: 'РљСЂСЋРє (54 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Крюк (54 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.15.8'
       },
       { id: 'id1207',
-        name: 'РЎРёС‚Рѕ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сито',
+        description: '(описание)',
         catalogNumber: '1.7.2.9'
       },
       { id: 'id1208',
-        name: 'РЎРёС‚Рѕ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сито',
+        description: '(описание)',
         catalogNumber: '1.7.2.10'
       },
       { id: 'id1209',
-        name: 'РЎРёС‚Рѕ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сито',
+        description: '(описание)',
         catalogNumber: '1.7.2.11'
       },
       { id: 'id1210',
-        name: 'РЎРёС‚Рѕ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сито',
+        description: '(описание)',
         catalogNumber: '1.7.2.12'
       },
       { id: 'id1211',
-        name: 'РЎРёС‚Рѕ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сито',
+        description: '(описание)',
         catalogNumber: '1.7.2.13'
       },
       { id: 'id1212',
-        name: 'РЎРёС‚Рѕ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Сито',
+        description: '(описание)',
         catalogNumber: '1.7.2.14'
       },
       { id: 'id1213',
-        name: 'Р’С‚СѓР»РєР° (54 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Втулка (54 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.24'
       },
       { id: 'id1214',
-        name: 'РЁРєРёРІ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.25.Рњ'
+        name: 'Шкив (2 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.25.М'
       },
       { id: 'id1215',
-        name: 'Р­Р»РµРєС‚СЂРѕРґРІРёРіР°С‚РµР»СЊ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Электродвигатель (2 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.50'
       },
       { id: 'id1216',
-        name: 'Р РµРјРµРЅСЊ (6 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Ремень (6 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.52'
       },
       { id: 'id1217',
-        name: 'РџСЂСѓР¶РёРЅР° (54 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пружина (54 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.22'
       },
       { id: 'id1218',
-        name: 'РџСЂСѓР¶РёРЅР° (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пружина (8 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.32'
       }
     ]
@@ -900,83 +900,83 @@ var abz = [
 
   // 13.
   { id: 'id13',
-    name: 'Р’РёР±СЂР°С‚РѕСЂ',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
-    catalogNumber: '1.7.2.1.Рњ1',
+    name: 'Вибратор',
+    description: '(описание)',
+    catalogNumber: '1.7.2.1.М1',
     children: [
       { id: 'id1301',
-        name: 'Р’Р°Р» (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.12.Рњ1'
+        name: 'Вал (2 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.12.М1'
       },
       { id: 'id1302',
-        name: 'РЎС‚Р°РєР°РЅ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.5.Рњ1'
+        name: 'Стакан (4 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.5.М1'
       },
       { id: 'id1303',
-        name: 'РљСЂС‹С€РєР° (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.6.Рњ1'
+        name: 'Крышка (4 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.6.М1'
       },
       { id: 'id1304',
-        name: 'РљРѕР»СЊС†Рѕ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.8.Рњ1'
+        name: 'Кольцо (4 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.8.М1'
       },
       { id: 'id1305',
-        name: 'РЁРєРёРІ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.9.Рњ1'
+        name: 'Шкив (2 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.9.М1'
       },
       { id: 'id1306',
-        name: 'Р’С‚СѓР»РєР° (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.13.Рњ1'
+        name: 'Втулка (4 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.13.М1'
       },
       { id: 'id1307',
-        name: 'Р“СЂСѓР· (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.15.Рњ1'
+        name: 'Груз (2 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.15.М1'
       },
       { id: 'id1308',
-        name: 'Р“СЂСѓР· (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.16.Рњ1'
+        name: 'Груз (2 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.16.М1'
       },
       { id: 'id1309',
-        name: 'РљРѕР»СЊС†Рѕ (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.17.Рњ1'
+        name: 'Кольцо (2 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.17.М1'
       },
       { id: 'id1310',
-        name: 'РЁР°Р№Р±Р° (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
-        catalogNumber: '1.7.2.1.18.Рњ1'
+        name: 'Шайба (8 шт.)',
+        description: '(описание)',
+        catalogNumber: '1.7.2.1.18.М1'
       },
       { id: 'id1311',
-        name: 'РџРѕРґС€РёРїРЅРёРє (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Подшипник (4 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.1.35'
       },
       { id: 'id1312',
-        name: 'РњР°РЅР¶РµС‚Р° (8 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Манжета (8 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.1.37'
       },
       { id: 'id1313',
-        name: 'РљРѕР»СЊС†Рѕ (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Кольцо (4 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.1.39'
       },
       { id: 'id1314',
-        name: 'РЁРїРѕРЅРєР° (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шпонка (2 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.1.41'
       },
       { id: 'id1315',
-        name: 'РЁРїРѕРЅРєР° (4 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Шпонка (4 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.2.1.42'
       }
     ]
@@ -984,28 +984,28 @@ var abz = [
 
   // 14.
   { id: 'id14',
-    name: 'РЈСЃС‚СЂРѕР№СЃС‚РІРѕ СЂР°СЃРїСЂРµРґРµР»РёС‚РµР»СЊРЅРѕРµ',
-    description: '(РѕРїРёСЃР°РЅРёРµ)',
+    name: 'Устройство распределительное',
+    description: '(описание)',
     catalogNumber: '1.7.3',
     children: [
       { id: 'id1401',
-        name: 'Р С‹С‡Р°Рі',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рычаг',
+        description: '(описание)',
         catalogNumber: '1.7.3.14'
       },
       { id: 'id1402',
-        name: 'РџРѕС€РёРїРЅРёРє (2 С€С‚.)',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пошипник (2 шт.)',
+        description: '(описание)',
         catalogNumber: '1.7.3.47'
       },
       { id: 'id1403',
-        name: 'Р СѓРєР°РІ СЃРѕРµРґРёРЅРёС‚РµР»СЊРЅС‹Р№',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Рукав соединительный',
+        description: '(описание)',
         catalogNumber: '1.7.3.15'
       },
       { id: 'id1404',
-        name: 'РџРЅРµРІРјРѕС†РёР»РёРЅРґСЂ',
-        description: '(РѕРїРёСЃР°РЅРёРµ)',
+        name: 'Пневмоцилиндр',
+        description: '(описание)',
         catalogNumber: '6.90.7'
       }
     ]
