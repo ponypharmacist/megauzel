@@ -10,12 +10,28 @@ var abz = [
     description: '(описание)',
     catalogNumber: '4.1',
     images: [
-      { imageURL: 'placeholder.jpg',
+      { imageURL: '4.1.jpg',
         mapMarkers: [
-          { mapMarkerTitle: 'A',
-            mapMarkerX: '23',
-            mapMarkerY: '45',
+          { mapMarkerTitle: '',
+            mapMarkerX: '30.2',
+            mapMarkerY: '43.3',
+            mapMarkerW: '5.1',
+            mapMarkerH: '4',
             mapMarkerLink: '1,2'
+          },
+          { mapMarkerTitle: '',
+            mapMarkerX: '32.8',
+            mapMarkerY: '88.5',
+            mapMarkerW: '5.1',
+            mapMarkerH: '4',
+            mapMarkerLink: '1,0'
+          },
+          { mapMarkerTitle: '',
+            mapMarkerX: '48.8',
+            mapMarkerY: '88.7',
+            mapMarkerW: '5.1',
+            mapMarkerH: '4',
+            mapMarkerLink: '1,1'
           }
         ]
       }
@@ -24,22 +40,34 @@ var abz = [
       { id: 'id0101',
         name: 'Затвор',
         description: '(описание)',
-        catalogNumber: '4.1.3'
+        catalogNumber: '4.1.3',
+        images: [
+          { imageURL: '4.1.3.jpg' }
+        ]
       },
       { id: 'id0102',
         name: 'Затвор',
         description: '(описание)',
-        catalogNumber: '4.1.4'
+        catalogNumber: '4.1.4',
+        images: [
+          { imageURL: '4.1.4.jpg' }
+        ]
       },
       { id: 'id0103',
         name: 'Кронштейн',
         description: '(описание)',
-        catalogNumber: '4.1.6'
+        catalogNumber: '4.1.6',
+        images: [
+          { imageURL: '4.1.6.jpg' }
+        ]
       },
       { id: 'id0104',
         name: 'Кронштейн',
         description: '(описание)',
-        catalogNumber: '4.1.7'
+        catalogNumber: '4.1.7',
+        images: [
+          { imageURL: '4.1.7.jpg' }
+        ]
       },
       { id: 'id0105',
         name: 'Подшипник (2 шт.)',
