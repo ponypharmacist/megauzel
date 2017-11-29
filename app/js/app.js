@@ -85,7 +85,7 @@ function getImageMapMarkers(markersArray) {
     iMMHtml += ' style="top:' + iMM.top + '%; left:' + iMM.left + '%;';
     iMMHtml += ' width:' + (iMM.width ? iMM.width + '%' : '30px') + '; height:' + (iMM.height ? iMM.height + '%' : '30px') + ';';
     iMMHtml += ' margin-left:-' + (iMM.width ? (iMM.width / 2) + '%' : '15px') + '; margin-top:-' + (iMM.height ? (iMM.height / 2) + '%' : '15px') + ';">'
-    iMMHtml += '' + iMM.mapMarkerTitle + '</a>';
+    iMMHtml += '' + (iMM.mapMarkerTitle ? iMM.mapMarkerTitle : '') + '</a>';
   });
   return iMMHtml;
 };
