@@ -194,6 +194,18 @@ var abz = [
             width: '5.7',
             height: '3',
             href: '4,4'
+          },
+          { top: '28.4',
+            left: '71',
+            width: '5.7',
+            height: '3',
+            href: '4,5'
+          },
+          { top: '79',
+            left: '42.3',
+            width: '5.7',
+            height: '3',
+            href: '4,6'
           }
         ]
       }
