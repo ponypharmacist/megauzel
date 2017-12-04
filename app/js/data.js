@@ -267,8 +267,20 @@ var abz = [
             height: '3',
             href: '4,16'
           },
+          { top: '35',
+            left: '62',
+            width: '7',
+            height: '3',
+            href: '4,16'
+          },
           { top: '12.6',
             left: '56',
+            width: '7',
+            height: '3',
+            href: '4,17'
+          },
+          { top: '31.5',
+            left: '47',
             width: '7',
             height: '3',
             href: '4,17'
@@ -368,6 +380,78 @@ var abz = [
             width: '7.5',
             height: '2.5',
             href: '4,30'
+          },
+          { top: '50.3',
+            left: '28.4',
+            width: '7.5',
+            height: '2.5',
+            href: '4,31'
+          },
+          { top: '52.3',
+            left: '28.4',
+            width: '7.5',
+            height: '2.5',
+            href: '4,32'
+          },
+          { top: '3.7',
+            left: '17',
+            width: '7.5',
+            height: '2.5',
+            href: '4,33'
+          },
+          { top: '5.7',
+            left: '17',
+            width: '7.5',
+            height: '2.5',
+            href: '4,34'
+          },
+          { top: '7.7',
+            left: '17',
+            width: '7.5',
+            height: '2.5',
+            href: '4,35'
+          },
+          { top: '9.7',
+            left: '17',
+            width: '7.5',
+            height: '2.5',
+            href: '4,36'
+          },
+          { top: '35.6',
+            left: '90',
+            width: '5.7',
+            height: '3',
+            href: '4,37'
+          },
+          { top: '95',
+            left: '54.8',
+            width: '5.7',
+            height: '3',
+            href: '4,38'
+          },
+          { top: '32.5',
+            left: '80.2',
+            width: '6',
+            height: '3',
+            href: '4,39'
+          },
+          { top: '64',
+            left: '11.6',
+            width: '6.5',
+            height: '3',
+            href: '4,40'
+          },
+          { top: '78.2',
+            left: '76.5',
+            width: '6.5',
+            height: '3',
+            href: '4,41'
+          },
+          { top: '50.6',
+            left: '83.2',
+            width: '6.5',
+            height: '3',
+            href: '4,42'
           }
         ]
       }
