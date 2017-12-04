@@ -69,7 +69,7 @@ a {
 }
 .breadcrumb li.active {
   color: #584316;
-  font-weight: 700;  
+  font-weight: 700;
 }
 #site-menu {
   height: 32px;
@@ -230,6 +230,17 @@ a {
   font-size: 14px;
   margin-top: 12px;
   cursor: default;
+}
+.subuzel-tag a {
+  color: #584316;
+  background: #d7cbb3;
+  display: inline-block;
+  line-height: 20px;
+  padding: 3px 18px 3px;
+  margin-left: -18px;
+  border-radius: 5px;
+  cursor: default;
+  text-decoration: none;
 }
 #tree-root.being-filtered .megauzel-tag { display: none; }
 

@@ -5,7 +5,7 @@ var treeHtml = '';
 //============================================
 function renderTree() {
   abz.forEach(function(megauzel, i, abz) {
-    treeHtml += '<li id="' + megauzel.id + '"><span>' + i + '.</span>'
+    treeHtml += '<li id="id' + megauzel.id + '"><span>' + megauzel.id + '.</span>'
     treeHtml += '<a onclick="renderNode(' + i + ');">' + megauzel.name + '</a>'
     treeHtml += megauzel.children ? renderChildren(megauzel, i) : '</li>';
   });
@@ -22,7 +22,23 @@ function renderChildren(uzel, parentIndex) {
   let childrenHtml = '&nbsp;<a class="expand-link" rel="' + thisUzelId + '">[+]</a></li>';
   childrenHtml += '<ul id="childrenof-' + thisUzelId + '">'
   thisUzelChildren.forEach(function(child, k, thisUzelChildren) {
-    childrenHtml += '<li><a onclick="renderNode(' + parentIndex + ',' + k + ');">' + child.name + '</a></li>'
+    childrenHtml += '<li><a onclick="renderNode(' + parentIndex + ',' + k + ');">' + child.name + '</a>';
+    childrenHtml += child.children ? renderSubChildren(child, k, parentIndex) : '</li>';
+  });
+  childrenHtml += '</ul>'
+  return childrenHtml;
+};
+
+//============================================
+// Рендерим детишек 2 урв. для дерева
+//============================================
+function renderSubChildren(uzel, parentIndex, megaParentIndex) {
+  let thisUzelChildren = uzel.children;
+  let thisUzelId = uzel.id;
+  let childrenHtml = '&nbsp;<a class="expand-link" rel="' + thisUzelId + '">[+]</a></li>';
+  childrenHtml += '<ul id="childrenof-' + thisUzelId + '">'
+  thisUzelChildren.forEach(function(child, l, thisUzelChildren) {
+    childrenHtml += '<li><a onclick="renderNode(' + megaParentIndex + ',' + parentIndex + ',' + l + ');">' + child.name + '</a></li>';
   });
   childrenHtml += '</ul>'
   return childrenHtml;
@@ -31,9 +47,11 @@ function renderChildren(uzel, parentIndex) {
 //============================================
 // По клику рендерим в области контента инфу
 //============================================
-function renderNode(i, k) {
+function renderNode(i, k, l) {
   let target = '';
-  if (i >= 0 && k >= 0) {
+  if (i >= 0 && k >= 0 && l >= 0) {
+    target = abz[i].children[k].children[l];
+  } else if (i >= 0 && k >= 0) {
     target = abz[i].children[k];
   } else if (i >= 0) {
     target = abz[i];
@@ -45,16 +63,20 @@ function renderNode(i, k) {
   $('#nodeCatalogNumber').html(target.catalogNumber ? 'Номер в каталоге: <b>' + target.catalogNumber + '</b>' : '');
   $('#nodeDescription').html(target.description ? target.description : '');
 
-  renderBreadcrumbs(i, k);
-  highlightCurrent(i, k);
+  renderBreadcrumbs(i, k, l);
+  highlightCurrent(i, k, l);
 };
 
 //============================================
 // Подсвечиваем в списке текущий узел
 //============================================
-function highlightCurrent(i, k) {
+function highlightCurrent(i, k, l) {
   $('#tree-root .selected').removeClass('selected');
-  if (i >= 0 && k >= 0) {
+  if (i >= 0 && k >= 0 && l >= 0) {
+    $('#childrenof-' + abz[i].children[k].id).addClass('selected');
+    let targetList = $('#childrenof-' + abz[i].children[k].id + ' li');
+    $(targetList[l]).addClass('selected');
+  } else if (i >= 0 && k >= 0) {
     $('#childrenof-' + abz[i].id).addClass('selected');
     let targetList = $('#childrenof-' + abz[i].id + ' li');
     $(targetList[k]).addClass('selected');
@@ -93,13 +115,22 @@ function getImageMapMarkers(markersArray) {
 //============================================
 // Показываем хлебокрошки
 //============================================
-function renderBreadcrumbs(i, k) {
+function renderBreadcrumbs(i, k, l) {
   // i && !k - if level 1
   let renderedBreadcrumbs = '';
   let targetLvl1 = '';
   let targetLvl2 = '';
+  let targetLvl3 = '';
 
-  if (i >= 0 && k >= 0) {
+  if (i >= 0 && k >= 0 && l >= 0) {
+    targetLvl1 = abz[i];
+    targetLvl2 = abz[i].children[k];
+    targetLvl3 = abz[i].children[k].children[l];
+    renderedBreadcrumbs += '<li><a href="http://koloksha.ru/parts-catalog/">КА-160</a></li>';
+    renderedBreadcrumbs += '<li><a onclick="renderNode(' + i + ');">' + targetLvl1.name + '</a></li>';
+    renderedBreadcrumbs += '<li><a onclick="renderNode(' + i + ',' + k + ');">' + targetLvl2.name + '</a></li>';
+    renderedBreadcrumbs += '<li class="active">' + targetLvl3.name + '</li>';
+  } else if (i >= 0 && k >= 0) {
     targetLvl1 = abz[i];
     targetLvl2 = abz[i].children[k];
     renderedBreadcrumbs += '<li><a href="http://koloksha.ru/parts-catalog/">КА-160</a></li>';
@@ -124,9 +155,13 @@ $(document).ready(function(){
   renderTree();
 
   // Рендерим этикетки для мегаузлов
-  $('<div class="megauzel-tag">Устройство смесительное</div>').insertAfter('#childrenof-id03');
-  $('<div class="megauzel-tag">Устройство взвешивания</div>').insertAfter('#childrenof-id05');
-  $('<div class="megauzel-tag">Грохот</div>').insertAfter('#childrenof-id11');
+  $('<div class="megauzel-tag">Устройство смесительное</div>').insertAfter('#childrenof-3');
+  $('<div class="megauzel-tag">Устройство взвешивания</div>').insertAfter('#childrenof-5');
+  $('<div class="megauzel-tag">Грохот</div>').insertAfter('#childrenof-11');
+  $('<div class="megauzel-tag">Элеватор горячий</div>').insertAfter('#childrenof-14');
+
+  // Рендерим этикетки для подузлов
+  //$('#childrenof-11 li:nth-child(8)').addClass('subuzel-tag');
 
   // [+] и [-] кнопки
   $('.expand-link').on('click', function(){
