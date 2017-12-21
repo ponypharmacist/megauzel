@@ -159,6 +159,13 @@ $(document).ready(function(){
   $('<div class="megauzel-tag">”стройство взвешивани€</div>').insertAfter('#childrenof-5');
   $('<div class="megauzel-tag">√рохот</div>').insertAfter('#childrenof-11');
   $('<div class="megauzel-tag">Ёлеватор гор€чий</div>').insertAfter('#childrenof-14');
+  $('<div class="megauzel-tag">Ёлеватор пыли</div>').insertAfter('#childrenof-19');
+  $('<div class="megauzel-tag">Ѕочка собственного и привозного заполнител€</div>').insertAfter('#childrenof-22');
+  $('<div class="megauzel-tag">Ўнеки наклонные</div>').insertAfter('#childrenof-24');
+  $('<div class="megauzel-tag">Ѕарабан сушильный</div>').insertAfter('#childrenof-28');
+  $('<div class="megauzel-tag">”стройство фильтрующее</div>').insertAfter('#childrenof-37');
+  $('<div class="megauzel-tag">—истема предварительного дозировани€</div>').insertAfter('#childrenof-41');
+  $('<div class="megauzel-tag">—клад битума (американский насос)</div>').insertAfter('#childrenof-58');
 
   // –ендерим этикетки дл€ подузлов
   //$('#childrenof-11 li:nth-child(8)').addClass('subuzel-tag');

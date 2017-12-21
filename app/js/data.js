@@ -1580,12 +1580,1114 @@ var abz = [
       }
     ]
   },
+
+  // 20
+  { id: '20',
+    name: 'Ковш (124 шт.)',
+    catalogNumber: '6.9.19',
+    children: [
+      { id: 'id2000',
+        name: 'Шайба (248 шт.)'
+      },
+      { id: 'id2001',
+        name: 'Уголок (2шт.)'
+      },
+      { id: 'id2002',
+        name: 'Лента транспортерная'
+      }
+    ]
+  },
+
+  // 21
+  { id: '21',
+    name: 'Основание элеватора',
+    catalogNumber: '',
+    children: [
+      { id: 'id2100',
+      name: 'Вал',
+      catalogNumber: '6.9.11.26'
+      },
+      { id: 'id2101',
+      name: 'Барабан',
+      catalogNumber: '6.9.11.2'
+      },
+      { id: 'id2102',
+      name: 'Винт',
+      catalogNumber: '2.9.11.17'
+      },
+      { id: 'id2103',
+      name: 'Опора (2 шт.)',
+      catalogNumber: '6.9.11.7'
+      },
+      { id: 'id2104',
+      name: 'Кольцо (4 шт.)',
+      catalogNumber: '2.9.11.8'
+      },
+      { id: 'id2105',
+      name: 'Крышка (2 шт.)',
+      catalogNumber: '2.9.11.9'
+      },
+      { id: 'id2106',
+      name: 'Кольцо (2 шт.)',
+      catalogNumber: '2.9.11.10'
+      },
+      { id: 'id2107',
+      name: 'Подшипник (2 шт.)',
+      catalogNumber: '6.9.11.59'
+      },
+      { id: 'id2108',
+      name: 'Манжета (2 шт.)',
+      catalogNumber: '6.9.11.61'
+      },
+      { id: 'id2109',
+      name: 'Шпонка',
+      catalogNumber: '6.9.11.65'
+      },
+      { id: 'id2110',
+      name: 'Кольцо (2 шт.)',
+      catalogNumber: '6.9.11.58'
+      }
+    ]
+  },
+
+  // 22
+  { id: '22',
+    name: 'Корпус',
+    catalogNumber: '6.9.12',
+    children: [
+      { id: 'id2200',
+        name: 'Лабиринт (2 шт.)',
+        catalogNumber: '4.9.12.16'
+      },
+      { id: 'id2201',
+        name: 'Барабан',
+        catalogNumber: '6.9.12.3'
+      },
+      { id: 'id2202',
+        name: 'Вал',
+        catalogNumber: '6.9.12.26'
+      },
+      { id: 'id2203',
+        name: 'Опора (2 шт.) ',
+        catalogNumber: '6.9.12.6'
+      },
+      { id: 'id2204',
+        name: 'Кольцо (4 шт.)',
+        catalogNumber: '6.9.12.13'
+      },
+      { id: 'id2205',
+        name: 'Кольцо',
+        catalogNumber: '6.9.12.14'
+      },
+      { id: 'id2206',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '6.9.12.18'
+      },
+      { id: 'id2207',
+        name: 'Втулка (2 шт.)',
+        catalogNumber: '6.9.12.20'
+      },
+      { id: 'id2208',
+        name: 'Шпонка',
+        catalogNumber: '6.9.12.54'
+      },
+      { id: 'id2209',
+        name: 'Шпонка',
+        catalogNumber: '6.9.12.55'
+      },
+      { id: 'id2210',
+        name: 'Подшипник (2 шт.)',
+        catalogNumber: '6.9.12.57'
+      },
+      { id: 'id2211',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '6.9.12.58'
+      },
+      { id: 'id2212',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '6.9.12.59'
+      },
+      { id: 'id2213',
+        name: 'Манжета',
+        catalogNumber: '6.9.12.60'
+      },
+      { id: 'id2214',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '6.9.12.62'
+      },
+      { id: 'id2215',
+        name: 'Кольцо',
+        catalogNumber: '6.9.12.63'
+      },
+      { id: 'id2216',
+        name: 'Мотор-редуктор',
+        catalogNumber: '6.9.12.66'
+      }
+    ]
+  },
+
+  // Узлы бочки без номера идут в каталоге
+  { id: '',
+    name: 'Узлы бочки',
+    catalogNumber: '08.10.2001',
+    children: [
+      { id: 'idxx00',
+        name: 'Заслонка',
+        catalogNumber: '8.10.20'
+      },
+      { id: 'idxx01',
+        name: 'Заслонка (ручная) (2 шт.)',
+        catalogNumber: '2.48.15'
+      },
+      { id: 'idxx02',
+        name: 'Заслонка',
+        catalogNumber: '8.10.17'
+      },
+      { id: 'idxx03',
+        name: 'Чехол (ткань)',
+        catalogNumber: '4.10.2'
+      },
+      { id: 'idxx04',
+        name: 'Фильтр',
+        catalogNumber: '6.10.7'
+      },
+      { id: 'idxx05',
+        name: 'Ротационный датчик уровня (2 шт.)',
+        catalogNumber: '4.5.1.14.23'
+      },
+      { id: 'idxx06',
+        name: 'Ротационный датчик уровня (2 шт.)',
+        catalogNumber: '4.5.1.13.24'
+      },
+      { id: 'idxx07',
+        name: 'Заслонка',
+        catalogNumber: '8.10.81'
+      },
+      { id: 'idxx08',
+        name: 'Воздуховод гибкий',
+        catalogNumber: '8.10.86'
+      }
+    ]
+  },
+
+  // 23
+  { id: '23',
+    name: 'Бочка собственной пыли',
+    catalogNumber: '8.10.1',
+    children: [
+      { id: 'id2300',
+        name: 'Фильтр',
+        catalogNumber: '4.10.1.2'
+      },
+      { id: 'id2301',
+        name: 'Фильтр',
+        catalogNumber: '8.10.1.3'
+      }
+    ]
+  },
+
+  // 24
+  { id: '24',
+    name: 'Бочка привозной пыли',
+    catalogNumber: '6.10.4'
+  },
+
+  // 25
+  { id: '25',
+    name: 'Транспортер шнековый',
+    catalogNumber: '8.11.1.Л',
+    description: 'Транспортер шнековый (бочка привоз. заполн. - башня)',
+    children: [
+      { id: 'id2500',
+        name: 'Рукав соединительный (ткань)',
+        catalogNumber: '1.11.8'
+      },
+      { id: 'id2501',
+        name: 'Втулка',
+        catalogNumber: '8.11.1.14'
+      },
+      { id: 'id2502',
+        name: 'Кронштейн (2 шт.)',
+        catalogNumber: '8.11.1.16'
+      },
+      { id: 'id2503',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '4.11.1.18'
+      },
+      { id: 'id2504',
+        name: 'Подшипник (2 шт.)',
+        catalogNumber: '8.11.1.45'
+      },
+      { id: 'id2505',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '8.11.1.46'
+      },
+      { id: 'id2506',
+        name: 'Шпонка',
+        catalogNumber: '8.11.1.47'
+      },
+      { id: 'id2507',
+        name: 'Манжета (3 шт.)',
+        catalogNumber: '8.11.1.48'
+      },
+      { id: 'id2508',
+        name: 'Набивка (2 шт.)',
+        catalogNumber: '8.11.1.50'
+      },
+      { id: 'id2509',
+        name: 'Резиновый буфер (2 шт.)',
+        catalogNumber: '8.11.1.55'
+      },
+      { id: 'id2510',
+        name: 'Мотор-редуктор',
+        catalogNumber: '8.11.1.56'
+      }
+    ]
+  },
+
+  // 26
+  { id: '26',
+    name: 'Шнек',
+    catalogNumber: '8.11.1.7',
+    children: [
+      { id: 'id2600',
+        name: 'Цапфа',
+        catalogNumber: '4.11.1.7.2'
+      },
+      { id: 'id2600',
+        name: 'Цапфа',
+        catalogNumber: '8.11.1.7.3'
+      },
+      { id: 'id2600',
+        name: 'Втулка (2 шт.)',
+        catalogNumber: '4.11.1.7.5'
+      },
+      { id: 'id2600',
+        name: 'Перо шнека',
+        catalogNumber: '6.11.1.7.6'
+      }
+    ]
+  },
+
+  // 27
+  { id: '27',
+    name: 'Транспортер шнековый',
+    catalogNumber: '8.12.1Л',
+    description: 'Транспортер шнековый (фильтр-бочка собств. заполн. -элев. пыли)',
+    children: [
+      { id: 'id2700',
+        name: 'Рукав соединительный (ткань) (2 шт.)',
+        catalogNumber: '1.11.12'
+      },
+      { id: 'id2701',
+        name: 'Кронштейн (2 шт.)',
+        catalogNumber: '8.12.1.16'
+      },
+      { id: 'id2702',
+        name: 'Втулка',
+        catalogNumber: '8.11.1.14'
+      },
+      { id: 'id2703',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '4.11.1.18'
+      },
+      { id: 'id2704',
+        name: 'Подшипник (2 шт.)',
+        catalogNumber: '8.11.1.45'
+      },
+      { id: 'id2705',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '8.11.1.46'
+      },
+      { id: 'id2706',
+        name: 'Шпонка',
+        catalogNumber: '8.11.1.47'
+      },
+      { id: 'id2707',
+        name: 'Манжета (3 шт.)',
+        catalogNumber: '8.11.1.48'
+      },
+      { id: 'id2708',
+        name: 'Набивка (2 шт.)',
+        catalogNumber: '8.11.1.50'
+      },
+      { id: 'id2709',
+        name: 'Резиновый буфер (2 шт.)',
+        catalogNumber: '8.11.1.55'
+      },
+      { id: 'id2710',
+        name: 'Мотор-редуктор',
+        catalogNumber: '8.11.1.56'
+      }
+    ]
+  },
+
+  // 28
+  { id: '28',
+    name: 'Шнек',
+    catalogNumber: '',
+    children: [
+      { id: 'id2800',
+        name: 'Цапфа',
+        catalogNumber: '8.11.1.7.3'
+      },
+      { id: 'id2801',
+        name: 'Цапфа',
+        catalogNumber: '4.11.1.7.2'
+      },
+      { id: 'id2802',
+        name: 'Втулка (2 шт.)',
+        catalogNumber: '4.11.1.7.5'
+      },
+      { id: 'id2803',
+        name: 'Перо шнека',
+        catalogNumber: '6.12.1.7.6'
+      }
+    ]
+  },
+
+  // 29
+  { id: '29',
+    name: 'Рама',
+    catalogNumber: '4.14.1'
+  },
+
+  // 30
+  { id: '30',
+    name: 'Барабан',
+    catalogNumber: '4.14.2',
+    children: [
+      { id: 'id3000',
+        name: 'Лопатка (3-й и 4-й ряды) (24 шт.)',
+        catalogNumber: '4.14.2.1'
+      },
+      { id: 'id3001',
+        name: 'Лопатка (5-й и 6-й ряды) (24 шт.)',
+        catalogNumber: '4.14.2.2'
+      },
+      { id: 'id3002',
+        name: 'Лопатка (7-й и 8-й ряды) (32 шт.)',
+        catalogNumber: '4.14.2.3'
+      },
+      { id: 'id3003',
+        name: 'Лопатка (9-й ряд) (36 шт.)',
+        catalogNumber: '4.14.2.4'
+      },
+      { id: 'id3004',
+        name: 'Рассекатель',
+        catalogNumber: '4.14.2.5'
+      },
+      { id: 'id3005',
+        name: 'Лопатка (1-й ряд) (8 шт.)',
+        catalogNumber: '4.14.2.9'
+      },
+      { id: 'id3006',
+        name: 'Лопатка (1-й ряд) (8 шт.)',
+        catalogNumber: '4.14.2.10'
+      },
+      { id: 'id3007',
+        name: 'Лопатка (2-й ряд) (16 шт.)',
+        catalogNumber: '4.14.2.11'
+      },
+      { id: 'id3008',
+        name: 'Лопатка (3-й и 4-й ряды) (24 шт.)',
+        catalogNumber: '4.14.2.12'
+      },
+      { id: 'id3009',
+        name: 'Лопатка (5-й и 6-й ряды) (24 шт.)',
+        catalogNumber: '4.14.2.13'
+      },
+      { id: 'id3010',
+        name: 'Уголок (96 шт.)',
+        catalogNumber: '4.14.2.15'
+      },
+      { id: 'id3011',
+        name: 'Уголок (64 шт.)',
+        catalogNumber: '4.14.2.16'
+      },
+      { id: 'id3012',
+        name: 'Уголок (96 шт.)',
+        catalogNumber: '4.14.2.17'
+      },
+      { id: 'id3013',
+        name: 'Бандаж (2 шт.)',
+        catalogNumber: '4.14.2.24'
+      },
+      { id: 'id3014',
+        name: 'Планка (64 шт.)',
+        catalogNumber: '4.14.2.18'
+      },
+      { id: 'id3015',
+        name: 'Болт (352 шт.)',
+        catalogNumber: '4.14.2.3'
+      },
+      { id: 'id3016',
+        name: 'Гайка (352 шт.)',
+        catalogNumber: '4.14.2.30'
+      },
+      { id: 'id3017',
+        name: 'Шайба (352 шт.)',
+        catalogNumber: '4.14.2.31'
+      }
+    ]
+  },
+
+  // 31
+  { id: '31',
+    name: 'Ролик приводной (4 шт.)',
+    catalogNumber: '4.14.6',
+    children: [
+      { id: 'id3100',
+        name: 'Опора (8 шт.)',
+        catalogNumber: '4.14.6.2'
+      },
+      { id: 'id3101',
+        name: 'Ролик (4 шт.)',
+        catalogNumber: '4.14.6.5.Л'
+      },
+      { id: 'id3102',
+        name: 'Вал (4 шт.)',
+        catalogNumber: '4.14.6.6'
+      },
+      { id: 'id3103',
+        name: 'Втулка (12 шт.)',
+        catalogNumber: '4.14.6.7'
+      },
+      { id: 'id3104',
+        name: 'Кольцо (16 шт.)',
+        catalogNumber: '4.14.6.8'
+      },
+      { id: 'id3105',
+        name: 'Шайба (4 шт.)',
+        catalogNumber: '4.14.6.9'
+      },
+      { id: 'id3106',
+        name: 'Шайба (4 шт.)',
+        catalogNumber: '4.14.6.11'
+      },
+      { id: 'id3107',
+        name: 'Кольцо (4 шт.)',
+        catalogNumber: '4.14.6.12'
+      },
+      { id: 'id3108',
+        name: 'Шпонка (4 шт.)',
+        catalogNumber: '4.14.6.24'
+      },
+      { id: 'id3109',
+        name: 'Шпонка (4 шт.)',
+        catalogNumber: '4.14.6.25'
+      },
+      { id: 'id3110',
+        name: 'Кольцо (8 шт.)',
+        catalogNumber: '4.14.6.27'
+      },
+      { id: 'id3111',
+        name: 'Кольцо (4 шт.)',
+        catalogNumber: '4.14.6.29'
+      },
+      { id: 'id3112',
+        name: 'Подшипник (8 шт.)',
+        catalogNumber: '4.14.6.31'
+      },
+      { id: 'id3113',
+        name: 'Мотор-редуктор (4 шт.)',
+        catalogNumber: '4.14.6.36'
+      }
+    ]
+  },
+
+  // 32
+  { id: '32',
+    name: 'Ролик ограничительный (2 шт.)',
+    catalogNumber: '4.14.8',
+    children: [
+      { id: 'id3200',
+        name: 'Ролик (2 шт.)',
+        catalogNumber: '4.14.8.1'
+      },
+      { id: 'id3201',
+        name: 'Плита (2 шт.)',
+        catalogNumber: '4.14.8.2'
+      },
+      { id: 'id3202',
+        name: 'Ось (2 шт.)',
+        catalogNumber: '4.14.8.3'
+      },
+      { id: 'id3203',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '4.14.8.6'
+      },
+      { id: 'id3204',
+        name: 'Кольцо (12 шт.)',
+        catalogNumber: '4.14.8.7'
+      },
+      { id: 'id3205',
+        name: 'Подшипник (4 шт.)',
+        catalogNumber: '4.14.8.10'
+      }
+    ]
+  },
+
+  // 33
+  { id: '33',
+    name: 'Камера осадительная',
+    catalogNumber: '4.14.3'
+  },
+
+  // 34
+  { id: '34',
+    name: 'Фланец горелки',
+    catalogNumber: '4.14.4.(1)'
+  },
+
+  // 35
+  { id: '35',
+    name: 'Фланец горелки',
+    catalogNumber: '4.14.4.МГ'
+  },
+
+  // 36
+  { id: '36',
+    name: 'Лоток',
+    catalogNumber: '4.14.1.Л',
+    children: [
+      { id: 'id3600',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.1.8.Л'
+      },
+      { id: 'id3601',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.1.9.Л'
+      },
+      { id: 'id3602',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.1.10.Л'
+      },
+      { id: 'id3603',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.1.11.Л'
+      },
+      { id: 'id3604',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.1.12.Л'
+      },
+      { id: 'id3605',
+        name: 'Лист изнашивающийся (10 шт.)',
+        catalogNumber: '4.14.4.1.24'
+      }
+    ]
+  },
+
+  // 37
+  { id: '37',
+    name: 'Труба',
+    catalogNumber: '4.14.4.2',
+    children: [
+      { id: 'id3700',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.2.5'
+      },
+      { id: 'id3701',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.2.6'
+      },
+      { id: 'id3702',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.2.7'
+      },
+      { id: 'id3703',
+        name: 'Изнашивающаяся плита',
+        catalogNumber: '4.14.4.2.8'
+      }
+    ]
+  },
+
+  // 38
+  { id: '38',
+    name: 'Шнек к фильтру',
+    catalogNumber: '8.20.3',
+    children: [
+      { id: 'id3800',
+        name: 'Подшипник (2 шт.)',
+        catalogNumber: '8.20.3.45'
+      },
+      { id: 'id3801',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '8.20.3.46'
+      },
+      { id: 'id3802',
+        name: 'Шпонка',
+        catalogNumber: '8.20.3.47'
+      },
+      { id: 'id3803',
+        name: 'Манжета (3 шт.)',
+        catalogNumber: '8.20.3.48'
+      },
+      { id: 'id3804',
+        name: 'Набивка (2 шт.)',
+        catalogNumber: '8.20.3.50'
+      },
+      { id: 'id3805',
+        name: 'Резиновый буфер (2 шт.)',
+        catalogNumber: '8.20.3.55'
+      },
+      { id: 'id3806',
+        name: 'Мотор-редуктор',
+        catalogNumber: '8.20.3.56'
+      }
+    ]
+  },
+
+  // 39
+  { id: '39',
+    name: 'Заслонка',
+    catalogNumber: '8.20.5'
+  },
+
+  // 40
+  { id: '40',
+    name: 'Фильтр',
+    catalogNumber: '8.20.1',
+    children: [
+      { id: 'id4000',
+        name: 'Клапан обдува (4 шт.)',
+        catalogNumber: '8.20.1.2',
+        children: [
+          { id: 'id400000',
+            name: 'Кольцо (2 шт.)',
+            catalogNumber: '8.20.1.2.54'
+          },
+          { id: 'id400001',
+            name: 'Подшипник (2 шт.)',
+            catalogNumber: '8.20.1.2.57'
+          },
+          { id: 'id400002',
+            name: 'Подшипник (2 шт.)',
+            catalogNumber: '8.20.1.2.59'
+          },
+          { id: 'id400003',
+            name: 'Кольцо (2 шт.)',
+            catalogNumber: '8.20.1.2.60'
+          },
+          { id: 'id400004',
+            name: 'Мотор-редуктор',
+            catalogNumber: '8.20.1.2.62'
+          },
+          { id: 'id400005',
+            name: 'Датчик (2 шт.)',
+            catalogNumber: '8.20.1.2.63'
+          },
+          { id: 'id400006',
+            name: 'Привод эл.двигателя',
+            catalogNumber: '8.20.1.49'
+          },
+          { id: 'id400007',
+            name: 'Уплотнитель термостойкий (80 м)',
+            catalogNumber: '8.20.1.51'
+          },
+          { id: 'id400008',
+            name: 'Электродвигатель',
+            catalogNumber: '8.20.1.60'
+          }
+        ]
+      },
+      { id: 'id4000',
+        name: 'Крыльчатка',
+        catalogNumber: '8.20.1.4'
+      },
+      { id: 'id4000',
+        name: 'Каркас фильтра (864 шт.)',
+        catalogNumber: '8.20.1.25'
+      },
+      { id: 'id4000',
+        name: 'Фильтр тканевый (432 шт.)',
+        catalogNumber: '8.20.1.26'
+      },
+      { id: 'id4000',
+        name: 'Скоба (432 шт.)',
+        catalogNumber: '8.20.1.27'
+      }
+    ]
+  },
+
+  // 41
+  { id: '41',
+    name: 'Устройство подачи воздуха',
+    catalogNumber: '6.18',
+    children: [
+      { id: 'id4100',
+        name: 'Поворотный привод',
+        catalogNumber: '6.18.48'
+      },
+      { id: 'id4100',
+        name: 'Подшипник (2 шт.)',
+        catalogNumber: '6.18.52'
+      }
+    ]
+  },
+
+  // 42
+  { id: '42',
+    name: 'Транспортер сборный',
+    catalogNumber: '6.46'
+  },
+
+  // 43
+  { id: '43',
+    name: 'Устройство приводное',
+    catalogNumber: '2.46.1',
+    children: [
+      { id: 'id4300',
+        name: 'Мотор-барабан',
+        catalogNumber: '2.46.1.31'
+      }
+    ]
+  },
+
+  // 44
+  { id: '44',
+    name: 'Опора роликов (43 шт.)',
+    catalogNumber: '2.46.2'
+  },
+
+  // 45
+  { id: '45',
+    name: 'Опора роликов',
+    catalogNumber: '2.46.2.01'
+  },
+
+  // 46
+  { id: '46',
+    name: 'Скребок',
+    catalogNumber: '6.46.4'
+  },
+
+  // 47
+  { id: '47',
+    name: 'Опора роликов направляющих (3 шт.)',
+    catalogNumber: '2.46.6'
+  },
+
+  // 48
+  { id: '48',
+    name: 'Штатив (6 шт.)',
+    catalogNumber: '2.46.7'
+  },
+
+  // 49
+  { id: '49',
+    name: 'Ролик направляющий (16 шт.)',
+    catalogNumber: '2.46.12'
+  },
+
+  // 50
+  { id: '50',
+    name: 'Ролик направляющий (2 шт.)',
+    catalogNumber: '2.46.12.01'
+  },
+
+  // 51
+  { id: '51',
+    name: 'Скребок',
+    catalogNumber: '6.46.14'
+  },
+
+  // 52
+  { id: '52',
+    name: 'Ролик (132 шт.)',
+    catalogNumber: '2.46.15'
+  },
+
+  // 53
+  { id: '53',
+    name: 'Ролик (12 шт.)',
+    catalogNumber: '2.46.15.01'
+  },
+
+  // 54
+  { id: '54',
+    name: 'Бункер-дозатор (5 шт.)',
+    catalogNumber: '6.46.18',
+    children: [
+      { id: 'id5400',
+        name: 'Транспортер (5 шт.)',
+        catalogNumber: '6.46.18.2'
+      },
+      { id: 'id5401',
+        name: 'Датчик уровня (5 шт.)',
+        catalogNumber: '6.46.18.5'
+      },
+      { id: 'id5402',
+        name: 'Шторка (5 шт.)',
+        catalogNumber: '6.46.18.7'
+      },
+      { id: 'id5403',
+        name: 'Щиток (10 шт.)',
+        catalogNumber: '6.46.18.9'
+      },
+      { id: 'id5404',
+        name: 'Кронштейн (10 шт.)',
+        catalogNumber: '6.46.18.11'
+      },
+      { id: 'id5405',
+        name: 'Вибратор (2 шт.)',
+        catalogNumber: '6.46.18.26'
+      }
+    ]
+  },
+
+  // 55
+  { id: '55',
+    name: 'Транспортер (5 шт.)',
+    catalogNumber: '6.46.18.2',
+    children: [
+      { id: 'id5500',
+        name: 'Барабан ведомый (5 шт.)',
+        catalogNumber: '6.46.18.2.2'
+      },
+      { id: 'id5501',
+        name: 'Барабан ведомый (5 шт.)',
+        catalogNumber: '6.46.18.2.3.01'
+      },
+      { id: 'id5502',
+        name: 'Ролик (35 шт.)',
+        catalogNumber: '6.46.18.2.7'
+      },
+      { id: 'id5503',
+        name: 'Корпус подшипника (20 шт.)',
+        catalogNumber: '6.46.18.2.12Л'
+      },
+      { id: 'id5504',
+        name: 'Шпонка (5 шт.)',
+        catalogNumber: '6.46.18.2.55'
+      },
+      { id: 'id5505',
+        name: 'Манжета (20 шт.)',
+        catalogNumber: '6.46.18.2.57'
+      },
+      { id: 'id5506',
+        name: 'Подшипник (20 шт.)',
+        catalogNumber: '6.46.18.2.59'
+      },
+      { id: 'id5507',
+        name: 'Лента конвейерная (5 шт.)',
+        catalogNumber: '6.46.18.2.61'
+      },
+      { id: 'id5508',
+        name: 'Мотор-редуктор (5 шт.)',
+        catalogNumber: '6.46.18.2.63'
+      }
+    ]
+  },
+
+  // 56
+  { id: '56',
+    name: 'Барабан натяжной',
+    catalogNumber: '6.46.21'
+  },
+
+  // 57
+  { id: '57',
+    name: 'Сбрасыватель',
+    catalogNumber: '2.46.23'
+  },
+
+  // 58
+  { id: '58',
+    name: 'Опора (3 шт.)',
+    catalogNumber: '6.46.30',
+    children: [
+      { id: 'id5800',
+        name: 'Лента транспортерная',
+        catalogNumber: '6.46.110'
+      }
+    ]
+  },
+
+  // 59
+  { id: '59',
+    name: 'Емкость битумная в сборе (2 шт.)',
+    catalogNumber: '6.СБ.1',
+    children: [
+      { id: 'id5900',
+        name: 'Поплавок в сборе (2 шт.)',
+        catalogNumber: '6.СБ.1.2'
+      },
+      { id: 'id5901',
+        name: 'Датчик уровня (2 шт.)',
+        catalogNumber: '6.СБ.1.38'
+      },
+      { id: 'id5902',
+        name: 'Измеритель температуры (2 шт.)',
+        catalogNumber: '6.СБ.1.40'
+      }
+    ]
+  },
+
+  // 60
+  { id: '60',
+    name: 'Станция закачки битума',
+    catalogNumber: '6.СБ.3.Д',
+    children: [
+      { id: 'id6000',
+        name: 'Насос битумный закачной',
+        catalogNumber: '6.СБ.3.5'
+      },
+      { id: 'id6001',
+        name: 'Полумуфта',
+        catalogNumber: '6.СБ.3.5.2'
+      },
+      { id: 'id6002',
+        name: 'Полумуфта',
+        catalogNumber: '6.СБ.3.5.3'
+      },
+      { id: 'id6003',
+        name: 'Шпонка',
+        catalogNumber: '6.СБ.3.5.16'
+      },
+      { id: 'id6004',
+        name: 'Электродвигатель',
+        catalogNumber: '6.СБ.3.5.17'
+      },
+      { id: 'id6005',
+        name: 'Насос шестеренчатый',
+        catalogNumber: '6.СБ.3.5.18'
+      },
+      { id: 'id6006',
+        name: 'Упругий вкладыш (3 шт.)',
+        catalogNumber: '6.СБ.3.5.19'
+      },
+      { id: 'id6007',
+        name: 'Шаровый кран',
+        catalogNumber: '6.СБ.3.7.Д'
+      },
+      { id: 'id6008',
+        name: 'Кран шаровый',
+        catalogNumber: '6.СБ.3.7.8.Д'
+      }
+    ]
+  },
+
+  // 61
+  { id: '61',
+    name: 'Нагреватель в контейнере',
+    catalogNumber: '6.СБ.31.А',
+    children: [
+      { id: 'id6100',
+        name: 'Бак расширительный',
+        catalogNumber: '6.СБ.31.2'
+      },
+      { id: 'id6101',
+        name: 'Поплавок в сборе',
+        catalogNumber: '6.СБ.31.2.2'
+      },
+      { id: 'id6102',
+        name: 'Нагреватель проточный',
+        catalogNumber: '6.СБ.30.А'
+      },
+      { id: 'id6103',
+        name: 'Насос',
+        catalogNumber: '6.СБ.30.4.'
+      },
+      { id: 'id6104',
+        name: 'Котел отопительный',
+        catalogNumber: '6.СБ.30.1'
+      },
+      { id: 'id6105',
+        name: 'Контур обогрева',
+        catalogNumber: '6.СБ.30.1.2'
+      },
+      { id: 'id6106',
+        name: 'Горелка',
+        catalogNumber: '6.СБ.30.83'
+      },
+      { id: 'id6107',
+        name: 'Кран шаровый (3 шт.)',
+        catalogNumber: '6.СБ.30.89'
+      },
+      { id: 'id6108',
+        name: 'Кран шаровый (2 шт.)',
+        catalogNumber: '6.СБ.30.91'
+      },
+      { id: 'id6109',
+        name: 'Кран шаровый (5 шт.)',
+        catalogNumber: '6.СБ.30.92'
+      },
+      { id: 'id6110',
+        name: 'Насос центробежный',
+        catalogNumber: '6.СБ.30.94'
+      },
+      { id: 'id6111',
+        name: 'Датчик-реле (2 шт.)',
+        catalogNumber: '6.СБ.30.100'
+      },
+      { id: 'id6112',
+        name: 'Датчик (2 шт.)',
+        catalogNumber: '6.СБ.30.100'
+      },
+      { id: 'id6113',
+        name: 'Термометр',
+        catalogNumber: '6.СБ.30.102'
+      },
+      { id: 'id6114',
+        name: 'Фильтр',
+        catalogNumber: '6.СБ.30.104'
+      },
+      { id: 'id6115',
+        name: 'Кран 3-х ход. (4 шт.)',
+        catalogNumber: '6.СБ.30.106'
+      },
+      { id: 'id6116',
+        name: 'Манометр',
+        catalogNumber: '6.СБ.30.110'
+      },
+      { id: 'id6117',
+        name: 'Преобразователь давления (3 шт.)',
+        catalogNumber: '6.СБ.30.111'
+      }
+    ]
+  },
+
+  // 62
+  { id: '62',
+    name: 'Насос битумный',
+    catalogNumber: '6.СБ.34.М',
+    children: [
+      { id: 'id6200',
+        name: 'Насос битумный',
+        catalogNumber: '6.СБ.34.1.А'
+      },
+      { id: 'id6201',
+        name: 'Полумуфта',
+        catalogNumber: '6.СБ.34.1.15'
+      },
+      { id: 'id6202',
+        name: 'Полумуфта',
+        catalogNumber: '6.СБ.34.1.16'
+      },
+      { id: 'id6203',
+        name: 'Мотор-редуктор',
+        catalogNumber: '6.СБ.34.1.41'
+      },
+      { id: 'id6204',
+        name: 'Шпонка',
+        catalogNumber: '6.СБ.34.1.38'
+      },
+      { id: 'id6205',
+        name: 'Насос',
+        catalogNumber: '6.СБ.34.1.43'
+      },
+      { id: 'id6206',
+        name: 'Упругий вкладыш (6 шт.)',
+        catalogNumber: '6.СБ.34.1.45'
+      }
+    ]
+  }
 //======================
 ] // end Megauzels array
 //======================
 
-/*
-  // 00.
+/*// 00.
   { id: '00',
     name: 'Template',
     catalogNumber: '',
@@ -1597,14 +2699,4 @@ var abz = [
           { id: 'id000101',
             name: '',
             catalogNumber: ''
-          }
-        ]
-      }
-    ]
-  },
-*/
-/*
-
-=== Элеватор пыли ===
-
-*/
+  }]}]},  */

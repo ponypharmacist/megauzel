@@ -31,7 +31,7 @@ a {
 .container-custom {
   width: 100%;
   overflow: hidden;
-  padding: 0 380px 0 0;
+  padding: 0 400px 0 0;
 }
 .content {
   width: 100%;
@@ -41,8 +41,8 @@ a {
 }
 .sidebar {
   float: right;
-  width: 380px;
-  margin-right: -380px;
+  width: 400px;
+  margin-right: -400px;
   overflow-y: scroll;
   padding-left: 32px;
   padding: 0 0 24px 0 !important;
