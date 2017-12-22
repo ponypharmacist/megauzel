@@ -1060,31 +1060,52 @@ var abz = [
       },
       { id: 'id1108',
         name: 'Промежуточный бункер',
-        catalogNumber: '',
+        catalogNumber: '4.5',
+        images: [
+          { imageURL: '4.5.jpg' }
+        ],
         children: [
         { id: 'id1109',
           name: 'Ротационный датчик уровня',
-          catalogNumber: '4.5.1.13'
+          catalogNumber: '4.5.1.13',
+          images: [
+            { imageURL: '4.5.1.13.jpg' }
+          ]
         },
         { id: 'id1110',
           name: 'Ротационный датчик уровня (5 шт.)',
-          catalogNumber: '4.5.1.14'
+          catalogNumber: '4.5.1.14',
+          images: [
+            { imageURL: '4.5.1.14.jpg' }
+          ]
         },
         { id: 'id1111',
           name: 'Транспортер шнековый',
-          catalogNumber: '4.5.2.М1'
+          catalogNumber: '4.5.2.М1',
+          images: [
+            { imageURL: '4.5.2.М1.jpg' }
+          ]
         },
         { id: 'id1112',
           name: 'Мотор-редуктор',
-          catalogNumber: '4.5.2.56'
+          catalogNumber: '4.5.2.56',
+          images: [
+            { imageURL: '4.5.2.56.jpg' }
+          ]
         },
         { id: 'id1113',
           name: 'Шнек',
-          catalogNumber: '4.5.2.2.М1'
+          catalogNumber: '4.5.2.2.М1',
+          images: [
+            { imageURL: '4.5.2.2.М1.jpg' }
+          ]
         },
         { id: 'id1114',
           name: 'Цапфа',
-          catalogNumber: '4.5.2.2.3.М1'
+          catalogNumber: '4.5.2.2.3.М1',
+          images: [
+            { imageURL: '4.5.2.2.3.М1.jpg' }
+          ]
         },
         { id: 'id1115',
           name: 'Цапфа',
@@ -1096,7 +1117,10 @@ var abz = [
         },
         { id: 'id1117',
           name: 'Перо шнека',
-          catalogNumber: '4.5.2.2.6М1'
+          catalogNumber: '4.5.2.2.6М1',
+          images: [
+            { imageURL: '4.5.2.2.6М1.jpg' }
+          ]
         },
         { id: 'id1118',
           name: 'Подшипник (2 шт.)',
