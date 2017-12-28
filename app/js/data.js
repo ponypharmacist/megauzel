@@ -917,6 +917,9 @@ var abz = [
   { id: '6',
     name: 'Весы битумные',
     catalogNumber: '4.4.10',
+    images: [
+      { imageURL: '4.4.10.jpg' }
+    ],
     children: [
       { id: 'id0601',
         name: 'Тензодатчик (2 шт.)',
@@ -924,11 +927,17 @@ var abz = [
       },
       { id: 'id0602',
         name: 'Аммортизатор (2 шт.)',
-        catalogNumber: '4.4.10.95'
+        catalogNumber: '4.4.10.95',
+        images: [
+          { imageURL: '4.4.10.95.jpg' }
+        ]
       },
       { id: 'id0603',
         name: 'Нагреватель хомутовый',
-        catalogNumber: '4.4.10.104'
+        catalogNumber: '4.4.10.104',
+        images: [
+          { imageURL: '4.4.10.104.jpg' }
+        ]
       },
       { id: 'id0604',
         name: 'Пневмоцилиндр',
@@ -939,11 +948,17 @@ var abz = [
       },
       { id: 'id0605',
         name: 'Электронагреватель',
-        catalogNumber: '4.4.10.108'
+        catalogNumber: '4.4.10.108',
+        images: [
+          { imageURL: '4.4.10.108.jpg' }
+        ]
       },
       { id: 'id0606',
         name: 'Клапан аварийный',
-        catalogNumber: '4.4.10.3'
+        catalogNumber: '4.4.10.3',
+        images: [
+          { imageURL: '4.4.10.3.jpg' }
+        ]
       }
     ]
   },
@@ -952,6 +967,9 @@ var abz = [
   { id: '7',
     name: 'Весы пыли',
     catalogNumber: '2.4.2',
+    images: [
+      { imageURL: '2.4.2.jpg' }
+    ],
     children: [
       { id: 'id0701',
         name: 'Тензодатчик (2 шт.)',
@@ -963,7 +981,10 @@ var abz = [
       },
       { id: 'id0703',
         name: 'Заслонка поворотная',
-        catalogNumber: '2.4.2.97'
+        catalogNumber: '2.4.2.97',
+        images: [
+          { imageURL: '2.4.2.97.jpg' }
+        ]
       }
     ]
   },
@@ -972,10 +993,16 @@ var abz = [
   { id: '8',
     name: 'Весы минерала',
     catalogNumber: '4.4.3',
+    images: [
+      { imageURL: '4.4.3.jpg' }
+    ],
     children: [
       { id: 'id0801',
         name: 'Затвор',
-        catalogNumber: '4.4.3.1.М'
+        catalogNumber: '4.4.3.1.М',
+        images: [
+          { imageURL: '4.4.3.1.jpg' }
+        ]
       },
       { id: 'id0802',
         name: 'Тензодатчик (3 шт.)',
@@ -983,7 +1010,10 @@ var abz = [
       },
       { id: 'id0803',
         name: 'Аммортизатор (3 шт.)',
-        catalogNumber: '4.4.3.103'
+        catalogNumber: '4.4.3.103',
+        images: [
+          { imageURL: '4.4.4.103.jpg' }
+        ]
       },
       { id: 'id0804',
         name: 'Пневмоцилиндр',
@@ -996,6 +1026,9 @@ var abz = [
   { id: '9',
     name: 'Весы ВИАТОПа',
     catalogNumber: '8.4.6',
+    images: [
+      { imageURL: '8.4.6.jpg' }
+    ],
     children: [
       { id: 'id0901',
         name: 'Тензодатчик (2 шт.)',
@@ -1003,11 +1036,17 @@ var abz = [
       },
       { id: 'id0902',
         name: 'Заслонка поворотная',
-        catalogNumber: '8.4.6.72'
+        catalogNumber: '8.4.6.72',
+        images: [
+          { imageURL: '8.4.6.72.jpg' }
+        ]
       },
       { id: 'id0903',
         name: 'Демпфер (4 шт.)',
-        catalogNumber: '2.4.6.23'
+        catalogNumber: '2.4.6.23',
+        images: [
+          { imageURL: '2.4.6.23.jpg' }
+        ]
       }
     ]
   },
@@ -1032,18 +1071,30 @@ var abz = [
   { id: '11',
     name: 'Бункер пыли',
     catalogNumber: '8.5.3',
+    images: [
+      { imageURL: '8.5.3.jpg' }
+    ],
     children: [
       { id: 'id1101',
         name: 'Заслонка поворотная',
-        catalogNumber: '8.5.3.6'
+        catalogNumber: '8.5.3.6',
+        images: [
+          { imageURL: '8.5.3.6.jpg' }
+        ]
       },
       { id: 'id1102',
         name: 'Шнек',
-        catalogNumber: '8.5.3.1.2'
+        catalogNumber: '8.5.3.1.2',
+        images: [
+          { imageURL: '8.5.3.1.2.jpg' }
+        ]
       },
       { id: 'id1103',
         name: 'Мотор-редуктор',
-        catalogNumber: '8.5.3.1.56'
+        catalogNumber: '8.5.3.1.56',
+        images: [
+          { imageURL: '8.5.3.1.56.jpg' }
+        ]
       },
       { id: 'id1104',
         name: 'Рукав соединительный',
@@ -1164,7 +1215,7 @@ var abz = [
   // 12. Грохот
   { id: '12',
     name: 'Короб грохота',
-    catalogNumber: '1.7.2.М1',,
+    catalogNumber: '1.7.2.М1',
     images: [
       { imageURL: '1.7.2.М1.jpg' }
     ],
@@ -1401,10 +1452,16 @@ var abz = [
   { id: '14',
     name: 'Устройство распределительное',
     catalogNumber: '1.7.3',
+    images: [
+      { imageURL: '1.7.3.jpg' }
+    ],
     children: [
       { id: 'id1401',
         name: 'Рычаг',
-        catalogNumber: '1.7.3.14'
+        catalogNumber: '1.7.3.14',
+        images: [
+          { imageURL: '1.7.3.14.jpg' }
+        ]
       },
       { id: 'id1402',
         name: 'Пошипник (2 шт.)',
@@ -1412,7 +1469,10 @@ var abz = [
       },
       { id: 'id1403',
         name: 'Рукав соединительный',
-        catalogNumber: '1.7.3.15'
+        catalogNumber: '1.7.3.15',
+        images: [
+          { imageURL: '1.7.3.15.jpg' }
+        ]
       },
       { id: 'id1404',
         name: 'Пневмоцилиндр',
@@ -1424,13 +1484,19 @@ var abz = [
   // 15.
   { id: '15',
     name: 'Ковш (113шт.)',
-    catalogNumber: '6.80.9'
+    catalogNumber: '6.80.9',
+    images: [
+      { imageURL: '6.80.9.jpg' }
+    ]
   },
 
   // 16.
   { id: '16',
     name: 'Основание элеватора',
     catalogNumber: '6.80.1',
+    images: [
+      { imageURL: '6.80.1.jpg' }
+    ],
     children: [
       { id: 'id1601',
         name: 'Опора (2 шт.)',
