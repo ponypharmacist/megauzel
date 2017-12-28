@@ -1164,31 +1164,52 @@ var abz = [
   // 12. Грохот
   { id: '12',
     name: 'Короб грохота',
-    catalogNumber: '1.7.2.М1',
+    catalogNumber: '1.7.2.М1',,
+    images: [
+      { imageURL: '1.7.2.М1.jpg' }
+    ],
     children: [
       { id: 'id1201',
         name: 'Кожух (54 шт.)',
-        catalogNumber: '1.7.2.2.А'
+        catalogNumber: '1.7.2.2.А',
+        images: [
+          { imageURL: '1.7.2.2.А.jpg' }
+        ]
       },
       { id: 'id1202',
         name: 'Отбойник',
-        catalogNumber: '1.7.2.3'
+        catalogNumber: '1.7.2.3',
+        images: [
+          { imageURL: '1.7.2.3.jpg' }
+        ]
       },
       { id: 'id1203',
         name: 'Балка зацепная',
-        catalogNumber: '1.7.2.4'
+        catalogNumber: '1.7.2.4',
+        images: [
+          { imageURL: '1.7.2.4.jpg' }
+        ]
       },
       { id: 'id1204',
         name: 'Балка опорная (25 шт.)',
-        catalogNumber: '1.7.2.5'
+        catalogNumber: '1.7.2.5',
+        images: [
+          { imageURL: '1.7.2.5.jpg' }
+        ]
       },
       { id: 'id1205',
         name: 'Балка натяжная (9 шт.)',
-        catalogNumber: '1.7.2.7.М1'
+        catalogNumber: '1.7.2.7.М1',
+        images: [
+          { imageURL: '1.7.2.7.М1.jpg' }
+        ]
       },
       { id: 'id1206',
         name: 'Крюк (54 шт.)',
-        catalogNumber: '1.7.2.15.8'
+        catalogNumber: '1.7.2.15.8',
+        images: [
+          { imageURL: '1.7.2.15.8.jpg' }
+        ]
       },
       { id: 'id1207',
         name: 'Сито',
@@ -1239,7 +1260,10 @@ var abz = [
       },
       { id: 'id1214',
         name: 'Шкив (2 шт.)',
-        catalogNumber: '1.7.2.1.25.М'
+        catalogNumber: '1.7.2.1.25.М',
+        images: [
+          { imageURL: '1.7.2.1.25.М.jpg' }
+        ]
       },
       { id: 'id1215',
         name: 'Электродвигатель (2 шт.)',
@@ -1251,11 +1275,17 @@ var abz = [
       },
       { id: 'id1217',
         name: 'Пружина (54 шт.)',
-        catalogNumber: '1.7.2.22'
+        catalogNumber: '1.7.2.22',
+        images: [
+          { imageURL: '1.7.2.22.jpg' }
+        ]
       },
       { id: 'id1218',
         name: 'Пружина (8 шт.)',
-        catalogNumber: '1.7.32'
+        catalogNumber: '1.7.32',
+        images: [
+          { imageURL: '1.7.32.jpg' }
+        ]
       }
     ]
   },
