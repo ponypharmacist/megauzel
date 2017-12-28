@@ -932,7 +932,10 @@ var abz = [
       },
       { id: 'id0604',
         name: 'Пневмоцилиндр',
-        catalogNumber: '6.90.4.106'
+        catalogNumber: '6.90.4.106',
+        images: [
+          { imageURL: '6.90.4.106.jpg' }
+        ]
       },
       { id: 'id0605',
         name: 'Электронагреватель',
@@ -1062,7 +1065,16 @@ var abz = [
         name: 'Промежуточный бункер',
         catalogNumber: '4.5',
         images: [
-          { imageURL: '4.5.jpg' }
+          { imageURL: '4.5.jpg',
+            mapMarkers: [
+              { top: '70.5',
+                left: '20.8',
+                width: '8.7',
+                height: '4',
+                href: '11,7,0'
+              }
+            ]
+          }
         ],
         children: [
         { id: 'id1109',
@@ -1109,11 +1121,17 @@ var abz = [
         },
         { id: 'id1115',
           name: 'Цапфа',
-          catalogNumber: '4.11.1.7.2'
+          catalogNumber: '4.11.1.7.2',
+          images: [
+            { imageURL: '4.11.1.7.2.jpg' }
+          ]
         },
         { id: 'id1116',
           name: 'Втулка (2 шт.)',
-          catalogNumber: '4.11.1.7.5'
+          catalogNumber: '4.11.1.7.5',
+          images: [
+            { imageURL: '4.11.1.7.5.jpg' }
+          ]
         },
         { id: 'id1117',
           name: 'Перо шнека',
@@ -1143,7 +1161,7 @@ var abz = [
     ]
   },
 
-  // 12.
+  // 12. Грохот
   { id: '12',
     name: 'Короб грохота',
     catalogNumber: '1.7.2.М1',
@@ -1174,27 +1192,46 @@ var abz = [
       },
       { id: 'id1207',
         name: 'Сито',
-        catalogNumber: '1.7.2.9'
+        catalogNumber: '1.7.2.9',
+        images: [
+          { imageURL: '1.7.2.9.jpg' },
+          { imageURL: '1.7.2.9ref.jpg' }
+        ]
       },
       { id: 'id1208',
         name: 'Сито',
-        catalogNumber: '1.7.2.10'
+        catalogNumber: '1.7.2.10',
+        images: [
+          { imageURL: '1.7.2.9ref.jpg' }
+        ]
       },
       { id: 'id1209',
         name: 'Сито',
-        catalogNumber: '1.7.2.11'
+        catalogNumber: '1.7.2.11',
+        images: [
+          { imageURL: '1.7.2.9ref.jpg' }
+        ]
       },
       { id: 'id1210',
         name: 'Сито',
-        catalogNumber: '1.7.2.12'
+        catalogNumber: '1.7.2.12',
+        images: [
+          { imageURL: '1.7.2.9ref.jpg' }
+        ]
       },
       { id: 'id1211',
         name: 'Сито',
-        catalogNumber: '1.7.2.13'
+        catalogNumber: '1.7.2.13',
+        images: [
+          { imageURL: '1.7.2.9ref.jpg' }
+        ]
       },
       { id: 'id1212',
         name: 'Сито',
-        catalogNumber: '1.7.2.14'
+        catalogNumber: '1.7.2.14',
+        images: [
+          { imageURL: '1.7.2.9ref.jpg' }
+        ]
       },
       { id: 'id1213',
         name: 'Втулка (54 шт.)',
@@ -1227,46 +1264,79 @@ var abz = [
   { id: '13',
     name: 'Вибратор',
     catalogNumber: '1.7.2.1.М1',
+    images: [
+      { imageURL: '1.7.2.1.М1.jpg' }
+    ],
     children: [
       { id: 'id1301',
         name: 'Вал (2 шт.)',
-        catalogNumber: '1.7.2.1.12.М1'
+        catalogNumber: '1.7.2.1.12.М1',
+        images: [
+          { imageURL: '1.7.2.1.12.М1.jpg' }
+        ]
       },
       { id: 'id1302',
         name: 'Стакан (4 шт.)',
-        catalogNumber: '1.7.2.1.5.М1'
+        catalogNumber: '1.7.2.1.5.М1',
+        images: [
+          { imageURL: '1.7.2.1.5.М1.jpg' }
+        ]
       },
       { id: 'id1303',
         name: 'Крышка (4 шт.)',
-        catalogNumber: '1.7.2.1.6.М1'
+        catalogNumber: '1.7.2.1.6.М1',
+        images: [
+          { imageURL: '1.7.2.1.6.М1.jpg' }
+        ]
       },
       { id: 'id1304',
         name: 'Кольцо (4 шт.)',
-        catalogNumber: '1.7.2.1.8.М1'
+        catalogNumber: '1.7.2.1.8.М1',
+        images: [
+          { imageURL: '1.7.2.1.8.М1.jpg' }
+        ]
       },
       { id: 'id1305',
         name: 'Шкив (2 шт.)',
-        catalogNumber: '1.7.2.1.9.М1'
+        catalogNumber: '1.7.2.1.9.М1',
+        images: [
+          { imageURL: '1.7.2.1.9.М1.jpg' }
+        ]
       },
       { id: 'id1306',
         name: 'Втулка (4 шт.)',
-        catalogNumber: '1.7.2.1.13.М1'
+        catalogNumber: '1.7.2.1.13.М1',
+        images: [
+          { imageURL: '1.7.2.1.13.М1.jpg' }
+        ]
       },
       { id: 'id1307',
         name: 'Груз (2 шт.)',
-        catalogNumber: '1.7.2.1.15.М1'
+        catalogNumber: '1.7.2.1.15.М1',
+        images: [
+          { imageURL: '1.7.2.1.15.М1.jpg' }
+        ]
       },
       { id: 'id1308',
         name: 'Груз (2 шт.)',
-        catalogNumber: '1.7.2.1.16.М1'
+        catalogNumber: '1.7.2.1.16.М1',
+        images: [
+          { imageURL: '1.7.2.1.16.М1.jpg' }
+        ]
       },
       { id: 'id1309',
         name: 'Кольцо (2 шт.)',
-        catalogNumber: '1.7.2.1.17.М1'
+        catalogNumber: '1.7.2.1.17.М1',
+        images: [
+          { imageURL: '1.7.2.1.17.М1.jpg' }
+        ]
       },
       { id: 'id1310',
         name: 'Шайба (8 шт.)',
-        catalogNumber: '1.7.2.1.18.М1'
+        catalogNumber: '1.7.2.1.18.М1',
+        images: [
+          { imageURL: '1.7.2.1.18.М1.jpg' }
+        ]
       },
       { id: 'id1311',
         name: 'Подшипник (4 шт.)',
@@ -1282,11 +1352,17 @@ var abz = [
       },
       { id: 'id1314',
         name: 'Шпонка (2 шт.)',
-        catalogNumber: '1.7.2.1.41'
+        catalogNumber: '1.7.2.1.41',
+        images: [
+          { imageURL: '1.7.2.1.41.jpg' }
+        ]
       },
       { id: 'id1315',
         name: 'Шпонка (4 шт.)',
-        catalogNumber: '1.7.2.1.42'
+        catalogNumber: '1.7.2.1.42',
+        images: [
+          { imageURL: '1.7.2.1.42.jpg' }
+        ]
       }
     ]
   },

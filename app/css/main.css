@@ -291,3 +291,10 @@ a {
   text-align: left;
   text-indent: 8px;
 }
+
+
+@media (max-width: 1024px) {
+  #site-menu {
+    font-size: 11px;
+  }
+}
