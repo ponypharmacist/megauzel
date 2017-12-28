@@ -1501,22 +1501,37 @@ var abz = [
       { id: 'id1601',
         name: 'Опора (2 шт.)',
         catalogNumber: '6.80.1.3',
+        images: [
+          { imageURL: '6.80.1.3.jpg' }
+        ],
         children: [
           { id: 'id160101',
             name: 'Опора (2 шт.)',
-            catalogNumber: '6.80.1.3.1'
+            catalogNumber: '6.80.1.3.1',
+            images: [
+              { imageURL: '6.80.1.3.1.jpg' }
+            ]
           },
           { id: 'id160102',
             name: 'Шайба (2 шт.)',
-            catalogNumber: '1.80.14.2'
+            catalogNumber: '1.80.14.2',
+            images: [
+              { imageURL: '1.80.14.2.jpg' }
+            ]
           },
           { id: 'id160103',
             name: 'Кольцо (2 шт.)',
-            catalogNumber: 'ФН.5.1.3'
+            catalogNumber: 'ФН.5.1.3',
+            images: [
+              { imageURL: 'ФН.5.1.3.jpg' }
+            ]
           },
           { id: 'id160104',
             name: 'Крышка',
-            catalogNumber: '1.80.14.4'
+            catalogNumber: '1.80.14.4',
+            images: [
+              { imageURL: '1.80.14.4.jpg' }
+            ]
           },
           { id: 'id160105',
             name: 'Манжета (2 шт.)',
@@ -1531,10 +1546,16 @@ var abz = [
       { id: 'id1602',
         name: 'Звездочка',
         catalogNumber: '6.80.1.7.Л',
+        images: [
+          { imageURL: '6.80.1.7.Л.jpg' }
+        ],
         children: [
           { id: 'id160201',
             name: 'Сектор зубчатый (4 шт.)',
-            catalogNumber: '6.80.1.7.5'
+            catalogNumber: '6.80.1.7.5',
+            images: [
+              { imageURL: '6.80.1.7.5.jpg' }
+            ]
           },
           { id: 'id160202',
             name: 'Болт (12 шт.)',
@@ -1549,10 +1570,16 @@ var abz = [
       { id: 'id1603',
         name: 'Отбойник',
         catalogNumber: '6.80.1.8',
+        images: [
+          { imageURL: '6.80.1.8.jpg' }
+        ],
         children: [
           { id: 'id160301',
             name: 'Пружина (2 шт.)',
-            catalogNumber: '6.80.1.57'
+            catalogNumber: '6.80.1.57',
+            images: [
+              { imageURL: '6.80.1.57.jpg' }
+            ]
           },
           { id: 'id160302',
             name: 'Шпонка',
@@ -1564,7 +1591,10 @@ var abz = [
           },
           { id: 'id160304',
             name: 'Вал элеватора ведомый',
-            catalogNumber: '6.80.1.19'
+            catalogNumber: '6.80.1.19',
+            images: [
+              { imageURL: '6.80.1.19.jpg' }
+            ]
           },
           { id: 'id160305',
             name: 'Датчик',
