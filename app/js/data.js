@@ -40,6 +40,12 @@ var abz = [
             width: '7.8',
             height: '4',
             href: '1,5'
+          },
+          { left: '41.5',
+            top: '86.6',
+            width: '7.8',
+            height: '4',
+            href: '1,6'
           }
         ]
       }
@@ -918,7 +924,46 @@ var abz = [
     name: 'Весы битумные',
     catalogNumber: '4.4.10',
     images: [
-      { imageURL: '4.4.10.jpg' }
+      { imageURL: '4.4.10.jpg',
+        mapMarkers: [
+          { left: '11',
+            top: '63.5',
+            width: '18',
+            height: '4',
+            href: '6,0'
+          },
+          { left: '11',
+            top: '56.8',
+            width: '18',
+            height: '4',
+            href: '6,1'
+          },
+          { left: '13',
+            top: '87',
+            width: '22',
+            height: '4',
+            href: '6,2'
+          },
+          { left: '9',
+            top: '16',
+            width: '15',
+            height: '4',
+            href: '6,3'
+          },
+          { left: '70',
+            top: '87',
+            width: '22',
+            height: '4',
+            href: '6,4'
+          },
+          { left: '78',
+            top: '18.7',
+            width: '17',
+            height: '4',
+            href: '6,5'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id0601',
@@ -968,7 +1013,28 @@ var abz = [
     name: 'Весы пыли',
     catalogNumber: '2.4.2',
     images: [
-      { imageURL: '2.4.2.jpg' }
+      { imageURL: '2.4.2.jpg',
+        mapMarkers: [
+          { left: '78',
+            top: '62.8',
+            width: '26',
+            height: '5',
+            href: '7,0'
+          },
+          { left: '13',
+            top: '21.5',
+            width: '26',
+            height: '5',
+            href: '7,1'
+          },
+          { left: '76.1',
+            top: '90.5',
+            width: '26',
+            height: '5',
+            href: '7,2'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id0701',
@@ -994,7 +1060,28 @@ var abz = [
     name: 'Весы минерала',
     catalogNumber: '4.4.3',
     images: [
-      { imageURL: '4.4.3.jpg' }
+      { imageURL: '4.4.3.jpg',
+        mapMarkers: [
+          { left: '10',
+            top: '80.5',
+            width: '17',
+            height: '5',
+            href: '8,1'
+          },
+          { left: '23.5',
+            top: '94.8',
+            width: '17',
+            height: '5',
+            href: '8,2'
+          },
+          { left: '82.2',
+            top: '64.8',
+            width: '17',
+            height: '5',
+            href: '8,3'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id0801',
@@ -1027,7 +1114,28 @@ var abz = [
     name: 'Весы ВИАТОПа',
     catalogNumber: '8.4.6',
     images: [
-      { imageURL: '8.4.6.jpg' }
+      { imageURL: '8.4.6.jpg',
+        mapMarkers: [
+          { left: '13.3',
+            top: '24.3',
+            width: '18',
+            height: '5',
+            href: '9,0'
+          },
+          { left: '73.5',
+            top: '95.8',
+            width: '18',
+            height: '5',
+            href: '9,1'
+          },
+          { left: '17.5',
+            top: '93.3',
+            width: '18',
+            height: '5',
+            href: '9,2'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id0901',
@@ -1072,7 +1180,28 @@ var abz = [
     name: 'Бункер пыли',
     catalogNumber: '8.5.3',
     images: [
-      { imageURL: '8.5.3.jpg' }
+      { imageURL: '8.5.3.jpg',
+        mapMarkers: [
+          { left: '82.5',
+            top: '89',
+            width: '16',
+            height: '6',
+            href: '11,0'
+          },
+          { left: '84',
+            top: '78.5',
+            width: '19.5',
+            height: '6',
+            href: '11,1'
+          },
+          { left: '89',
+            top: '31.5',
+            width: '20',
+            height: '6',
+            href: '11,2'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id1101',
@@ -1123,87 +1252,171 @@ var abz = [
                 width: '8.7',
                 height: '4',
                 href: '11,7,0'
+              },
+              { top: '71.3',
+                left: '63',
+                width: '8.7',
+                height: '4',
+                href: '11,7,1'
+              },
+              { top: '84.8',
+                left: '47',
+                width: '8.7',
+                height: '4',
+                href: '11,7,2'
+              },
+              { top: '84.8',
+                left: '7',
+                width: '8.7',
+                height: '4',
+                href: '11,7,3'
+              },
+              { top: '75.3',
+                left: '63.6',
+                width: '10',
+                height: '4',
+                href: '11,7,4'
+              },
+              { top: '73',
+                left: '92',
+                width: '11',
+                height: '4',
+                href: '11,7,5'
+              },
+              { top: '96',
+                left: '62.8',
+                width: '10',
+                height: '4',
+                href: '11,7,6'
+              },
+              { top: '95.5',
+                left: '75.8',
+                width: '10',
+                height: '4',
+                href: '11,7,7'
+              },
+              { top: '92.3',
+                left: '65.2',
+                width: '8',
+                height: '4',
+                href: '11,7,9'
+              },
+              { top: '94.2',
+                left: '92.2',
+                width: '8',
+                height: '4',
+                href: '11,7,9'
+              },
+              { top: '98',
+                left: '83.7',
+                width: '8',
+                height: '4',
+                href: '11,7,10'
+              },
+              { top: '75.3',
+                left: '52.5',
+                width: '8',
+                height: '4',
+                href: '11,7,10'
+              },
+              { top: '91.4',
+                left: '47.2',
+                width: '8',
+                height: '4',
+                href: '11,7,11'
+              },
+              { top: '70.5',
+                left: '52',
+                width: '8',
+                height: '4',
+                href: '11,7,12'
+              },
+              { top: '80',
+                left: '94.6',
+                width: '8',
+                height: '4',
+                href: '11,7,12'
               }
             ]
           }
         ],
         children: [
-        { id: 'id1109',
+        { id: 'id110700',
           name: 'Ротационный датчик уровня',
           catalogNumber: '4.5.1.13',
           images: [
             { imageURL: '4.5.1.13.jpg' }
           ]
         },
-        { id: 'id1110',
+        { id: 'id110701',
           name: 'Ротационный датчик уровня (5 шт.)',
           catalogNumber: '4.5.1.14',
           images: [
             { imageURL: '4.5.1.14.jpg' }
           ]
         },
-        { id: 'id1111',
+        { id: 'id110702',
           name: 'Транспортер шнековый',
           catalogNumber: '4.5.2.М1',
           images: [
-            { imageURL: '4.5.2.М1.jpg' }
+            { imageURL: '4.5.2.m1.jpg' }
           ]
         },
-        { id: 'id1112',
+        { id: 'id110703',
           name: 'Мотор-редуктор',
           catalogNumber: '4.5.2.56',
           images: [
             { imageURL: '4.5.2.56.jpg' }
           ]
         },
-        { id: 'id1113',
+        { id: 'id110704',
           name: 'Шнек',
           catalogNumber: '4.5.2.2.М1',
           images: [
-            { imageURL: '4.5.2.2.М1.jpg' }
+            { imageURL: '4.5.2.2.m1.jpg' }
           ]
         },
-        { id: 'id1114',
+        { id: 'id110705',
           name: 'Цапфа',
           catalogNumber: '4.5.2.2.3.М1',
           images: [
-            { imageURL: '4.5.2.2.3.М1.jpg' }
+            { imageURL: '4.5.2.2.3.m1.jpg' }
           ]
         },
-        { id: 'id1115',
+        { id: 'id110706',
           name: 'Цапфа',
           catalogNumber: '4.11.1.7.2',
           images: [
             { imageURL: '4.11.1.7.2.jpg' }
           ]
         },
-        { id: 'id1116',
+        { id: 'id110707',
           name: 'Втулка (2 шт.)',
           catalogNumber: '4.11.1.7.5',
           images: [
             { imageURL: '4.11.1.7.5.jpg' }
           ]
         },
-        { id: 'id1117',
+        { id: 'id110708',
           name: 'Перо шнека',
           catalogNumber: '4.5.2.2.6М1',
           images: [
             { imageURL: '4.5.2.2.6М1.jpg' }
           ]
         },
-        { id: 'id1118',
+        { id: 'id110709',
           name: 'Подшипник (2 шт.)',
           catalogNumber: '4.5.2.45'
         },
-        { id: 'id1119',
+        { id: 'id110710',
           name: 'Манжета (3 шт.)',
           catalogNumber: '4.5.2.48'
         },
-        { id: 'id1120',
+        { id: 'id110711',
           name: 'Шпонка',
           catalogNumber: '4.5.2.47'
         },
-        { id: 'id1121',
+        { id: 'id110712',
           name: 'Набивка (2 шт.)',
           catalogNumber: '4.5.2.50'
         }
@@ -1217,14 +1430,125 @@ var abz = [
     name: 'Короб грохота',
     catalogNumber: '1.7.2.М1',
     images: [
-      { imageURL: '1.7.2.М1.jpg' }
+      { imageURL: '1.7.2.m1.jpg',
+        mapMarkers: [
+          { top: '74.8',
+            left: '68.2',
+            width: '11.5',
+            height: '4',
+            href: '12,0'
+          },
+          { top: '20',
+            left: '88.2',
+            width: '9',
+            height: '4',
+            href: '12,1'
+          },
+          { top: '59.8',
+            left: '58.2',
+            width: '9',
+            height: '4',
+            href: '12,2'
+          },
+          { top: '59.8',
+            left: '69.2',
+            width: '9',
+            height: '4',
+            href: '12,3'
+          },
+          { top: '59.8',
+            left: '83',
+            width: '12',
+            height: '4',
+            href: '12,4'
+          },
+          { top: '92.8',
+            left: '66.3',
+            width: '12',
+            height: '4',
+            href: '12,5'
+          },
+          { top: '60.2',
+            left: '45.9',
+            width: '9',
+            height: '4',
+            href: '12,6' // sito 9 (10-14)
+          },
+          { top: '64',
+            left: '37',
+            width: '10',
+            height: '4',
+            href: '12,7'
+          },
+          { top: '68',
+            left: '26.5',
+            width: '10',
+            height: '4',
+            href: '12,8'
+          },
+          { top: '71.8',
+            left: '16.8',
+            width: '10',
+            height: '4',
+            href: '12,9'
+          },
+          { top: '64.7',
+            left: '65.8',
+            width: '10',
+            height: '4',
+            href: '12,10'
+          },
+          { top: '66.1',
+            left: '6',
+            width: '10',
+            height: '4',
+            href: '12,11'
+          },
+          { top: '74.6',
+            left: '54.7',
+            width: '10',
+            height: '4',
+            href: '12,12'
+          },
+          { top: '9.4',
+            left: '70',
+            width: '14.4',
+            height: '4',
+            href: '12,13'
+          },
+          { top: '21.6',
+            left: '9',
+            width: '14.4',
+            height: '4',
+            href: '12,13'
+          },
+          { top: '5.2',
+            left: '33.5',
+            width: '10',
+            height: '4',
+            href: '12,14'
+          },
+          { top: '4.4',
+            left: '47.7',
+            width: '10',
+            height: '4',
+            href: '12,15'
+          },
+          { top: '93.3',
+            left: '53.2',
+            width: '10',
+            height: '4',
+            href: '12,15'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id1201',
         name: 'Кожух (54 шт.)',
-        catalogNumber: '1.7.2.2.А',
+        catalogNumber: '1.7.2.2.a',
         images: [
-          { imageURL: '1.7.2.2.А.jpg' }
+          { imageURL: '1.7.2.2.a.jpg' }
         ]
       },
       { id: 'id1202',
@@ -1252,7 +1576,7 @@ var abz = [
         name: 'Балка натяжная (9 шт.)',
         catalogNumber: '1.7.2.7.М1',
         images: [
-          { imageURL: '1.7.2.7.М1.jpg' }
+          { imageURL: '1.7.2.7.m1.jpg' }
         ]
       },
       { id: 'id1206',
@@ -1313,7 +1637,7 @@ var abz = [
         name: 'Шкив (2 шт.)',
         catalogNumber: '1.7.2.1.25.М',
         images: [
-          { imageURL: '1.7.2.1.25.М.jpg' }
+          { imageURL: '1.7.2.1.25.m.jpg' }
         ]
       },
       { id: 'id1215',
@@ -1346,77 +1670,92 @@ var abz = [
     name: 'Вибратор',
     catalogNumber: '1.7.2.1.М1',
     images: [
-      { imageURL: '1.7.2.1.М1.jpg' }
+      { imageURL: '1.7.2.1.m1.jpg',
+        mapMarkers: [
+          { top: '70.9',
+            left: '38.2',
+            width: '11',
+            height: '2.5',
+            href: '13,1'
+          },
+          { top: '10.2',
+            left: '43.5',
+            width: '12',
+            height: '2.5',
+            href: '13,1'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id1301',
         name: 'Вал (2 шт.)',
         catalogNumber: '1.7.2.1.12.М1',
         images: [
-          { imageURL: '1.7.2.1.12.М1.jpg' }
+          { imageURL: '1.7.2.1.12.m1.jpg' }
         ]
       },
       { id: 'id1302',
         name: 'Стакан (4 шт.)',
         catalogNumber: '1.7.2.1.5.М1',
         images: [
-          { imageURL: '1.7.2.1.5.М1.jpg' }
+          { imageURL: '1.7.2.1.5.m1.jpg' }
         ]
       },
       { id: 'id1303',
         name: 'Крышка (4 шт.)',
         catalogNumber: '1.7.2.1.6.М1',
         images: [
-          { imageURL: '1.7.2.1.6.М1.jpg' }
+          { imageURL: '1.7.2.1.6.m1.jpg' }
         ]
       },
       { id: 'id1304',
         name: 'Кольцо (4 шт.)',
         catalogNumber: '1.7.2.1.8.М1',
         images: [
-          { imageURL: '1.7.2.1.8.М1.jpg' }
+          { imageURL: '1.7.2.1.8.m1.jpg' }
         ]
       },
       { id: 'id1305',
         name: 'Шкив (2 шт.)',
         catalogNumber: '1.7.2.1.9.М1',
         images: [
-          { imageURL: '1.7.2.1.9.М1.jpg' }
+          { imageURL: '1.7.2.1.9.m1.jpg' }
         ]
       },
       { id: 'id1306',
         name: 'Втулка (4 шт.)',
         catalogNumber: '1.7.2.1.13.М1',
         images: [
-          { imageURL: '1.7.2.1.13.М1.jpg' }
+          { imageURL: '1.7.2.1.13.m1.jpg' }
         ]
       },
       { id: 'id1307',
         name: 'Груз (2 шт.)',
         catalogNumber: '1.7.2.1.15.М1',
         images: [
-          { imageURL: '1.7.2.1.15.М1.jpg' }
+          { imageURL: '1.7.2.1.15.m1.jpg' }
         ]
       },
       { id: 'id1308',
         name: 'Груз (2 шт.)',
         catalogNumber: '1.7.2.1.16.М1',
         images: [
-          { imageURL: '1.7.2.1.16.М1.jpg' }
+          { imageURL: '1.7.2.1.16.m1.jpg' }
         ]
       },
       { id: 'id1309',
         name: 'Кольцо (2 шт.)',
         catalogNumber: '1.7.2.1.17.М1',
         images: [
-          { imageURL: '1.7.2.1.17.М1.jpg' }
+          { imageURL: '1.7.2.1.17.m1.jpg' }
         ]
       },
       { id: 'id1310',
         name: 'Шайба (8 шт.)',
         catalogNumber: '1.7.2.1.18.М1',
         images: [
-          { imageURL: '1.7.2.1.18.М1.jpg' }
+          { imageURL: '1.7.2.1.18.m1.jpg' }
         ]
       },
       { id: 'id1311',
@@ -1523,7 +1862,7 @@ var abz = [
             name: 'Кольцо (2 шт.)',
             catalogNumber: 'ФН.5.1.3',
             images: [
-              { imageURL: 'ФН.5.1.3.jpg' }
+              { imageURL: 'fn.5.1.3.jpg' }
             ]
           },
           { id: 'id160104',
@@ -1547,7 +1886,7 @@ var abz = [
         name: 'Звездочка',
         catalogNumber: '6.80.1.7.Л',
         images: [
-          { imageURL: '6.80.1.7.Л.jpg' }
+          { imageURL: '6.80.1.7.l.jpg' }
         ],
         children: [
           { id: 'id160201',
