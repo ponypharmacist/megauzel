@@ -155,17 +155,17 @@ $(document).ready(function(){
   renderTree();
 
   // Рендерим этикетки для мегаузлов
-  $('<div class="megauzel-tag">Устройство смесительное</div>').insertAfter('#childrenof-3');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,0);">Устройство смесительное</a></div>').insertAfter('#childrenof-3');
   $('<div class="megauzel-tag"><a onclick="renderNode(0,1);">Устройство взвешивания</a></div>').insertAfter('#childrenof-5');
-  $('<div class="megauzel-tag">Грохот</div>').insertAfter('#childrenof-11');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,2);">Грохот</a></div>').insertAfter('#childrenof-11');
   $('<div class="megauzel-tag"><a onclick="renderNode(0,3);">Элеватор горячий</a></div>').insertAfter('#childrenof-14');
-  $('<div class="megauzel-tag">Элеватор пыли</div>').insertAfter('#childrenof-19');
-  $('<div class="megauzel-tag">Бочка собственного и привозного заполнителя</div>').insertAfter('#childrenof-22');
-  $('<div class="megauzel-tag">Шнеки наклонные</div>').insertAfter('#childrenof-24');
-  $('<div class="megauzel-tag">Барабан сушильный</div>').insertAfter('#childrenof-28');
-  $('<div class="megauzel-tag">Устройство фильтрующее</div>').insertAfter('#childrenof-37');
-  $('<div class="megauzel-tag">Система предварительного дозирования</div>').insertAfter('#childrenof-41');
-  $('<div class="megauzel-tag">Склад битума (американский насос)</div>').insertAfter('#childrenof-58');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,4);">Элеватор пыли</a></div>').insertAfter('#childrenof-19');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,5);">Бочка собственного и привозного заполнителя</a></div>').insertAfter('#childrenof-22');
+  $('<div class="megauzel-tag">Шнеки наклонные</div>').insertAfter('#id24');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,6);">Барабан сушильный</a></div>').insertAfter('#childrenof-28');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,7);">Устройство фильтрующее</a></div>').insertAfter('#childrenof-37');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,8);">Система предварительного дозирования</a></div>').insertAfter('#childrenof-41');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,9);">Склад битума (американский насос)</a></div>').insertAfter('#childrenof-58');
 
   // Рендерим этикетки для подузлов
   //$('#childrenof-11 li:nth-child(8)').addClass('subuzel-tag');

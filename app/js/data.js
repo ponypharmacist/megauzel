@@ -161,7 +161,7 @@ var abz = [
       },
       { id: 'id0009',
         name: 'Склад битума (американский насос)',
-        catalogNumber: ''
+        catalogNumber: '6.100.M'
       }
     ]
   },
@@ -2571,54 +2571,171 @@ var abz = [
   { id: '18',
     name: 'Сток в сборе',
     catalogNumber: '7.80.6.Л',
+    images: [
+      { imageURL: '7.80.6.l.jpg',
+        mapMarkers: [
+          { top: '17',
+            left: '46.8',
+            width: '11',
+            height: '4',
+            href: '18,0,5'
+          },
+          { top: '57.7',
+            left: '37.3',
+            width: '11',
+            height: '4',
+            href: '18,0,5'
+          },
+          { top: '52.1',
+            left: '37.3',
+            width: '11',
+            height: '4',
+            href: '18,0,6'
+          },
+          { top: '57.7',
+            left: '50.3',
+            width: '12',
+            height: '4',
+            href: '18,0,1'
+          },
+          { top: '52',
+            left: '50.3',
+            width: '12',
+            height: '4',
+            href: '18,0,0'
+          },
+          { top: '24.5',
+            left: '46',
+            width: '11',
+            height: '4',
+            href: '18,0,4'
+          },
+          { top: '31.9',
+            left: '47',
+            width: '13',
+            height: '4',
+            href: '18,0,3'
+          },
+          { top: '37.4',
+            left: '46.2',
+            width: '11',
+            height: '4',
+            href: '18,0,7'
+          },
+          { top: '45',
+            left: '45.6',
+            width: '12',
+            height: '4',
+            href: '18,0,2'
+          },
+          { top: '42.2',
+            left: '7.5',
+            width: '10',
+            height: '4',
+            href: '18,0,8'
+          },
+          { top: '77.9',
+            left: '38.1',
+            width: '11',
+            height: '4',
+            href: '18,1,0'
+          },
+          { top: '25',
+            left: '85',
+            width: '11',
+            height: '4',
+            href: '18,0'
+          },
+          { top: '78.8',
+            left: '70.7',
+            width: '11',
+            height: '4',
+            href: '18,1'
+          }
+        ]
+      }
+    ],
     children: [
-      { id: 'id1801',
+      { id: 'id1800',
         name: 'Сток',
         catalogNumber: '7.80.6.2.Л',
+        images: [
+          { imageURL: '7.80.6.2.l.jpg' }
+        ],
         children: [
-          { id: 'id180101',
+          { id: 'id180000',
             name: 'Стенка боковая',
-            catalogNumber: '7.80.6.2.7.Л'
+            catalogNumber: '7.80.6.2.7.Л',
+            images: [
+              { imageURL: '7.80.6.2.7.l.jpg' }
+            ]
           },
-          { id: 'id180102',
+          { id: 'id180001',
             name: 'Стенка нижняя',
-            catalogNumber: '7.80.6.2.8.Л'
+            catalogNumber: '7.80.6.2.8.Л',
+            images: [
+              { imageURL: '7.80.6.2.8.l.jpg' }
+            ]
           },
-          { id: 'id180103',
+          { id: 'id180002',
             name: 'Стенка боковая',
-            catalogNumber: '7.80.6.2.9.Л'
+            catalogNumber: '7.80.6.2.9.Л',
+            images: [
+              { imageURL: '7.80.6.2.9.l.jpg' }
+            ]
           },
-          { id: 'id180104',
+          { id: 'id180003',
             name: 'Пластина',
-            catalogNumber: '7.80.6.2.10.Л'
+            catalogNumber: '7.80.6.2.10.Л',
+            images: [
+              { imageURL: '7.80.6.2.10.jpg' }
+            ]
           },
-          { id: 'id180105',
+          { id: 'id180004',
             name: 'Лист изнашивающийся',
-            catalogNumber: '7.80.6.2.35'
+            catalogNumber: '7.80.6.2.35',
+            images: [
+              { imageURL: '7.80.6.2.35.jpg' }
+            ]
           },
-          { id: 'id180106',
+          { id: 'id180005',
             name: 'Лист изнашивающийся (9 шт.)',
-            catalogNumber: '7.80.6.2.37'
+            catalogNumber: '7.80.6.2.37',
+            images: [
+              { imageURL: '7.80.6.2.37.jpg' }
+            ]
           },
-          { id: 'id180107',
+          { id: 'id180006',
             name: 'Лист изнашивающийся',
-            catalogNumber: '7.80.6.2.38'
+            catalogNumber: '7.80.6.2.38',
+            images: [
+              { imageURL: '7.80.6.2.38.jpg' }
+            ]
           },
-          { id: 'id180108',
+          { id: 'id180007',
             name: 'Лист изнашивающийся',
-            catalogNumber: '7.80.6.2.39'
+            catalogNumber: '7.80.6.2.39',
+            images: [
+              { imageURL: '7.80.6.2.39.jpg' }
+            ]
           },
-          { id: 'id180109',
+          { id: 'id180008',
             name: 'Термопреобразователь',
-            catalogNumber: '7.80.6.15'
+            catalogNumber: '7.80.6.15',
+            images: [
+              { imageURL: '7.80.6.15.jpg' }
+            ]
           }
         ]
       },
-      { id: 'id1802',
+      { id: 'id1801',
         name: 'Труба приемная',
         catalogNumber: '7.80.6.1.Л',
+        images: [
+          { imageURL: '7.80.6.1.l.jpg' }
+        ],
         children: [
-          { id: 'id180201',
+          { id: 'id180100',
             name: 'Лист изнашивающийся (2 шт.)',
             catalogNumber: '7.80.6.1.14'
           }
