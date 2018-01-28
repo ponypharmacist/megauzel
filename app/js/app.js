@@ -156,9 +156,9 @@ $(document).ready(function(){
 
   // –ендерим этикетки дл€ мегаузлов
   $('<div class="megauzel-tag">”стройство смесительное</div>').insertAfter('#childrenof-3');
-  $('<div class="megauzel-tag">”стройство взвешивани€</div>').insertAfter('#childrenof-5');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,1);">”стройство взвешивани€</a></div>').insertAfter('#childrenof-5');
   $('<div class="megauzel-tag">√рохот</div>').insertAfter('#childrenof-11');
-  $('<div class="megauzel-tag">Ёлеватор гор€чий</div>').insertAfter('#childrenof-14');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,3);">Ёлеватор гор€чий</a></div>').insertAfter('#childrenof-14');
   $('<div class="megauzel-tag">Ёлеватор пыли</div>').insertAfter('#childrenof-19');
   $('<div class="megauzel-tag">Ѕочка собственного и привозного заполнител€</div>').insertAfter('#childrenof-22');
   $('<div class="megauzel-tag">Ўнеки наклонные</div>').insertAfter('#childrenof-24');

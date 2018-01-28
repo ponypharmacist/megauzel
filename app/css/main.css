@@ -50,7 +50,7 @@ a {
 
 /* Breadcrumbs */
 .breadcrumb {
-  height: 32px;
+  min-height: 32px;
   line-height: 16px;
   padding: 8px 16px 8px 16px;
   font-size: 15px;
@@ -72,7 +72,7 @@ a {
   font-weight: 700;
 }
 #site-menu {
-  height: 32px;
+  min-height: 32px;
   line-height: 16px;
   padding: 10px 16px 4px 16px;
   font-size: 15px;
@@ -230,6 +230,10 @@ a {
   font-size: 14px;
   margin-top: 12px;
   cursor: default;
+}
+.megauzel-tag a {
+  color: #584316;
+  text-decoration: none;
 }
 .subuzel-tag a {
   color: #584316;

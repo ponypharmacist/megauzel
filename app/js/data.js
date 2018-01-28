@@ -1,7 +1,169 @@
 var abz = [
   { id: '0',
     name: 'Асфальтосмесительная Установка',
-    description: ''
+    description: '',
+    children: [
+      { id: 'id0000',
+        name: 'Устройство смесительное',
+        catalogNumber: ''
+      },
+      { id: 'id0001',
+        name: 'Устройство взвешивания',
+        catalogNumber: '8.4',
+        images: [
+          { imageURL: '8.4.jpg',
+            mapMarkers: [
+              { top: '29.3',
+                left: '10',
+                width: '9',
+                height: '4',
+                href: '11'
+              },
+              { top: '37',
+                left: '9.6',
+                width: '9',
+                height: '4',
+                href: '7'
+              },
+              { top: '46',
+                left: '15.7',
+                width: '9',
+                height: '4',
+                href: '11,5'
+              },
+              { top: '78',
+                left: '61.7',
+                width: '10',
+                height: '4',
+                href: '6'
+              },
+              { top: '72.5',
+                left: '67',
+                width: '10',
+                height: '4',
+                href: '11,6'
+              },
+              { top: '58',
+                left: '92',
+                width: '10',
+                height: '4',
+                href: '11,4'
+              },
+              { top: '69',
+                left: '83.5',
+                width: '10',
+                height: '4',
+                href: '11,3'
+              },
+              { top: '69',
+                left: '71.8',
+                width: '9',
+                height: '4',
+                href: '9'
+              },
+              { top: '64',
+                left: '79.5',
+                width: '9',
+                height: '4',
+                href: '8'
+              },
+              { top: '63.5',
+                left: '90.5',
+                width: '9',
+                height: '4',
+                href: '10'
+              }
+            ]
+          }
+        ]
+      },
+      { id: 'id0002',
+        name: 'Грохот',
+        catalogNumber: '1.7'
+      },
+      { id: 'id0003',
+        name: 'Элеватор горячий',
+        catalogNumber: '6.80.01',
+        images: [
+          { imageURL: '6.80.01.jpg',
+            mapMarkers: [
+              { top: '47.2',
+                left: '82.5',
+                width: '32',
+                height: '3',
+                href: '15'
+              },
+              { top: '95',
+                left: '73.5',
+                width: '32',
+                height: '3',
+                href: '16'
+              },
+              { top: '27.2',
+                left: '82.5',
+                width: '32',
+                height: '3',
+                href: '17'
+              },
+              { top: '76.8',
+                left: '83.5',
+                width: '35',
+                height: '3',
+                href: '18'
+              },
+              { top: '31.5',
+                left: '76.5',
+                width: '39',
+                height: '3',
+                href: '19'
+              },
+              { top: '40.3',
+                left: '81.8',
+                width: '32',
+                height: '3',
+                href: '19,2'
+              },
+              { top: '42.8',
+                left: '81.8',
+                width: '32',
+                height: '3',
+                href: '19,3'
+              },
+              { top: '50.2',
+                left: '82.8',
+                width: '32',
+                height: '3',
+                href: '19,1'
+              }
+            ]
+          }
+        ]
+      },
+      { id: 'id0004',
+        name: 'Элеватор пыли',
+        catalogNumber: '6.9'
+      },
+      { id: 'id0005',
+        name: 'Бочка собственного и привозного заполнителя',
+        catalogNumber: '08.10.2001'
+      },
+      { id: 'id0006',
+        name: 'Барабан сушильный',
+        catalogNumber: '4.14'
+      },
+      { id: 'id0007',
+        name: 'Устройство фильтрующее',
+        catalogNumber: '5.20'
+      },
+      { id: 'id0008',
+        name: 'Система предварительного дозирования',
+        catalogNumber: ''
+      },
+      { id: 'id0009',
+        name: 'Склад битума (американский насос)',
+        catalogNumber: ''
+      }
+    ]
   },
 
   // 1.
@@ -1672,7 +1834,7 @@ var abz = [
     images: [
       { imageURL: '1.7.2.1.m1.jpg',
         mapMarkers: [
-          { top: '70.9',
+          { top: '70.7',
             left: '38.2',
             width: '11',
             height: '2.5',
@@ -1683,6 +1845,90 @@ var abz = [
             width: '12',
             height: '2.5',
             href: '13,1'
+          },
+          { top: '10.8',
+            left: '91.5',
+            width: '12',
+            height: '2.5',
+            href: '13,2'
+          },
+          { top: '67.2',
+            left: '83.1',
+            width: '11',
+            height: '2.5',
+            href: '13,2'
+          },
+          { top: '69.6',
+            left: '83.7',
+            width: '11',
+            height: '2.5',
+            href: '13,3'
+          },
+          { top: '16.3',
+            left: '92.8',
+            width: '12',
+            height: '2.5',
+            href: '13,4'
+          },
+          { top: '72',
+            left: '84.4',
+            width: '12',
+            height: '2.5',
+            href: '13,5'
+          },
+          { top: '47.3',
+            left: '61.1',
+            width: '12',
+            height: '2.5',
+            href: '13,6'
+          },
+          { top: '29.3',
+            left: '94',
+            width: '12',
+            height: '2.5',
+            href: '13,7'
+          },
+          { top: '64.7',
+            left: '82.2',
+            width: '12',
+            height: '2.5',
+            href: '13,8'
+          },
+          { top: '34.1',
+            left: '94.5',
+            width: '12',
+            height: '2.5',
+            href: '13,9'
+          },
+          { top: '65.5',
+            left: '60.8',
+            width: '9',
+            height: '2.5',
+            href: '13,10'
+          },
+          { top: '67.8',
+            left: '55.3',
+            width: '9',
+            height: '2.5',
+            href: '13,11'
+          },
+          { top: '67.8',
+            left: '9.3',
+            width: '9',
+            height: '2.5',
+            href: '13,12'
+          },
+          { top: '21.2',
+            left: '94.6',
+            width: '9',
+            height: '2.5',
+            href: '13,13'
+          },
+          { top: '78.6',
+            left: '83.8',
+            width: '9',
+            height: '2.5',
+            href: '13,14'
           }
         ]
       }
@@ -1792,7 +2038,34 @@ var abz = [
     name: 'Устройство распределительное',
     catalogNumber: '1.7.3',
     images: [
-      { imageURL: '1.7.3.jpg' }
+      { imageURL: '1.7.3.jpg',
+        mapMarkers: [
+          { top: '14.2',
+            left: '71.5',
+            width: '11',
+            height: '3.8',
+            href: '14,0'
+          },
+          { top: '5.5',
+            left: '64.8',
+            width: '11',
+            height: '3.8',
+            href: '14,2'
+          },
+          { top: '66.4',
+            left: '24.5',
+            width: '11',
+            height: '3.8',
+            href: '14,1'
+          },
+          { top: '62.6',
+            left: '92',
+            width: '9',
+            height: '3.8',
+            href: '14,3'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id1401',
@@ -1834,7 +2107,112 @@ var abz = [
     name: 'Основание элеватора',
     catalogNumber: '6.80.1',
     images: [
-      { imageURL: '6.80.1.jpg' }
+      { imageURL: '6.80.1.jpg',
+        mapMarkers: [
+          { top: '52.2',
+            left: '6.5',
+            width: '14',
+            height: '3',
+            href: '16,0'
+          },
+          { top: '60.4',
+            left: '7.5',
+            width: '16',
+            height: '3',
+            href: '16,0,0'
+          },
+          { top: '66.4',
+            left: '7.5',
+            width: '15',
+            height: '3',
+            href: '16,0,1'
+          },
+          { top: '45',
+            left: '7',
+            width: '15',
+            height: '3',
+            href: '16,0,2'
+          },
+          { top: '63.5',
+            left: '7.5',
+            width: '15',
+            height: '3',
+            href: '16,0,3'
+          },
+          { top: '48.7',
+            left: '7',
+            width: '15',
+            height: '3',
+            href: '16,0,4'
+          },
+          { top: '56.2',
+            left: '7',
+            width: '15',
+            height: '3',
+            href: '16,0,5'
+          },
+          { top: '77.5',
+            left: '7.5',
+            width: '15',
+            height: '3',
+            href: '16,1'
+          },
+          { top: '7.5',
+            left: '67.4',
+            width: '13',
+            height: '3',
+            href: '16,2'
+          },
+          { top: '33',
+            left: '7',
+            width: '13',
+            height: '3',
+            href: '16,2,0'
+          },
+          { top: '69.6',
+            left: '7.5',
+            width: '13',
+            height: '3',
+            href: '16,2,1'
+          },
+          { top: '72.6',
+            left: '7.5',
+            width: '13',
+            height: '3',
+            href: '16,2,2'
+          },
+          { top: '35.8',
+            left: '92.8',
+            width: '14',
+            height: '3',
+            href: '16,2,3'
+          },
+          { top: '39.8',
+            left: '92.8',
+            width: '14',
+            height: '3',
+            href: '16,2,4'
+          },
+          { top: '80.7',
+            left: '7.7',
+            width: '15',
+            height: '3',
+            href: '16,1,0'
+          },
+          { top: '83.7',
+            left: '7.7',
+            width: '15',
+            height: '3',
+            href: '16,1,1'
+          },
+          { top: '86.6',
+            left: '7.7',
+            width: '15',
+            height: '3',
+            href: '16,1,2'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id1601',
@@ -1948,10 +2326,139 @@ var abz = [
   { id: '17',
     name: 'Корпус',
     catalogNumber: '6.80.2',
+    images: [
+      { imageURL: '6.80.2.jpg',
+        mapMarkers: [
+          { top: '15.9',
+            left: '29.5',
+            width: '14',
+            height: '3.5',
+            href: '16,1,1'
+          },
+          { top: '19.3',
+            left: '29.8',
+            width: '14',
+            height: '3.5',
+            href: '16,1,2'
+          },
+          { top: '22.8',
+            left: '29.8',
+            width: '14',
+            height: '3.5',
+            href: '17,3'
+          },
+          { top: '46',
+            left: '82.8',
+            width: '14',
+            height: '3.5',
+            href: '17,4'
+          },
+          { top: '13.3',
+            left: '86.4',
+            width: '14',
+            height: '3.5',
+            href: '17,1,0'
+          },
+          { top: '17.8',
+            left: '86.4',
+            width: '14',
+            height: '3.5',
+            href: '17,1'
+          },
+          { top: '22',
+            left: '85',
+            width: '12',
+            height: '3.5',
+            href: '17,1'
+          },
+          { top: '25.8',
+            left: '86.4',
+            width: '14',
+            height: '3.5',
+            href: '17,0,1'
+          },
+          { top: '42.8',
+            left: '83.8',
+            width: '14',
+            height: '3.5',
+            href: '17,0,0'
+          },
+          { top: '28.8',
+            left: '10',
+            width: '14',
+            height: '3.5',
+            href: '17,6'
+          },
+          { top: '45.5',
+            left: '39.5',
+            width: '14',
+            height: '3.5',
+            href: '17,5'
+          },
+          { top: '55.8',
+            left: '83',
+            width: '14',
+            height: '3.5',
+            href: '17,2'
+          },
+          { top: '77.6',
+            left: '77.4',
+            width: '14',
+            height: '3.5',
+            href: '17,0,7'
+          },
+          { top: '80.8',
+            left: '78',
+            width: '15',
+            height: '3.5',
+            href: '17,0,8'
+          },
+          { top: '78.6',
+            left: '57.4',
+            width: '13',
+            height: '3.5',
+            href: '17,0,3'
+          },
+          { top: '83.6',
+            left: '60.2',
+            width: '14',
+            height: '3.5',
+            href: '17,0,9'
+          },
+          { top: '87.3',
+            left: '59.7',
+            width: '14',
+            height: '3.5',
+            href: '17,0,5'
+          },
+          { top: '91.8',
+            left: '59.2',
+            width: '13',
+            height: '3.5',
+            href: '17,0,4'
+          },
+          { top: '96.2',
+            left: '58.7',
+            width: '13',
+            height: '3.5',
+            href: '17,0,2'
+          },
+          { top: '96.2',
+            left: '8.7',
+            width: '13',
+            height: '3.5',
+            href: '17,0,6'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id1701',
         name: 'Вал приводной горячего элеватора',
         catalogNumber: '6.80.2.4',
+        images: [
+          { imageURL: '6.80.2.4.jpg' }
+        ],
         children: [
           { id: 'id170101',
             name: 'Опора (2 шт.)',
@@ -1959,15 +2466,24 @@ var abz = [
           },
           { id: 'id170102',
             name: 'Вал',
-            catalogNumber: '6.80.2.4.1'
+            catalogNumber: '6.80.2.4.1',
+            images: [
+              { imageURL: '6.80.2.4.1.jpg' }
+            ]
           },
           { id: 'id170103',
             name: 'Шайба (2 шт.)',
-            catalogNumber: '1.80.14.2'
+            catalogNumber: '1.80.14.2',
+            images: [
+              { imageURL: '1.80.14.2.jpg' }
+            ]
           },
           { id: 'id170104',
             name: 'Кольцо',
-            catalogNumber: '1.80.14.3'
+            catalogNumber: '1.80.14.3',
+            images: [
+              { imageURL: '1.80.14.3.jpg' }
+            ]
           },
           { id: 'id170105',
             name: 'Кольцо (2 шт.) ',
@@ -1975,11 +2491,17 @@ var abz = [
           },
           { id: 'id170106',
             name: 'Крышка',
-            catalogNumber: '1.80.14.5'
+            catalogNumber: '1.80.14.5',
+            images: [
+              { imageURL: '1.80.14.5.jpg' }
+            ]
           },
           { id: 'id170107',
             name: 'Прокладка (2 шт.)',
-            catalogNumber: '1.80.14.6'
+            catalogNumber: '1.80.14.6',
+            images: [
+              { imageURL: '1.80.14.6.jpg' }
+            ]
           },
           { id: 'id170108',
             name: 'Манжета',
@@ -1996,26 +2518,35 @@ var abz = [
         ]
       },
       { id: 'id1702',
-        name: 'Звездочка',
-        catalogNumber: '6.80.1.7.Л',
+        name: 'Колесо приводное',
+        catalogNumber: '6.80.2.6.Л',
+        images: [
+          { imageURL: '6.80.2.6.l.jpg' }
+        ],
         children: [
+          { id: 'id170200',
+            name: 'Сектор приводной (2 шт.)',
+            catalogNumber: '6.80.2.6.5',
+            images: [
+              { imageURL: '6.80.2.6.5.jpg' }
+            ]
+          },
           { id: 'id170201',
-            name: 'Сектор зубчатый (4 шт.)',
-            catalogNumber: '6.80.1.7.5'
+            name: 'Болт (12 шт.)',
+            catalogNumber: '6.80.2.6.7'
           },
           { id: 'id170202',
-            name: 'Болт (12 шт.)',
-            catalogNumber: '6.80.1.7.7'
-          },
-          { id: 'id170203',
             name: 'Гайка (24 шт.)',
-            catalogNumber: '6.80.1.7.8'
+            catalogNumber: '6.80.2.6.8'
           }
         ]
       },
       { id: 'id1703',
         name: 'Лист изнашивающийся ',
-        catalogNumber: '6.80.2.14'
+        catalogNumber: '6.80.2.14',
+        images: [
+          { imageURL: '6.80.2.14.jpg' }
+        ]
       },
       { id: 'id1704',
         name: 'Шпонка ',
@@ -2100,32 +2631,86 @@ var abz = [
   { id: '19',
     name: 'Выпуск',
     catalogNumber: '7.80.7.Л',
+    images: [
+      { imageURL: '7.80.7.l.jpg',
+        mapMarkers: [
+          { top: '13.8',
+            left: '45',
+            width: '14',
+            height: '6',
+            href: '19,0,3'
+          },
+          { top: '21.5',
+            left: '45',
+            width: '14',
+            height: '6',
+            href: '19,0,4'
+          },
+          { top: '29.3',
+            left: '45',
+            width: '14',
+            height: '6',
+            href: '19,0,5'
+          },
+          { top: '37.3',
+            left: '49',
+            width: '14',
+            height: '6',
+            href: '19,0,0'
+          },
+          { top: '65.2',
+            left: '49',
+            width: '14',
+            height: '6',
+            href: '19,0,1'
+          },
+          { top: '93',
+            left: '45',
+            width: '14',
+            height: '6',
+            href: '19,0'
+          },
+          { top: '74.6',
+            left: '73.5',
+            width: '14',
+            height: '6',
+            href: '19,0,2'
+          }
+        ]
+      }
+    ],
     children: [
-      { id: 'id1901',
+      { id: 'id1900',
         name: 'Выпуск',
         catalogNumber: '6.80.7.1.Л',
         children: [
-          { id: 'id190101',
+          { id: 'id190000',
             name: 'Лист изнашивающийся (2 шт.)',
-            catalogNumber: '6.80.7.1.21'
+            catalogNumber: '6.80.7.1.21',
+            images: [
+              { imageURL: '6.80.7.1.21.jpg' }
+            ]
           },
-          { id: 'id190101',
+          { id: 'id190001',
             name: 'Лист изнашивающийся (14 шт.)',
-            catalogNumber: '6.80.7.1.22'
+            catalogNumber: '6.80.7.1.22',
+            images: [
+              { imageURL: '6.80.7.1.22.jpg' }
+            ]
           },
-          { id: 'id190101',
+          { id: 'id190002',
             name: 'Уплотнение',
             catalogNumber: '6.80.7.1.19'
           },
-          { id: 'id190101',
+          { id: 'id190003',
             name: 'Винт (32шт.)',
             catalogNumber: '6.80.7.1.11'
           },
-          { id: 'id190101',
+          { id: 'id190004',
             name: 'Гайка (32шт.)',
             catalogNumber: '6.80.7.1.15'
           },
-          { id: 'id190101',
+          { id: 'id190005',
             name: 'Шайба (32шт.)',
             catalogNumber: '6.80.7.1.17'
           }
