@@ -2,6 +2,96 @@ var abz = [
   { id: '0',
     name: 'Асфальтосмесительная Установка',
     description: '',
+    images: [
+      { imageURL: 'ka160.jpg',
+        mapMarkers: [
+          { top: '50.3',
+            left: '6.2',
+            width: '10.5',
+            height: '9',
+            href: '0,0'
+          },
+          { top: '28.7',
+            left: '45.7',
+            width: '17.8',
+            height: '5',
+            href: '0,1'
+          },
+          { top: '20.5',
+            left: '3.7',
+            width: '5.8',
+            height: '5',
+            href: '0,2'
+          },
+          { top: '10.4',
+            left: '7.6',
+            width: '13.6',
+            height: '5',
+            href: '0,3'
+          },
+          { top: '32.7',
+            left: '89.45',
+            width: '11.8',
+            height: '5',
+            href: '0,4'
+          },
+          { top: '26.3',
+            left: '91',
+            width: '15',
+            height: '13.5',
+            href: '0,5'
+          },
+          { top: '40.9',
+            left: '91.2',
+            width: '15.3',
+            height: '5',
+            href: '0,6'
+          },
+          { top: '55.7',
+            left: '46',
+            width: '18.5',
+            height: '5',
+            href: '0,7'
+          },
+          { top: '73',
+            left: '49.4',
+            width: '14.5',
+            height: '14',
+            href: '0,8'
+          },
+          { top: '56.5',
+            left: '6.2',
+            width: '10.5',
+            height: '5',
+            href: '0,9'
+          },
+          { top: '21.9',
+            left: '45.5',
+            width: '17.4',
+            height: '5',
+            href: '11,7'
+          },
+          { top: '35.5',
+            left: '44',
+            width: '14.4',
+            height: '5',
+            href: '3'
+          },
+          { top: '42.1',
+            left: '48',
+            width: '22.4',
+            height: '5',
+            href: '2'
+          },
+          { top: '49',
+            left: '46.3',
+            width: '19.2',
+            height: '5',
+            href: '1'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id0000',
         name: 'Устройство смесительное',
@@ -141,7 +231,49 @@ var abz = [
       },
       { id: 'id0004',
         name: 'Элеватор пыли',
-        catalogNumber: '6.9'
+        catalogNumber: '6.9',
+        images: [
+          { imageURL: '6.9.jpg',
+            mapMarkers: [
+              { top: '48.2',
+                left: '10.5',
+                width: '20',
+                height: '3.2',
+                href: '20'
+              },
+              { top: '33.5',
+                left: '10.5',
+                width: '20',
+                height: '3.2',
+                href: '20,0'
+              },
+              { top: '36.5',
+                left: '10.5',
+                width: '20',
+                height: '3.2',
+                href: '20,1'
+              },
+              { top: '56',
+                left: '10.5',
+                width: '20',
+                height: '3.2',
+                href: '20,2'
+              },
+              { top: '40.4',
+                left: '81',
+                width: '20',
+                height: '3.2',
+                href: '22'
+              },
+              { top: '92.4',
+                left: '88',
+                width: '24',
+                height: '3.2',
+                href: '21'
+              }
+            ]
+          }
+        ]
       },
       { id: 'id0005',
         name: 'Бочка собственного и привозного заполнителя',
@@ -2518,10 +2650,10 @@ var abz = [
         ]
       },
       { id: 'id1702',
-        name: 'Колесо приводное',
-        catalogNumber: '6.80.2.6.Л',
+        name: 'Звездочка',
+        catalogNumber: '6.80.1.7.Л',
         images: [
-          { imageURL: '6.80.2.6.l.jpg' }
+          { imageURL: '6.80.1.7.l.jpg' }
         ],
         children: [
           { id: 'id170200',
@@ -2854,13 +2986,16 @@ var abz = [
     catalogNumber: '6.9.19',
     children: [
       { id: 'id2000',
-        name: 'Шайба (248 шт.)'
+        name: 'Шайба (248 шт.)',
+        catalogNumber: '6.9.31'
       },
       { id: 'id2001',
-        name: 'Уголок (2шт.)'
+        name: 'Уголок (2шт.)',
+        catalogNumber: '6.9.32'
       },
       { id: 'id2002',
-        name: 'Лента транспортерная'
+        name: 'Лента транспортерная',
+        catalogNumber: '6.9.33'
       }
     ]
   },
@@ -2868,35 +3003,134 @@ var abz = [
   // 21
   { id: '21',
     name: 'Основание элеватора',
-    catalogNumber: '',
+    catalogNumber: '6.9.11A',
+    images: [
+      { imageURL: '6.9.11a.jpg',
+        mapMarkers: [
+          { top: '12.9',
+            left: '11',
+            width: '19',
+            height: '3.5',
+            href: '21,10'
+          },
+          { top: '18.5',
+            left: '11',
+            width: '19',
+            height: '3.5',
+            href: '21,9'
+          },
+          { top: '25.6',
+            left: '87.6',
+            width: '19',
+            height: '3.5',
+            href: '21,2'
+          },
+          { top: '30.1',
+            left: '87.6',
+            width: '19',
+            height: '3.5',
+            href: '21,1'
+          },
+          { top: '34',
+            left: '87.6',
+            width: '19',
+            height: '3.5',
+            href: '21,0'
+          },
+          { top: '41.1',
+            left: '87.6',
+            width: '19',
+            height: '3.5',
+            href: '21,3'
+          },
+          { top: '81.7',
+            left: '61.6',
+            width: '18',
+            height: '3',
+            href: '21,3'
+          },
+          { top: '84.4',
+            left: '63.9',
+            width: '18',
+            height: '3',
+            href: '21,7'
+          },
+          { top: '87.3',
+            left: '63.9',
+            width: '18',
+            height: '3',
+            href: '21,6'
+          },
+          { top: '90',
+            left: '63.9',
+            width: '18',
+            height: '3',
+            href: '21,5'
+          },
+          { top: '92.8',
+            left: '63.9',
+            width: '18',
+            height: '3',
+            href: '21,4'
+          },
+          { top: '86.6',
+            left: '12.7',
+            width: '18',
+            height: '3',
+            href: '21,8'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id2100',
       name: 'Вал',
-      catalogNumber: '6.9.11.26'
+      catalogNumber: '6.9.11.26',
+      images: [
+        { imageURL: '6.9.11.26.jpg'}
+      ]
       },
       { id: 'id2101',
       name: 'Барабан',
-      catalogNumber: '6.9.11.2'
+      catalogNumber: '6.9.11.2',
+      images: [
+        { imageURL: '6.9.11.2.jpg'}
+      ]
       },
       { id: 'id2102',
       name: 'Винт',
-      catalogNumber: '2.9.11.17'
+      catalogNumber: '2.9.11.17',
+      images: [
+        { imageURL: '2.9.11.17.jpg'}
+      ]
       },
       { id: 'id2103',
       name: 'Опора (2 шт.)',
-      catalogNumber: '6.9.11.7'
+      catalogNumber: '6.9.11.7',
+      images: [
+        { imageURL: '6.9.11.7.jpg'}
+      ]
       },
       { id: 'id2104',
       name: 'Кольцо (4 шт.)',
-      catalogNumber: '2.9.11.8'
+      catalogNumber: '2.9.11.8',
+      images: [
+        { imageURL: '2.9.11.8.jpg'}
+      ]
       },
       { id: 'id2105',
       name: 'Крышка (2 шт.)',
-      catalogNumber: '2.9.11.9'
+      catalogNumber: '2.9.11.9',
+      images: [
+        { imageURL: '2.9.11.9.jpg'}
+      ]
       },
       { id: 'id2106',
       name: 'Кольцо (2 шт.)',
-      catalogNumber: '2.9.11.10'
+      catalogNumber: '2.9.11.10',
+      images: [
+        { imageURL: '2.9.11.10.jpg'}
+      ]
       },
       { id: 'id2107',
       name: 'Подшипник (2 шт.)',
@@ -2921,38 +3155,188 @@ var abz = [
   { id: '22',
     name: 'Корпус',
     catalogNumber: '6.9.12',
+    images: [
+      { imageURL: '6.9.12.jpg',
+        mapMarkers: [
+          { top: '12.9',
+            left: '18',
+            width: '18',
+            height: '3.5',
+            href: '22,9'
+          },
+          { top: '24.2',
+            left: '17.6',
+            width: '18',
+            height: '3.5',
+            href: '22,11'
+          },
+          { top: '28.1',
+            left: '17.2',
+            width: '18',
+            height: '3.5',
+            href: '22,6'
+          },
+          { top: '31.7',
+            left: '17.2',
+            width: '18',
+            height: '3.5',
+            href: '22,7'
+          },
+          { top: '35.8',
+            left: '17',
+            width: '18',
+            height: '3.5',
+            href: '22,12'
+          },
+          { top: '72.6',
+            left: '26',
+            width: '18',
+            height: '3.5',
+            href: '22,14'
+          },
+          { top: '76.6',
+            left: '25.8',
+            width: '18',
+            height: '3.5',
+            href: '22,7'
+          },
+          { top: '80.8',
+            left: '25.9',
+            width: '18',
+            height: '3.5',
+            href: '22,0'
+          },
+          { top: '85.2',
+            left: '25.9',
+            width: '18',
+            height: '3.5',
+            href: '22,10'
+          },
+          { top: '6.6',
+            left: '78.5',
+            width: '18',
+            height: '3.5',
+            href: '22,1'
+          },
+          { top: '10.8',
+            left: '78.5',
+            width: '18',
+            height: '3.5',
+            href: '22,2'
+          },
+          { top: '27.2',
+            left: '88.2',
+            width: '18',
+            height: '3.5',
+            href: '22,8'
+          },
+          { top: '31.2',
+            left: '88.2',
+            width: '18',
+            height: '3.5',
+            href: '22,15'
+          },
+          { top: '35.7',
+            left: '88.2',
+            width: '18',
+            height: '3.5',
+            href: '22,16'
+          },
+          { top: '43.9',
+            left: '84.8',
+            width: '16',
+            height: '3.5',
+            href: '22,3'
+          },
+          { top: '72.4',
+            left: '79.8',
+            width: '18',
+            height: '3.5',
+            href: '22,5'
+          },
+          { top: '76.2',
+            left: '79.8',
+            width: '18',
+            height: '3.5',
+            href: '22,6'
+          },
+          { top: '80',
+            left: '79.8',
+            width: '18',
+            height: '3.5',
+            href: '22,11'
+          },
+          { top: '84',
+            left: '80.2',
+            width: '18',
+            height: '3.5',
+            href: '22,13'
+          },
+          { top: '88.5',
+            left: '74.5',
+            width: '18',
+            height: '3.5',
+            href: '22,4'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id2200',
         name: 'Лабиринт (2 шт.)',
-        catalogNumber: '4.9.12.16'
+        catalogNumber: '4.9.12.16',
+        images: [
+          { imageURL: '4.9.12.16.jpg' }
+        ]
       },
       { id: 'id2201',
         name: 'Барабан',
-        catalogNumber: '6.9.12.3'
+        catalogNumber: '6.9.12.3',
+        images: [
+          { imageURL: '6.9.12.3.jpg' }
+        ]
       },
       { id: 'id2202',
         name: 'Вал',
-        catalogNumber: '6.9.12.26'
+        catalogNumber: '6.9.12.26',
+        images: [
+          { imageURL: '6.9.12.26.jpg' }
+        ]
       },
       { id: 'id2203',
         name: 'Опора (2 шт.) ',
-        catalogNumber: '6.9.12.6'
+        catalogNumber: '6.9.12.6',
+        images: [
+          { imageURL: '6.9.12.6.jpg' }
+        ]
       },
       { id: 'id2204',
         name: 'Кольцо (4 шт.)',
-        catalogNumber: '6.9.12.13'
+        catalogNumber: '6.9.12.13',
+        images: [
+          { imageURL: '6.9.12.13.jpg' }
+        ]
       },
       { id: 'id2205',
         name: 'Кольцо',
-        catalogNumber: '6.9.12.14'
+        catalogNumber: '6.9.12.14',
+        images: [
+          { imageURL: '6.9.12.14.jpg' }
+        ]
       },
       { id: 'id2206',
         name: 'Кольцо (2 шт.)',
-        catalogNumber: '6.9.12.18'
+        catalogNumber: '6.9.12.18',
+        images: [
+          { imageURL: '6.9.12.18.jpg' }
+        ]
       },
       { id: 'id2207',
         name: 'Втулка (2 шт.)',
-        catalogNumber: '6.9.12.20'
+        catalogNumber: '6.9.12.20',
+        images: [
+          { imageURL: '6.9.12.20.jpg' }
+        ]
       },
       { id: 'id2208',
         name: 'Шпонка',
@@ -2988,7 +3372,10 @@ var abz = [
       },
       { id: 'id2216',
         name: 'Мотор-редуктор',
-        catalogNumber: '6.9.12.66'
+        catalogNumber: '6.9.12.66',
+        images: [
+          { imageURL: '6.9.12.66.jpg' }
+        ]
       }
     ]
   },
