@@ -95,7 +95,25 @@ var abz = [
     children: [
       { id: 'id0000',
         name: '”стройство смесительное',
-        catalogNumber: ''
+        catalogNumber: '',
+        images: [
+          { imageURL: '0.0.jpg',
+            mapMarkers: [
+              { top: '32.9',
+                left: '87.4',
+                width: '8',
+                height: '5',
+                href: '4'
+              },
+              { top: '82.1',
+                left: '20',
+                width: '10',
+                height: '5',
+                href: '5'
+              }
+            ]
+          }
+        ]
       },
       { id: 'id0001',
         name: '”стройство взвешивани€',
@@ -169,7 +187,37 @@ var abz = [
       },
       { id: 'id0002',
         name: '√рохот',
-        catalogNumber: '1.7'
+        catalogNumber: '1.7',
+        images: [
+          { imageURL: '1.7.jpg',
+            mapMarkers: [
+              { top: '7.5',
+                left: '41.5',
+                width: '13',
+                height: '5',
+                href: '13'
+              },
+              { top: '10.3',
+                left: '96',
+                width: '7',
+                height: '5',
+                href: '14'
+              },
+              { top: '96.7',
+                left: '48.2',
+                width: '12',
+                height: '5',
+                href: '12'
+              },
+              { top: '94.7',
+                left: '76.8',
+                width: '8',
+                height: '5',
+                href: '12,17'
+              }
+            ]
+          }
+        ]
       },
       { id: 'id0003',
         name: 'Ёлеватор гор€чий',
