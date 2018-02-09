@@ -325,7 +325,165 @@ var abz = [
       },
       { id: 'id0005',
         name: 'Бочка собственного и привозного заполнителя',
-        catalogNumber: '08.10.2001'
+        catalogNumber: '08.10.2001',
+        images: [
+          { imageURL: '08.10.2001.jpg',
+            mapMarkers: [
+              { top: '8.7',
+                left: '40.5',
+                width: '8',
+                height: '2.2',
+                href: '0,5,3'
+              },
+              { top: '10.8',
+                left: '40.5',
+                width: '8',
+                height: '2.2',
+                href: '0,5,4'
+              },
+              { top: '17.3',
+                left: '43.5',
+                width: '13',
+                height: '2.2',
+                href: '0,5,5'
+              },
+              { top: '28.8',
+                left: '5.5',
+                width: '13',
+                height: '2.2',
+                href: '0,5,6'
+              },
+              { top: '40.2',
+                left: '40.5',
+                width: '9',
+                height: '2.2',
+                href: '0,5,1'
+              },
+              { top: '43.3',
+                left: '40.5',
+                width: '9',
+                height: '2.2',
+                href: '0,5,2'
+              },
+              { top: '53.1',
+                left: '41.4',
+                width: '10',
+                height: '2.2',
+                href: '23,0'
+              },
+              { top: '59.6',
+                left: '42',
+                width: '13',
+                height: '2.2',
+                href: '0,5,5'
+              },
+              { top: '81.6',
+                left: '40.8',
+                width: '9',
+                height: '2.2',
+                href: '0,5,1'
+              },
+              { top: '84.6',
+                left: '40.8',
+                width: '9',
+                height: '2.2',
+                href: '0,5,0'
+              },
+              { top: '92.2',
+                left: '60.3',
+                width: '10',
+                height: '2.2',
+                href: '23,1'
+              },
+              { top: '73',
+                left: '59.1',
+                width: '8',
+                height: '2.2',
+                href: '23'
+              },
+              { top: '84.6',
+                left: '94.3',
+                width: '10',
+                height: '2.2',
+                href: '0,5,8'
+              },
+              { top: '82.4',
+                left: '94.3',
+                width: '10',
+                height: '2.2',
+                href: '0,5,7'
+              },
+              { top: '30.5',
+                left: '58.1',
+                width: '10',
+                height: '2.2',
+                href: '24'
+              }
+            ]
+          }
+        ],
+        children: [
+          { id: 'id000500',
+            name: 'Заслонка',
+            catalogNumber: '8.10.20',
+            images: [
+              { imageURL: '8.10.20.jpg' }
+            ]
+          },
+          { id: 'id000501',
+            name: 'Заслонка (ручная) (2 шт.)',
+            catalogNumber: '2.48.15',
+            images: [
+              { imageURL: '2.48.15.jpg' }
+            ]
+          },
+          { id: 'id000502',
+            name: 'Заслонка',
+            catalogNumber: '8.10.17',
+            images: [
+              { imageURL: '8.10.17.jpg' }
+            ]
+          },
+          { id: 'id000503',
+            name: 'Чехол (ткань)',
+            catalogNumber: '4.10.2',
+            images: [
+              { imageURL: '4.10.2.jpg' }
+            ]
+          },
+          { id: 'id000504',
+            name: 'Фильтр',
+            catalogNumber: '6.10.7'
+          },
+          { id: 'id000505',
+            name: 'Ротационный датчик уровня (2 шт.)',
+            catalogNumber: '4.5.1.14.23',
+            images: [
+              { imageURL: '4.5.1.14.23.jpg' }
+            ]
+          },
+          { id: 'id000506',
+            name: 'Ротационный датчик уровня (2 шт.)',
+            catalogNumber: '4.5.1.13.24',
+            images: [
+              { imageURL: '4.5.1.13.24.jpg' }
+            ]
+          },
+          { id: 'id000507',
+            name: 'Заслонка',
+            catalogNumber: '8.10.83',
+            images: [
+              { imageURL: '8.10.83.jpg' }
+            ]
+          },
+          { id: 'id000508',
+            name: 'Воздуховод гибкий',
+            catalogNumber: '8.10.86',
+            images: [
+              { imageURL: '8.10.86.jpg' }
+            ]
+          }
+        ]
       },
       { id: 'id0006',
         name: 'Барабан сушильный',
@@ -3428,50 +3586,6 @@ var abz = [
     ]
   },
 
-  // Узлы бочки без номера идут в каталоге
-  { id: '',
-    name: 'Узлы бочки',
-    catalogNumber: '08.10.2001',
-    children: [
-      { id: 'idxx00',
-        name: 'Заслонка',
-        catalogNumber: '8.10.20'
-      },
-      { id: 'idxx01',
-        name: 'Заслонка (ручная) (2 шт.)',
-        catalogNumber: '2.48.15'
-      },
-      { id: 'idxx02',
-        name: 'Заслонка',
-        catalogNumber: '8.10.17'
-      },
-      { id: 'idxx03',
-        name: 'Чехол (ткань)',
-        catalogNumber: '4.10.2'
-      },
-      { id: 'idxx04',
-        name: 'Фильтр',
-        catalogNumber: '6.10.7'
-      },
-      { id: 'idxx05',
-        name: 'Ротационный датчик уровня (2 шт.)',
-        catalogNumber: '4.5.1.14.23'
-      },
-      { id: 'idxx06',
-        name: 'Ротационный датчик уровня (2 шт.)',
-        catalogNumber: '4.5.1.13.24'
-      },
-      { id: 'idxx07',
-        name: 'Заслонка',
-        catalogNumber: '8.10.81'
-      },
-      { id: 'idxx08',
-        name: 'Воздуховод гибкий',
-        catalogNumber: '8.10.86'
-      }
-    ]
-  },
-
   // 23
   { id: '23',
     name: 'Бочка собственной пыли',
@@ -3479,11 +3593,17 @@ var abz = [
     children: [
       { id: 'id2300',
         name: 'Фильтр',
-        catalogNumber: '4.10.1.2'
+        catalogNumber: '4.10.1.2',
+        images: [
+          { imageURL: '4.10.1.2.jpg' }
+        ]
       },
       { id: 'id2301',
         name: 'Фильтр',
-        catalogNumber: '8.10.1.3'
+        catalogNumber: '8.10.1.3',
+        images: [
+          { imageURL: '4.10.1.3.jpg' }
+        ]
       }
     ]
   },

@@ -203,6 +203,11 @@ a {
 }
 #tree-root a { cursor: pointer; }
 
+.has-image {
+  padding-left: 18px;
+  background: transparent url('../images/has-image.svg') no-repeat 0 5px / 12px 12px;
+}
+
 .expand-link, .expand-link:visited, .expand-link:focus {
   text-decoration: none !important;
   color: #000;

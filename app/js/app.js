@@ -6,7 +6,7 @@ var treeHtml = '';
 function renderTree() {
   abz.forEach(function(megauzel, i, abz) {
     treeHtml += '<li id="id' + megauzel.id + '"><span>' + megauzel.id + '.</span>'
-    treeHtml += '<a onclick="renderNode(' + i + ');">' + megauzel.name + '</a>'
+    treeHtml += '<a ' + (megauzel.images ? 'class="has-image"' : '') + ' onclick="renderNode(' + i + ');">' + megauzel.name + '</a>'
     treeHtml += megauzel.children ? renderChildren(megauzel, i) : '</li>';
   });
 
@@ -22,7 +22,7 @@ function renderChildren(uzel, parentIndex) {
   let childrenHtml = '&nbsp;<a class="expand-link" rel="' + thisUzelId + '">[+]</a></li>';
   childrenHtml += '<ul id="childrenof-' + thisUzelId + '">'
   thisUzelChildren.forEach(function(child, k, thisUzelChildren) {
-    childrenHtml += '<li><a onclick="renderNode(' + parentIndex + ',' + k + ');">' + child.name + '</a>';
+    childrenHtml += '<li><a ' + (child.images ? 'class="has-image"' : '') + ' onclick="renderNode(' + parentIndex + ',' + k + ');">' + child.name + '</a>';
     childrenHtml += child.children ? renderSubChildren(child, k, parentIndex) : '</li>';
   });
   childrenHtml += '</ul>'
