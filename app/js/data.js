@@ -3590,6 +3590,9 @@ var abz = [
   { id: '23',
     name: 'Бочка собственной пыли',
     catalogNumber: '8.10.1',
+    images: [
+      { imageURL: '8.10.1.jpg' }
+    ],
     children: [
       { id: 'id2300',
         name: 'Фильтр',
@@ -3611,7 +3614,10 @@ var abz = [
   // 24
   { id: '24',
     name: 'Бочка привозной пыли',
-    catalogNumber: '6.10.4'
+    catalogNumber: '6.10.4',
+    images: [
+      { imageURL: '6.10.4.jpg' }
+    ]
   },
 
   // 25
