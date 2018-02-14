@@ -648,18 +648,51 @@ var abz = [
   { id: '3',
     name: 'Бункер негабарита',
     catalogNumber: '4.23',
+    images: [
+      { imageURL: '4.23.jpg',
+        mapMarkers: [
+          { top: '23.5',
+            left: '71',
+            width: '20',
+            height: '3',
+            href: '3,1'
+          },
+          { top: '75.3',
+            left: '75',
+            width: '38',
+            height: '3',
+            href: '3,2'
+          },
+          { top: '89.5',
+            left: '18',
+            width: '24',
+            height: '3',
+            href: '3,0'
+          }
+        ]
+      }
+    ],
     children: [
-      { id: 'id0301',
+      { id: 'id0300',
         name: 'Короб-затвор',
-        catalogNumber: '5.23.4'
+        catalogNumber: '5.23.4',
+        images: [
+          { imageURL: '5.23.4.jpg' }
+        ]
+      },
+      { id: 'id0301',
+        name: 'Датчик уровня',
+        catalogNumber: '8.4.5',
+        images: [
+          { imageURL: '8.4.5.jpg' }
+        ]
       },
       { id: 'id0302',
-        name: 'Датчик уровня',
-        catalogNumber: '8.4.5'
-      },
-      { id: 'id0303',
         name: 'Пневмоцилиндр',
-        catalogNumber: '4.23.04.17'
+        catalogNumber: '4.23.04.17',
+        images: [
+          { imageURL: '6.90.4.106.jpg' }
+        ]
       }
     ]
   },
