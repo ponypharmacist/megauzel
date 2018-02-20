@@ -3658,22 +3658,112 @@ var abz = [
     name: 'Транспортер шнековый',
     catalogNumber: '8.11.1.Л',
     description: 'Транспортер шнековый (бочка привоз. заполн. - башня)',
+    images: [
+      { imageURL: '8.11.1.l.jpg',
+        mapMarkers: [
+          { top: '10.5',
+            left: '82.5',
+            width: '8',
+            height: '3',
+            href: '25,1'
+          },
+          { top: '15.1',
+            left: '92.5',
+            width: '8',
+            height: '3',
+            href: '25,6'
+          },
+          { top: '17.7',
+            left: '68.8',
+            width: '8',
+            height: '3',
+            href: '25,3'
+          },
+          { top: '21.4',
+            left: '68.8',
+            width: '8',
+            height: '3',
+            href: '25,8'
+          },
+          { top: '52.9',
+            left: '68',
+            width: '8',
+            height: '3',
+            href: '25,7'
+          },
+          { top: '55.9',
+            left: '68',
+            width: '8',
+            height: '3',
+            href: '25,4'
+          },
+          { top: '59.7',
+            left: '87',
+            width: '8',
+            height: '3',
+            href: '25,7'
+          },
+          { top: '62.7',
+            left: '87',
+            width: '8',
+            height: '3',
+            href: '25,2'
+          },
+          { top: '69.8',
+            left: '93.8',
+            width: '8',
+            height: '3',
+            href: '25,9'
+          },
+          { top: '73.6',
+            left: '93.8',
+            width: '8',
+            height: '3',
+            href: '25,10'
+          },
+          { top: '38.8',
+            left: '51.3',
+            width: '7',
+            height: '3',
+            href: '26'
+          },
+          { top: '41.4',
+            left: '6.3',
+            width: '8',
+            height: '3',
+            href: '25,2'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id2500',
         name: 'Рукав соединительный (ткань)',
-        catalogNumber: '1.11.8'
+        catalogNumber: '1.11.8',
+        images: [
+          { imageURL: '1.11.8.jpg' }
+        ]
       },
       { id: 'id2501',
         name: 'Втулка',
-        catalogNumber: '8.11.1.14'
+        catalogNumber: '8.11.1.14',
+        images: [
+          { imageURL: '8.11.1.14.jpg' }
+        ]
       },
       { id: 'id2502',
         name: 'Кронштейн (2 шт.)',
-        catalogNumber: '8.11.1.16'
+        catalogNumber: '8.11.1.16',
+        images: [
+          { imageURL: '8.11.1.16.jpg' }
+        ]
       },
       { id: 'id2503',
         name: 'Кольцо (2 шт.)',
-        catalogNumber: '4.11.1.18'
+        catalogNumber: '4.11.1.18',
+        images: [
+          { imageURL: '4.11.1.18.jpg' }
+        ]
       },
       { id: 'id2504',
         name: 'Подшипник (2 шт.)',
@@ -3710,10 +3800,16 @@ var abz = [
   { id: '26',
     name: 'Шнек',
     catalogNumber: '8.11.1.7',
+    images: [
+      { imageURL: '8.11.1.7.jpg' }
+    ],
     children: [
       { id: 'id2600',
         name: 'Цапфа',
-        catalogNumber: '4.11.1.7.2'
+        catalogNumber: '4.11.1.7.2',
+        images: [
+          { imageURL: '4.11.1.7.2.jpg' }
+        ]
       },
       { id: 'id2600',
         name: 'Цапфа',
@@ -3721,11 +3817,17 @@ var abz = [
       },
       { id: 'id2600',
         name: 'Втулка (2 шт.)',
-        catalogNumber: '4.11.1.7.5'
+        catalogNumber: '4.11.1.7.5',
+        images: [
+          { imageURL: '4.11.1.7.5.jpg' }
+        ]
       },
       { id: 'id2600',
         name: 'Перо шнека',
-        catalogNumber: '6.11.1.7.6'
+        catalogNumber: '6.11.1.7.6',
+        images: [
+          { imageURL: '6.11.1.7.6.jpg' }
+        ]
       }
     ]
   },
@@ -3735,6 +3837,9 @@ var abz = [
     name: 'Транспортер шнековый',
     catalogNumber: '8.12.1Л',
     description: 'Транспортер шнековый (фильтр-бочка собств. заполн. -элев. пыли)',
+    images: [
+      { imageURL: '8.12.1l.jpg' }
+    ],
     children: [
       { id: 'id2700',
         name: 'Рукав соединительный (ткань) (2 шт.)',
@@ -3790,7 +3895,10 @@ var abz = [
     children: [
       { id: 'id2800',
         name: 'Цапфа',
-        catalogNumber: '8.11.1.7.3'
+        catalogNumber: '8.11.1.7.3',
+        images: [
+          { imageURL: '8.11.1.7.3.jpg' }
+        ]
       },
       { id: 'id2801',
         name: 'Цапфа',
@@ -3802,7 +3910,10 @@ var abz = [
       },
       { id: 'id2803',
         name: 'Перо шнека',
-        catalogNumber: '6.12.1.7.6'
+        catalogNumber: '6.12.1.7.6',
+        images: [
+          { imageURL: '6.12.1.7.6.jpg' }
+        ]
       }
     ]
   },
