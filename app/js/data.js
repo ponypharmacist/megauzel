@@ -3891,7 +3891,10 @@ var abz = [
   // 28
   { id: '28',
     name: 'Ψνεκ',
-    catalogNumber: '',
+    catalogNumber: '8.12.1.7',
+    images: [
+      { imageURL: '8.12.1.7.jpg' }
+    ],
     children: [
       { id: 'id2800',
         name: 'Φΰοτΰ',
