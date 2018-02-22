@@ -88,6 +88,12 @@ var abz = [
             width: '19.2',
             height: '5',
             href: '1'
+          },
+          { top: '98.8',
+            left: '90.6',
+            width: '14.3',
+            height: '5',
+            href: '25'
           }
         ]
       }
@@ -3732,6 +3738,42 @@ var abz = [
             width: '8',
             height: '3',
             href: '25,2'
+          },
+          { top: '36.4',
+            left: '5.5',
+            width: '6',
+            height: '3',
+            href: '25,0'
+          },
+          { top: '45.4',
+            left: '6.3',
+            width: '8',
+            height: '3',
+            href: '25,5'
+          },
+          { top: '79.3',
+            left: '6.7',
+            width: '8',
+            height: '3',
+            href: '25,7'
+          },
+          { top: '61.8',
+            left: '31.5',
+            width: '8',
+            height: '3',
+            href: '25,8'
+          },
+          { top: '57.1',
+            left: '31.5',
+            width: '8',
+            height: '3',
+            href: '25,3'
+          },
+          { top: '52.9',
+            left: '31.8',
+            width: '8',
+            height: '3',
+            href: '25,4'
           }
         ]
       }
@@ -3801,7 +3843,40 @@ var abz = [
     name: 'Шнек',
     catalogNumber: '8.11.1.7',
     images: [
-      { imageURL: '8.11.1.7.jpg' }
+      { imageURL: '8.11.1.7.jpg',
+        mapMarkers: [
+          { top: '30',
+            left: '11',
+            width: '9',
+            height: '3.5',
+            href: '26,2'
+          },
+          { top: '34.9',
+            left: '11',
+            width: '9',
+            height: '3.5',
+            href: '26,0'
+          },
+          { top: '43.2',
+            left: '59',
+            width: '9',
+            height: '3.5',
+            href: '26,3'
+          },
+          { top: '91.6',
+            left: '80.4',
+            width: '9',
+            height: '3.5',
+            href: '26,2'
+          },
+          { top: '96',
+            left: '80.2',
+            width: '9',
+            height: '3.5',
+            href: '26,1'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id2600',
@@ -3811,18 +3886,18 @@ var abz = [
           { imageURL: '4.11.1.7.2.jpg' }
         ]
       },
-      { id: 'id2600',
+      { id: 'id2601',
         name: 'Цапфа',
         catalogNumber: '8.11.1.7.3'
       },
-      { id: 'id2600',
+      { id: 'id2602',
         name: 'Втулка (2 шт.)',
         catalogNumber: '4.11.1.7.5',
         images: [
           { imageURL: '4.11.1.7.5.jpg' }
         ]
       },
-      { id: 'id2600',
+      { id: 'id2603',
         name: 'Перо шнека',
         catalogNumber: '6.11.1.7.6',
         images: [
@@ -3838,7 +3913,124 @@ var abz = [
     catalogNumber: '8.12.1Л',
     description: 'Транспортер шнековый (фильтр-бочка собств. заполн. -элев. пыли)',
     images: [
-      { imageURL: '8.12.1l.jpg' }
+      { imageURL: '8.12.1l.jpg',
+        mapMarkers: [
+          { top: '7.6',
+            left: '81.3',
+            width: '5.5',
+            height: '2.6',
+            href: '27,2'
+          },
+          { top: '4.7',
+            left: '92',
+            width: '5.5',
+            height: '2.6',
+            href: '27,6'
+          },
+          { top: '16.6',
+            left: '74.8',
+            width: '5.5',
+            height: '2.6',
+            href: '27,3'
+          },
+          { top: '19.8',
+            left: '74.8',
+            width: '5.5',
+            height: '2.6',
+            href: '27,8'
+          },
+          { top: '45.4',
+            left: '79.9',
+            width: '5.5',
+            height: '2.6',
+            href: '27,7'
+          },
+          { top: '47.9',
+            left: '80.4',
+            width: '5.5',
+            height: '2.6',
+            href: '27,4'
+          },
+          { top: '45.5',
+            left: '94.5',
+            width: '5.5',
+            height: '2.6',
+            href: '27,7'
+          },
+          { top: '48.2',
+            left: '94.5',
+            width: '5.5',
+            height: '2.6',
+            href: '27,1'
+          },
+          { top: '50.4',
+            left: '87.7',
+            width: '5.5',
+            height: '2.6',
+            href: '27,9'
+          },
+          { top: '76.5',
+            left: '92.1',
+            width: '5.5',
+            height: '2.6',
+            href: '27,10'
+          },
+          { top: '43.8',
+            left: '61.2',
+            width: '5.5',
+            height: '2.6',
+            href: '28'
+          },
+          { top: '40.9',
+            left: '49.6',
+            width: '5.5',
+            height: '2.6',
+            href: '27,0'
+          },
+          { top: '53.3',
+            left: '14.6',
+            width: '5.5',
+            height: '2.6',
+            href: '27,0'
+          },
+          { top: '62.5',
+            left: '4.1',
+            width: '5.5',
+            height: '2.6',
+            href: '27,1'
+          },
+          { top: '65.7',
+            left: '4.1',
+            width: '5.5',
+            height: '2.6',
+            href: '27,5'
+          },
+          { top: '62.7',
+            left: '27.9',
+            width: '5.5',
+            height: '2.6',
+            href: '27,4'
+          },
+          { top: '66.3',
+            left: '27.9',
+            width: '5.5',
+            height: '2.6',
+            href: '27,3'
+          },
+          { top: '70.2',
+            left: '27.9',
+            width: '5.5',
+            height: '2.6',
+            href: '27,8'
+          },
+          { top: '94',
+            left: '13.3',
+            width: '5.5',
+            height: '2.6',
+            href: '27,7'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id2700',
@@ -3851,7 +4043,10 @@ var abz = [
       },
       { id: 'id2702',
         name: 'Втулка',
-        catalogNumber: '8.11.1.14'
+        catalogNumber: '8.11.1.14',
+        images: [
+          { imageURL: '8.11.1.14.jpg' }
+        ]
       },
       { id: 'id2703',
         name: 'Кольцо (2 шт.)',
@@ -3893,7 +4088,40 @@ var abz = [
     name: 'Шнек',
     catalogNumber: '8.12.1.7',
     images: [
-      { imageURL: '8.12.1.7.jpg' }
+      { imageURL: '8.12.1.7.jpg',
+        mapMarkers: [
+          { top: '30',
+            left: '11',
+            width: '9',
+            height: '3.5',
+            href: '26,2'
+          },
+          { top: '34.9',
+            left: '11',
+            width: '9',
+            height: '3.5',
+            href: '26,0'
+          },
+          { top: '39.2',
+            left: '54.6',
+            width: '9',
+            height: '3.5',
+            href: '28,3'
+          },
+          { top: '91.6',
+            left: '80.4',
+            width: '9',
+            height: '3.5',
+            href: '26,2'
+          },
+          { top: '96',
+            left: '80.2',
+            width: '9',
+            height: '3.5',
+            href: '26,1'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id2800',
