@@ -493,7 +493,61 @@ var abz = [
       },
       { id: 'id0006',
         name: 'Барабан сушильный',
-        catalogNumber: '4.14'
+        catalogNumber: '4.14',
+        images: [
+          { imageURL: '4.14.jpg',
+            mapMarkers: [
+              { top: '42.6',
+                left: '6.7',
+                width: '6',
+                height: '3',
+                href: '33'
+              },
+              { top: '65.2',
+                left: '14',
+                width: '6',
+                height: '3',
+                href: '29'
+              },
+              { top: '69.4',
+                left: '14.1',
+                width: '6',
+                height: '3',
+                href: '30'
+              },
+              { top: '73.5',
+                left: '14.2',
+                width: '6',
+                height: '3',
+                href: '31'
+              },
+              { top: '90.1',
+                left: '67.6',
+                width: '6',
+                height: '3',
+                href: '32'
+              },
+              { top: '89.5',
+                left: '92.8',
+                width: '8',
+                height: '3',
+                href: '35'
+              },
+              { top: '86.7',
+                left: '92.8',
+                width: '8',
+                height: '3',
+                href: '34'
+              },
+              { top: '77',
+                left: '92.8',
+                width: '8',
+                height: '3',
+                href: '36'
+              }
+            ]
+          }
+        ]
       },
       { id: 'id0007',
         name: 'Устройство фильтрующее',
@@ -4152,33 +4206,165 @@ var abz = [
   // 29
   { id: '29',
     name: 'Рама',
-    catalogNumber: '4.14.1'
+    catalogNumber: '4.14.1',
+    images: [
+      { imageURL: '4.14.1.jpg' }
+    ]
   },
 
   // 30
   { id: '30',
     name: 'Барабан',
     catalogNumber: '4.14.2',
+    images: [
+      { imageURL: '4.14.2.jpg',
+        mapMarkers: [
+          { top: '3.8',
+            left: '73.4',
+            width: '7.8',
+            height: '2.8',
+            href: '30,15'
+          },
+          { top: '6.5',
+            left: '73.4',
+            width: '7.8',
+            height: '2.8',
+            href: '30,16'
+          },
+          { top: '9.2',
+            left: '73.4',
+            width: '7.8',
+            height: '2.8',
+            href: '30,17'
+          },
+          { top: '8.9',
+            left: '42.1',
+            width: '7.2',
+            height: '2.8',
+            href: '30,2'
+          },
+          { top: '8.7',
+            left: '50.3',
+            width: '7.4',
+            height: '2.8',
+            href: '30,9'
+          },
+          { top: '8.7',
+            left: '58.9',
+            width: '7.4',
+            height: '2.8',
+            href: '30,1'
+          },
+          { top: '9.9',
+            left: '82.9',
+            width: '7.4',
+            height: '2.8',
+            href: '30,12'
+          },
+          { top: '11.1',
+            left: '93.4',
+            width: '7.4',
+            height: '2.8',
+            href: '30,6'
+          },
+          { top: '15',
+            left: '93.2',
+            width: '7.4',
+            height: '2.8',
+            href: '30,5'
+          },
+          { top: '18.7',
+            left: '93.2',
+            width: '7.4',
+            height: '2.8',
+            href: '30,7'
+          },
+          { top: '22.5',
+            left: '95.7',
+            width: '7.4',
+            height: '2.8',
+            href: '30,10'
+          },
+          { top: '33',
+            left: '31.4',
+            width: '7.4',
+            height: '2.8',
+            href: '30,3'
+          },
+          { top: '37.8',
+            left: '32.3',
+            width: '7.4',
+            height: '2.8',
+            href: '30,14'
+          },
+          { top: '94.8',
+            left: '33.9',
+            width: '7.4',
+            height: '2.8',
+            href: '30,13'
+          },
+          { top: '94.2',
+            left: '89.4',
+            width: '7.4',
+            height: '2.8',
+            href: '30,4'
+          },
+          { top: '89.5',
+            left: '91.8',
+            width: '7.4',
+            height: '2.8',
+            href: '30,0'
+          },
+          { top: '85.5',
+            left: '94.7',
+            width: '7.4',
+            height: '2.8',
+            href: '30,8'
+          },
+          { top: '81.4',
+            left: '96',
+            width: '7.4',
+            height: '2.8',
+            href: '30,11'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id3000',
         name: 'Лопатка (3-й и 4-й ряды) (24 шт.)',
-        catalogNumber: '4.14.2.1'
+        catalogNumber: '4.14.2.1',
+        images: [
+          { imageURL: '4.14.2.1.jpg' }
+        ]
       },
       { id: 'id3001',
         name: 'Лопатка (5-й и 6-й ряды) (24 шт.)',
-        catalogNumber: '4.14.2.2'
+        catalogNumber: '4.14.2.2',
+        images: [
+          { imageURL: '4.14.2.2.jpg' }
+        ]
       },
       { id: 'id3002',
         name: 'Лопатка (7-й и 8-й ряды) (32 шт.)',
-        catalogNumber: '4.14.2.3'
+        catalogNumber: '4.14.2.3',
+        images: [
+          { imageURL: '4.14.2.3.jpg' }
+        ]
       },
       { id: 'id3003',
         name: 'Лопатка (9-й ряд) (36 шт.)',
-        catalogNumber: '4.14.2.4'
+        catalogNumber: '4.14.2.4',
+        images: [
+          { imageURL: '4.14.2.4.jpg' }
+        ]
       },
       { id: 'id3004',
         name: 'Рассекатель',
-        catalogNumber: '4.14.2.5'
+        catalogNumber: '4.14.2.5',
+        images: [
+          { imageURL: '4.14.2.5.jpg' }
+        ]
       },
       { id: 'id3005',
         name: 'Лопатка (1-й ряд) (8 шт.)',
@@ -4194,35 +4380,56 @@ var abz = [
       },
       { id: 'id3008',
         name: 'Лопатка (3-й и 4-й ряды) (24 шт.)',
-        catalogNumber: '4.14.2.12'
+        catalogNumber: '4.14.2.12',
+        images: [
+          { imageURL: '4.14.2.12.jpg' }
+        ]
       },
       { id: 'id3009',
         name: 'Лопатка (5-й и 6-й ряды) (24 шт.)',
-        catalogNumber: '4.14.2.13'
+        catalogNumber: '4.14.2.13',
+        images: [
+          { imageURL: '4.14.2.13.jpg' }
+        ]
       },
       { id: 'id3010',
         name: 'Уголок (96 шт.)',
-        catalogNumber: '4.14.2.15'
+        catalogNumber: '4.14.2.15',
+        images: [
+          { imageURL: '4.14.2.15.jpg' }
+        ]
       },
       { id: 'id3011',
         name: 'Уголок (64 шт.)',
-        catalogNumber: '4.14.2.16'
+        catalogNumber: '4.14.2.16',
+        images: [
+          { imageURL: '4.14.2.16.jpg' }
+        ]
       },
       { id: 'id3012',
         name: 'Уголок (96 шт.)',
-        catalogNumber: '4.14.2.17'
+        catalogNumber: '4.14.2.17',
+        images: [
+          { imageURL: '4.14.2.17.jpg' }
+        ]
       },
       { id: 'id3013',
         name: 'Бандаж (2 шт.)',
-        catalogNumber: '4.14.2.24'
+        catalogNumber: '4.14.2.24',
+        images: [
+          { imageURL: '4.14.2.24.jpg' }
+        ]
       },
       { id: 'id3014',
         name: 'Планка (64 шт.)',
-        catalogNumber: '4.14.2.18'
+        catalogNumber: '4.14.2.18',
+        images: [
+          { imageURL: '4.14.2.18.jpg' }
+        ]
       },
       { id: 'id3015',
         name: 'Болт (352 шт.)',
-        catalogNumber: '4.14.2.3'
+        catalogNumber: '4.14.2.29'
       },
       { id: 'id3016',
         name: 'Гайка (352 шт.)',
@@ -4239,60 +4446,173 @@ var abz = [
   { id: '31',
     name: 'Ролик приводной (4 шт.)',
     catalogNumber: '4.14.6',
+    images: [
+      { imageURL: '4.14.6.jpg',
+        mapMarkers: [
+          { top: '6.6',
+            left: '79.7',
+            width: '7.8',
+            height: '4',
+            href: '31,8'
+          },
+          { top: '11.8',
+            left: '79.8',
+            width: '7.8',
+            height: '4',
+            href: '31,10'
+          },
+          { top: '17',
+            left: '79.8',
+            width: '7.8',
+            height: '4',
+            href: '31,5'
+          },
+          { top: '34.6',
+            left: '80.9',
+            width: '7.8',
+            height: '4',
+            href: '31,12'
+          },
+          { top: '6.5',
+            left: '64.8',
+            width: '7.8',
+            height: '4',
+            href: '31,9'
+          },
+          { top: '6.5',
+            left: '54.7',
+            width: '7.8',
+            height: '4',
+            href: '31,6'
+          },
+          { top: '6.5',
+            left: '45.3',
+            width: '7.8',
+            height: '4',
+            href: '31,7'
+          },
+          { top: '16.1',
+            left: '46.2',
+            width: '7.8',
+            height: '4',
+            href: '31,4'
+          },
+          { top: '12.7',
+            left: '4.8',
+            width: '8.5',
+            height: '4',
+            href: '31,1'
+          },
+          { top: '18',
+            left: '4.4',
+            width: '7.8',
+            height: '4',
+            href: '31,0'
+          },
+          { top: '24.3',
+            left: '4.6',
+            width: '7.8',
+            height: '4',
+            href: '31,11'
+          },
+          { top: '85.9',
+            left: '5.2',
+            width: '7.8',
+            height: '4',
+            href: '31,2'
+          },
+          { top: '86',
+            left: '15.8',
+            width: '7.8',
+            height: '4',
+            href: '31,4'
+          },
+          { top: '85.5',
+            left: '24.6',
+            width: '7.8',
+            height: '4',
+            href: '31,3'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id3100',
         name: 'Опора (8 шт.)',
-        catalogNumber: '4.14.6.2'
+        catalogNumber: '4.14.6.2',
+        images: [
+          { imageURL: '4.14.6.2.jpg' }
+        ]
       },
       { id: 'id3101',
         name: 'Ролик (4 шт.)',
-        catalogNumber: '4.14.6.5.Л'
+        catalogNumber: '4.14.6.5.Л',
+        images: [
+          { imageURL: '4.14.6.5.l.jpg' }
+        ]
       },
       { id: 'id3102',
         name: 'Вал (4 шт.)',
-        catalogNumber: '4.14.6.6'
+        catalogNumber: '4.14.6.6',
+        images: [
+          { imageURL: '4.14.6.6.jpg' }
+        ]
       },
       { id: 'id3103',
         name: 'Втулка (12 шт.)',
-        catalogNumber: '4.14.6.7'
+        catalogNumber: '4.14.6.7',
+        images: [
+          { imageURL: '4.14.6.7.jpg' }
+        ]
       },
       { id: 'id3104',
         name: 'Кольцо (16 шт.)',
-        catalogNumber: '4.14.6.8'
+        catalogNumber: '4.14.6.8',
+        images: [
+          { imageURL: '4.14.6.8.jpg' }
+        ]
       },
       { id: 'id3105',
         name: 'Шайба (4 шт.)',
-        catalogNumber: '4.14.6.9'
+        catalogNumber: '4.14.6.9',
+        images: [
+          { imageURL: '4.14.6.9.jpg' }
+        ]
       },
       { id: 'id3106',
-        name: 'Шайба (4 шт.)',
-        catalogNumber: '4.14.6.11'
+        name: 'Кольцо (4 шт.)',
+        catalogNumber: '4.14.6.12',
+        images: [
+          { imageURL: '4.14.6.12.jpg' }
+        ]
       },
       { id: 'id3107',
-        name: 'Кольцо (4 шт.)',
-        catalogNumber: '4.14.6.12'
-      },
-      { id: 'id3108',
         name: 'Шпонка (4 шт.)',
         catalogNumber: '4.14.6.24'
       },
-      { id: 'id3109',
+      { id: 'id3108',
         name: 'Шпонка (4 шт.)',
         catalogNumber: '4.14.6.25'
       },
-      { id: 'id3110',
+      { id: 'id3109',
         name: 'Кольцо (8 шт.)',
-        catalogNumber: '4.14.6.27'
+        catalogNumber: '4.14.6.27',
+        images: [
+          { imageURL: '4.14.6.27.jpg' }
+        ]
+      },
+      { id: 'id3110',
+        name: 'Кольцо (4 шт.)',
+        catalogNumber: '4.14.6.29',
+        images: [
+          { imageURL: '4.14.6.29.jpg' }
+        ]
       },
       { id: 'id3111',
-        name: 'Кольцо (4 шт.)',
-        catalogNumber: '4.14.6.29'
-      },
-      { id: 'id3112',
         name: 'Подшипник (8 шт.)',
         catalogNumber: '4.14.6.31'
       },
-      { id: 'id3113',
+      { id: 'id3112',
         name: 'Мотор-редуктор (4 шт.)',
         catalogNumber: '4.14.6.36'
       }
@@ -4303,26 +4623,83 @@ var abz = [
   { id: '32',
     name: 'Ролик ограничительный (2 шт.)',
     catalogNumber: '4.14.8',
+    images: [
+      { imageURL: '4.14.8.jpg',
+        mapMarkers: [
+          { top: '50.6',
+            left: '41.7',
+            width: '15',
+            height: '3',
+            href: '32,3'
+          },
+          { top: '56.5',
+            left: '48.5',
+            width: '15',
+            height: '3',
+            href: '32,4'
+          },
+          { top: '56.5',
+            left: '71.5',
+            width: '15',
+            height: '3',
+            href: '32,5'
+          },
+          { top: '56.5',
+            left: '90.5',
+            width: '15',
+            height: '3',
+            href: '32,0'
+          },
+          { top: '92.5',
+            left: '67.7',
+            width: '15',
+            height: '3',
+            href: '32,2'
+          },
+          { top: '92.9',
+            left: '87.9',
+            width: '15',
+            height: '3',
+            href: '32,1'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id3200',
         name: 'Ролик (2 шт.)',
-        catalogNumber: '4.14.8.1'
+        catalogNumber: '4.14.8.1',
+        images: [
+          { imageURL: '4.14.8.1.jpg' }
+        ]
       },
       { id: 'id3201',
         name: 'Плита (2 шт.)',
-        catalogNumber: '4.14.8.2'
+        catalogNumber: '4.14.8.2',
+        images: [
+          { imageURL: '4.14.8.2.jpg' }
+        ]
       },
       { id: 'id3202',
         name: 'Ось (2 шт.)',
-        catalogNumber: '4.14.8.3'
+        catalogNumber: '4.14.8.3',
+        images: [
+          { imageURL: '4.14.8.3.jpg' }
+        ]
       },
       { id: 'id3203',
         name: 'Кольцо (2 шт.)',
-        catalogNumber: '4.14.8.6'
+        catalogNumber: '4.14.8.6',
+        images: [
+          { imageURL: '4.14.8.6.jpg' }
+        ]
       },
       { id: 'id3204',
         name: 'Кольцо (12 шт.)',
-        catalogNumber: '4.14.8.7'
+        catalogNumber: '4.14.8.7',
+        images: [
+          { imageURL: '4.14.8.7.jpg' }
+        ]
       },
       { id: 'id3205',
         name: 'Подшипник (4 шт.)',
@@ -4334,49 +4711,118 @@ var abz = [
   // 33
   { id: '33',
     name: 'Камера осадительная',
-    catalogNumber: '4.14.3'
+    catalogNumber: '4.14.3',
+    images: [
+      { imageURL: '4.14.3.jpg' }
+    ]
   },
 
   // 34
   { id: '34',
     name: 'Фланец горелки',
-    catalogNumber: '4.14.4.(1)'
+    catalogNumber: '4.14.4.(1)',
+    images: [
+      { imageURL: '4.14.4.(1).jpg' }
+    ]
   },
 
   // 35
   { id: '35',
     name: 'Фланец горелки',
-    catalogNumber: '4.14.4.МГ'
+    catalogNumber: '4.14.4.МГ',
+    images: [
+      { imageURL: '4.14.4.(1).jpg' }
+    ]
   },
 
   // 36
   { id: '36',
     name: 'Лоток',
     catalogNumber: '4.14.1.Л',
+    images: [
+      { imageURL: '4.14.1.l.jpg',
+        mapMarkers: [
+          { top: '21.6',
+            left: '89',
+            width: '20',
+            height: '4',
+            href: '36,0'
+          },
+          { top: '51.1',
+            left: '18',
+            width: '20',
+            height: '4',
+            href: '36,5'
+          },
+          { top: '61.6',
+            left: '18.8',
+            width: '22',
+            height: '4',
+            href: '36,4'
+          },
+          { top: '70.1',
+            left: '18.8',
+            width: '22',
+            height: '4',
+            href: '36,2'
+          },
+          { top: '78.1',
+            left: '17.8',
+            width: '21',
+            height: '4',
+            href: '36,1'
+          },
+          { top: '86.6',
+            left: '18.8',
+            width: '22',
+            height: '4',
+            href: '36,3'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id3600',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.1.8.Л'
+        catalogNumber: '4.14.4.1.8.Л',
+        images: [
+          { imageURL: '4.14.4.1.8.l.jpg' }
+        ]
       },
       { id: 'id3601',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.1.9.Л'
+        catalogNumber: '4.14.4.1.9.Л',
+        images: [
+          { imageURL: '4.14.4.1.9.l.jpg' }
+        ]
       },
       { id: 'id3602',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.1.10.Л'
+        catalogNumber: '4.14.4.1.10.Л',
+        images: [
+          { imageURL: '4.14.4.1.10.l.jpg' }
+        ]
       },
       { id: 'id3603',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.1.11.Л'
+        catalogNumber: '4.14.4.1.11.Л',
+        images: [
+          { imageURL: '4.14.4.1.11.l.jpg' }
+        ]
       },
       { id: 'id3604',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.1.12.Л'
+        catalogNumber: '4.14.4.1.12.Л',
+        images: [
+          { imageURL: '4.14.4.1.12.l.jpg' }
+        ]
       },
       { id: 'id3605',
         name: 'Лист изнашивающийся (10 шт.)',
-        catalogNumber: '4.14.4.1.24'
+        catalogNumber: '4.14.4.1.24',
+        images: [
+          { imageURL: '4.14.4.1.24.jpg' }
+        ]
       }
     ]
   },
@@ -4385,22 +4831,64 @@ var abz = [
   { id: '37',
     name: 'Труба',
     catalogNumber: '4.14.4.2',
+    images: [
+      { imageURL: '4.14.4.2.jpg',
+        mapMarkers: [
+          { top: '69.8',
+            left: '13.2',
+            width: '16.5',
+            height: '3.5',
+            href: '37,3'
+          },
+          { top: '74.9',
+            left: '13.2',
+            width: '16.5',
+            height: '3.5',
+            href: '37,0'
+          },
+          { top: '80.3',
+            left: '13.4',
+            width: '17',
+            height: '3.5',
+            href: '37,1'
+          },
+          { top: '61.8',
+            left: '88.5',
+            width: '17',
+            height: '3.5',
+            href: '37,2'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id3700',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.2.5'
+        catalogNumber: '4.14.4.2.5',
+        images: [
+          { imageURL: '4.14.4.2.5.jpg' }
+        ]
       },
       { id: 'id3701',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.2.6'
+        catalogNumber: '4.14.4.2.6',
+        images: [
+          { imageURL: '4.14.4.2.6.jpg' }
+        ]
       },
       { id: 'id3702',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.2.7'
+        catalogNumber: '4.14.4.2.7',
+        images: [
+          { imageURL: '4.14.4.2.7.jpg' }
+        ]
       },
       { id: 'id3703',
         name: 'Изнашивающаяся плита',
-        catalogNumber: '4.14.4.2.8'
+        catalogNumber: '4.14.4.2.8',
+        images: [
+          { imageURL: '4.14.4.2.8.jpg' }
+        ]
       }
     ]
   },
