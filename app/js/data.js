@@ -41,11 +41,17 @@ var abz = [
             height: '13.5',
             href: '0,5'
           },
-          { top: '40.9',
+          { top: '47.8',
             left: '91.2',
             width: '15.3',
             height: '5',
             href: '0,6'
+          },
+          { top: '42.4',
+            left: '91.2',
+            width: '15.3',
+            height: '8',
+            href: '41'
           },
           { top: '55.7',
             left: '46',
