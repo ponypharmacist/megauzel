@@ -557,7 +557,31 @@ var abz = [
       },
       { id: 'id0007',
         name: 'Устройство фильтрующее',
-        catalogNumber: '5.20'
+        catalogNumber: '5.20',
+        images: [
+          { imageURL: '5.20.jpg',
+            mapMarkers: [
+              { top: '34.3',
+                left: '8.5',
+                width: '8',
+                height: '4',
+                href: '40'
+              },
+              { top: '86',
+                left: '69.5',
+                width: '8',
+                height: '4',
+                href: '38'
+              },
+              { top: '90.3',
+                left: '69.5',
+                width: '8',
+                height: '4',
+                href: '39'
+              }
+            ]
+          }
+        ]
       },
       { id: 'id0008',
         name: 'Система предварительного дозирования',
@@ -4903,14 +4927,92 @@ var abz = [
   { id: '38',
     name: 'Шнек к фильтру',
     catalogNumber: '8.20.3',
+    images: [
+      { imageURL: '8.20.3.jpg',
+        mapMarkers: [
+          { top: '29.4',
+            left: '5.8',
+            width: '9.5',
+            height: '5',
+            href: '38,6'
+          },
+          { top: '35.4',
+            left: '5.8',
+            width: '9.5',
+            height: '5',
+            href: '38,5'
+          },
+          { top: '41.4',
+            left: '5.8',
+            width: '9.5',
+            height: '5',
+            href: '38,0'
+          },
+          { top: '41.4',
+            left: '94.5',
+            width: '9.5',
+            height: '5',
+            href: '38,0'
+          },
+          { top: '98.8',
+            left: '94.9',
+            width: '9.5',
+            height: '5',
+            href: '38,1'
+          },
+          { top: '99.7',
+            left: '21.6',
+            width: '9.5',
+            height: '5',
+            href: '38,1'
+          },
+          { top: '99',
+            left: '79.5',
+            width: '9.5',
+            height: '5',
+            href: '38,3'
+          },
+          { top: '99.4',
+            left: '34.2',
+            width: '9.5',
+            height: '5',
+            href: '38,3'
+          },
+          { top: '99.2',
+            left: '8.1',
+            width: '9.5',
+            height: '5',
+            href: '38,2'
+          },
+          { top: '71.4',
+            left: '41',
+            width: '9.5',
+            height: '5',
+            href: '38,4'
+          },
+          { top: '71.4',
+            left: '68.7',
+            width: '9.5',
+            height: '5',
+            href: '38,4'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id3800',
         name: 'Подшипник (2 шт.)',
-        catalogNumber: '8.20.3.45'
+        catalogNumber: '8.20.3.45',
+        images: [
+          { imageURL: '8.20.3.45.jpg' }
+        ]
       },
       { id: 'id3801',
         name: 'Кольцо (2 шт.)',
-        catalogNumber: '8.20.3.46'
+        catalogNumber: '8.20.3.46',
+        images: [
+          { imageURL: '8.20.3.46.jpg' }
+        ]
       },
       { id: 'id3802',
         name: 'Шпонка',
@@ -4926,11 +5028,17 @@ var abz = [
       },
       { id: 'id3805',
         name: 'Резиновый буфер (2 шт.)',
-        catalogNumber: '8.20.3.55'
+        catalogNumber: '8.20.3.55',
+        images: [
+          { imageURL: '8.20.3.55.jpg' }
+        ]
       },
       { id: 'id3806',
         name: 'Мотор-редуктор',
-        catalogNumber: '8.20.3.56'
+        catalogNumber: '8.20.3.56',
+        images: [
+          { imageURL: '8.20.3.56.jpg' }
+        ]
       }
     ]
   },
@@ -4938,45 +5046,165 @@ var abz = [
   // 39
   { id: '39',
     name: 'Заслонка',
-    catalogNumber: '8.20.5'
+    catalogNumber: '8.20.5',
+    images: [
+      { imageURL: '8.20.5.jpg' }
+    ]
   },
 
   // 40
   { id: '40',
     name: 'Фильтр',
     catalogNumber: '8.20.1',
+    images: [
+      { imageURL: '8.20.1.jpg',
+        mapMarkers: [
+          { top: '20',
+            left: '21.8',
+            width: '9',
+            height: '4.5',
+            href: '40,0'
+          },
+          { top: '18.9',
+            left: '94.3',
+            width: '9.5',
+            height: '4',
+            href: '40,4'
+          },
+          { top: '86.3',
+            left: '79.3',
+            width: '9.5',
+            height: '4',
+            href: '40,2'
+          },
+          { top: '90.6',
+            left: '79.7',
+            width: '9.5',
+            height: '4',
+            href: '40,3'
+          },
+          { top: '55',
+            left: '9.4',
+            width: '9.5',
+            height: '4',
+            href: '40,0,8'
+          },
+          { top: '50.3',
+            left: '9.3',
+            width: '9.5',
+            height: '4',
+            href: '40,0,6'
+          },
+          { top: '44.9',
+            left: '8.3',
+            width: '9.5',
+            height: '4',
+            href: '40,1'
+          },
+          { top: '35.2',
+            left: '19.3',
+            width: '9.5',
+            height: '4',
+            href: '40,0,7'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id4000',
         name: 'Клапан обдува (4 шт.)',
         catalogNumber: '8.20.1.2',
+        images: [
+          { imageURL: '8.20.1.2.jpg',
+            mapMarkers: [
+              { top: '4.6',
+                left: '63',
+                width: '25',
+                height: '4',
+                href: '40,0,2'
+              },
+              { top: '13',
+                left: '83.7',
+                width: '25',
+                height: '4',
+                href: '40,0,4'
+              },
+              { top: '17',
+                left: '84.7',
+                width: '25',
+                height: '4',
+                href: '40,0,5'
+              },
+              { top: '56',
+                left: '86.2',
+                width: '25',
+                height: '4',
+                href: '40,0,1'
+              },
+              { top: '73.6',
+                left: '34.2',
+                width: '25',
+                height: '4',
+                href: '40,0,0'
+              },
+              { top: '92',
+                left: '35.2',
+                width: '25',
+                height: '4',
+                href: '40,0,3'
+              }
+            ]
+          }
+        ],
         children: [
           { id: 'id400000',
             name: 'Кольцо (2 шт.)',
-            catalogNumber: '8.20.1.2.54'
+            catalogNumber: '8.20.1.2.54',
+            images: [
+              { imageURL: '8.20.1.2.54.jpg' }
+            ]
           },
           { id: 'id400001',
             name: 'Подшипник (2 шт.)',
-            catalogNumber: '8.20.1.2.57'
+            catalogNumber: '8.20.1.2.57',
+            images: [
+              { imageURL: '8.20.1.2.57.jpg' }
+            ]
           },
           { id: 'id400002',
             name: 'Подшипник (2 шт.)',
-            catalogNumber: '8.20.1.2.59'
+            catalogNumber: '8.20.1.2.59',
+            images: [
+              { imageURL: '8.20.1.2.59.jpg' }
+            ]
           },
           { id: 'id400003',
             name: 'Кольцо (2 шт.)',
-            catalogNumber: '8.20.1.2.60'
+            catalogNumber: '8.20.1.2.60',
+            images: [
+              { imageURL: '8.20.1.2.60.jpg' }
+            ]
           },
           { id: 'id400004',
             name: 'Мотор-редуктор',
-            catalogNumber: '8.20.1.2.62'
+            catalogNumber: '8.20.1.2.62',
+            images: [
+              { imageURL: '8.20.1.2.62.jpg' }
+            ]
           },
           { id: 'id400005',
             name: 'Датчик (2 шт.)',
-            catalogNumber: '8.20.1.2.63'
+            catalogNumber: '8.20.1.2.63',
+            images: [
+              { imageURL: '8.20.1.2.63.jpg' }
+            ]
           },
           { id: 'id400006',
             name: 'Привод эл.двигателя',
-            catalogNumber: '8.20.1.49'
+            catalogNumber: '8.20.1.49',
+            images: [
+              { imageURL: '8.20.1.49.jpg' }
+            ]
           },
           { id: 'id400007',
             name: 'Уплотнитель термостойкий (80 м)',
@@ -4984,25 +5212,40 @@ var abz = [
           },
           { id: 'id400008',
             name: 'Электродвигатель',
-            catalogNumber: '8.20.1.60'
+            catalogNumber: '8.20.1.60',
+            images: [
+              { imageURL: '8.20.1.60.jpg' }
+            ]
           }
         ]
       },
-      { id: 'id4000',
+      { id: 'id4001',
         name: 'Крыльчатка',
-        catalogNumber: '8.20.1.4'
+        catalogNumber: '8.20.1.4',
+        images: [
+          { imageURL: '8.20.1.4.jpg' }
+        ]
       },
-      { id: 'id4000',
+      { id: 'id4002',
         name: 'Каркас фильтра (864 шт.)',
-        catalogNumber: '8.20.1.25'
+        catalogNumber: '8.20.1.25',
+        images: [
+          { imageURL: '8.20.1.25.jpg' }
+        ]
       },
-      { id: 'id4000',
+      { id: 'id4003',
         name: 'Фильтр тканевый (432 шт.)',
-        catalogNumber: '8.20.1.26'
+        catalogNumber: '8.20.1.26',
+        images: [
+          { imageURL: '8.20.1.26.jpg' }
+        ]
       },
-      { id: 'id4000',
+      { id: 'id4004',
         name: 'Скоба (432 шт.)',
-        catalogNumber: '8.20.1.27'
+        catalogNumber: '8.20.1.27',
+        images: [
+          { imageURL: '8.20.1.27.jpg' }
+        ]
       }
     ]
   },
@@ -5011,14 +5254,38 @@ var abz = [
   { id: '41',
     name: 'Устройство подачи воздуха',
     catalogNumber: '6.18',
+    images: [
+      { imageURL: '6.18.jpg',
+        mapMarkers: [
+          { top: '94',
+            left: '65.5',
+            width: '13',
+            height: '6',
+            href: '41,1'
+          },
+          { top: '92',
+            left: '88.8',
+            width: '13',
+            height: '6',
+            href: '41,0'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id4100',
         name: 'Поворотный привод',
-        catalogNumber: '6.18.48'
+        catalogNumber: '6.18.48',
+        images: [
+          { imageURL: '6.18.48.jpg' }
+        ]
       },
       { id: 'id4100',
         name: 'Подшипник (2 шт.)',
-        catalogNumber: '6.18.52'
+        catalogNumber: '6.18.52',
+        images: [
+          { imageURL: '6.18.52.jpg' }
+        ]
       }
     ]
   },
