@@ -588,7 +588,7 @@ var abz = [
         catalogNumber: ''
       },
       { id: 'id0009',
-        name: 'Склад битума (американский насос)',
+        name: 'Склад битума',
         catalogNumber: '6.100.M'
       }
     ]
