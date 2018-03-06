@@ -164,7 +164,7 @@ $(document).ready(function(){
   $('<div class="megauzel-tag">Шнеки наклонные</div>').insertAfter('#id24');
   $('<div class="megauzel-tag"><a onclick="renderNode(0,6);">Барабан сушильный</a></div>').insertAfter('#childrenof-28');
   $('<div class="megauzel-tag"><a onclick="renderNode(0,7);">Устройство фильтрующее</a></div>').insertAfter('#childrenof-37');
-  $('<div class="megauzel-tag"><a onclick="renderNode(0,8);">Система предварительного дозирования</a></div>').insertAfter('#childrenof-41');
+  $('<div class="megauzel-tag"><a onclick="renderNode(0,8);">Устройство предварительного дозирования</a></div>').insertAfter('#childrenof-41');
   $('<div class="megauzel-tag"><a onclick="renderNode(0,9);">Склад битума</a></div>').insertAfter('#childrenof-58');
 
   // Рендерим этикетки для подузлов
