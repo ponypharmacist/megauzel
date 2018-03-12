@@ -5297,11 +5297,119 @@ var abz = [
     images: [
       { imageURL: '6.46.jpg',
         mapMarkers: [
-          { top: '94',
-            left: '65.5',
-            width: '13',
-            height: '6',
-            href: '41,1'
+          { top: '31.8',
+            left: '4',
+            width: '6.5',
+            height: '4.5',
+            href: '43'
+          },
+          { top: '77.8',
+            left: '26.5',
+            width: '6.5',
+            height: '4.5',
+            href: '43'
+          },
+          { top: '19.2',
+            left: '32.8',
+            width: '7',
+            height: '4.5',
+            href: '54'
+          },
+          { top: '40.5',
+            left: '66.5',
+            width: '6.5',
+            height: '4.5',
+            href: '47'
+          },
+          { top: '26.2',
+            left: '81',
+            width: '6.5',
+            height: '4.5',
+            href: '47'
+          },
+          { top: '14.9',
+            left: '63.5',
+            width: '6.5',
+            height: '4.5',
+            href: '48'
+          },
+          { top: '68.1',
+            left: '63.3',
+            width: '6.5',
+            height: '4.5',
+            href: '48'
+          },
+          { top: '12.7',
+            left: '80.8',
+            width: '6.5',
+            height: '4.5',
+            href: '52'
+          },
+          { top: '26.2',
+            left: '88.1',
+            width: '6.5',
+            height: '4.5',
+            href: '56'
+          },
+          { top: '31.5',
+            left: '81.5',
+            width: '7',
+            height: '4.5',
+            href: '57'
+          },
+          { top: '88.2',
+            left: '30.3',
+            width: '7',
+            height: '4.5',
+            href: '49'
+          },
+          { top: '73.7',
+            left: '49.8',
+            width: '7',
+            height: '4.5',
+            href: '49'
+          },
+          { top: '70.8',
+            left: '79.8',
+            width: '7',
+            height: '4.5',
+            href: '49'
+          },
+          { top: '88.2',
+            left: '4.3',
+            width: '7.5',
+            height: '4.5',
+            href: '45'
+          },
+          { top: '88.7',
+            left: '14.3',
+            width: '8.5',
+            height: '5',
+            href: '50'
+          },
+          { top: '80.5',
+            left: '81',
+            width: '8.5',
+            height: '5',
+            href: '53'
+          },
+          { top: '52.7',
+            left: '95.9',
+            width: '7',
+            height: '4.5',
+            href: '58'
+          },
+          { top: '46.4',
+            left: '96.7',
+            width: '6',
+            height: '4.5',
+            href: '46'
+          },
+          { top: '97.1',
+            left: '63.7',
+            width: '6.5',
+            height: '4.5',
+            href: '44'
           }
         ]
       }
@@ -5313,7 +5421,16 @@ var abz = [
     name: 'Устройство приводное',
     catalogNumber: '2.46.1',
     images: [
-      { imageURL: '2.46.1.jpg' }
+      { imageURL: '2.46.1.jpg',
+        mapMarkers: [
+          { top: '17.2',
+            left: '46.6',
+            width: '10.5',
+            height: '4.5',
+            href: '43,0'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id4300',
@@ -5421,7 +5538,46 @@ var abz = [
     name: 'Бункер-дозатор (5 шт.)',
     catalogNumber: '6.46.18',
     images: [
-      { imageURL: '6.46.18.jpg' }
+      { imageURL: '6.46.18.jpg',
+        mapMarkers: [
+          { top: '52.6',
+            left: '10.8',
+            width: '14.5',
+            height: '2.4',
+            href: '54,5'
+          },
+          { top: '73.5',
+            left: '9',
+            width: '12.5',
+            height: '2.4',
+            href: '55'
+          },
+          { top: '63.4',
+            left: '89.1',
+            width: '12.5',
+            height: '2.4',
+            href: '54,1'
+          },
+          { top: '66.8',
+            left: '89.3',
+            width: '12.5',
+            height: '2.4',
+            href: '54,3'
+          },
+          { top: '74',
+            left: '90.4',
+            width: '13',
+            height: '2.4',
+            href: '54,4'
+          },
+          { top: '82.5',
+            left: '89.6',
+            width: '12.5',
+            height: '2.4',
+            href: '54,2'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id5400',
@@ -5470,6 +5626,66 @@ var abz = [
   { id: '55',
     name: 'Транспортер (5 шт.)',
     catalogNumber: '6.46.18.2',
+    images: [
+      { imageURL: '6.46.18.2.jpg',
+        mapMarkers: [
+          { top: '15.4',
+            left: '7.8',
+            width: '12',
+            height: '3.5',
+            href: '55,8'
+          },
+          { top: '15',
+            left: '37.3',
+            width: '12',
+            height: '3.5',
+            href: '55,7'
+          },
+          { top: '13.5',
+            left: '88.8',
+            width: '12',
+            height: '3.5',
+            href: '55,0'
+          },
+          { top: '83.6',
+            left: '61.3',
+            width: '12',
+            height: '3.5',
+            href: '55,2'
+          },
+          { top: '87.6',
+            left: '62',
+            width: '12',
+            height: '3.5',
+            href: '55,6'
+          },
+          { top: '91.2',
+            left: '62.3',
+            width: '12',
+            height: '3.5',
+            href: '55,5'
+          },
+          { top: '95',
+            left: '63.4',
+            width: '12.2',
+            height: '3.5',
+            href: '55,3'
+          },
+          { top: '71.3',
+            left: '17.9',
+            width: '13',
+            height: '3.5',
+            href: '55,1'
+          },
+          { top: '80.7',
+            left: '17.7',
+            width: '12.5',
+            height: '3.5',
+            href: '55,4'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id5500',
         name: 'Барабан ведомый (5 шт.)',
@@ -5739,6 +5955,74 @@ var abz = [
         catalogNumber: '6.СБ.34.1.45'
       }
     ]
+  },
+
+  // 63
+  { id: '63',
+    name: 'Вентилятор',
+    catalogNumber: '4.13.9.М',
+    children: [
+      { id: 'id6300',
+        name: 'Электродвигатель',
+        catalogNumber: '4.13.9.20'
+      }
+    ]
+  },
+
+  // 64
+  { id: '64',
+    name: 'Питатель роторный',
+    catalogNumber: '4.13.10.М',
+    children: [
+      { id: 'id6400',
+        name: 'Подшипник (2 шт.)',
+        catalogNumber: '4.13.10.27'
+      },
+      { id: 'id6401',
+        name: 'Шпонка',
+        catalogNumber: '4.13.10.30'
+      },
+      { id: 'id6402',
+        name: 'Кольцо (2 шт.)',
+        catalogNumber: '4.13.10.32'
+      },
+      { id: 'id6403',
+        name: 'Мотор-редуктор',
+        catalogNumber: '4.13.10.33'
+      }
+    ]
+  },
+
+  // 65
+  { id: '65',
+    name: 'Вибратор',
+    catalogNumber: '4.13.59'
+  },
+
+  // 66
+  { id: '66',
+    name: 'Загрузочный трубопровод виатопа',
+    catalogNumber: '6.70.Н',
+    children: [
+      { id: 'id6600',
+        name: 'Труба (24 шт.)',
+        catalogNumber: '6.70.20.Н'
+      },
+      { id: 'id6601',
+        name: 'Отвод (4 шт.)',
+        catalogNumber: '6.70.21.Н'
+      },
+      { id: 'id6602',
+        name: 'Хомут (30 шт.)',
+        catalogNumber: '6.70.24.Н'
+      }
+    ]
+  },
+
+  // 67
+  { id: '67',
+    name: 'Труба виатопа',
+    catalogNumber: '6.247'
   }
 //======================
 ] // end Megauzels array
