@@ -5293,17 +5293,35 @@ var abz = [
   // 42
   { id: '42',
     name: 'Транспортер сборный',
-    catalogNumber: '6.46'
+    catalogNumber: '6.46',
+    images: [
+      { imageURL: '6.46.jpg',
+        mapMarkers: [
+          { top: '94',
+            left: '65.5',
+            width: '13',
+            height: '6',
+            href: '41,1'
+          }
+        ]
+      }
+    ]
   },
 
   // 43
   { id: '43',
     name: 'Устройство приводное',
     catalogNumber: '2.46.1',
+    images: [
+      { imageURL: '2.46.1.jpg' }
+    ],
     children: [
       { id: 'id4300',
         name: 'Мотор-барабан',
-        catalogNumber: '2.46.1.31'
+        catalogNumber: '2.46.1.31',
+        images: [
+          { imageURL: '2.46.1.31.jpg' }
+        ]
       }
     ]
   },
@@ -5311,83 +5329,128 @@ var abz = [
   // 44
   { id: '44',
     name: 'Опора роликов (43 шт.)',
-    catalogNumber: '2.46.2'
+    catalogNumber: '2.46.2',
+    images: [
+      { imageURL: '2.46.2.jpg' }
+    ]
   },
 
   // 45
   { id: '45',
     name: 'Опора роликов',
-    catalogNumber: '2.46.2.01'
+    catalogNumber: '2.46.2.01',
+    images: [
+      { imageURL: '2.46.2.01.jpg' }
+    ]
   },
 
   // 46
   { id: '46',
     name: 'Скребок',
-    catalogNumber: '6.46.4'
+    catalogNumber: '6.46.4',
+    images: [
+      { imageURL: '6.46.4.jpg' }
+    ]
   },
 
   // 47
   { id: '47',
     name: 'Опора роликов направляющих (3 шт.)',
-    catalogNumber: '2.46.6'
+    catalogNumber: '2.46.6',
+    images: [
+      { imageURL: '2.46.6.jpg' }
+    ]
   },
 
   // 48
   { id: '48',
-    name: 'Штатив (6 шт.)',
-    catalogNumber: '2.46.7'
+    name: 'Ролик прижимной',
+    catalogNumber: '2.46.24',
+    images: [
+      { imageURL: '2.46.24.jpg' }
+    ]
   },
 
   // 49
   { id: '49',
     name: 'Ролик направляющий (16 шт.)',
-    catalogNumber: '2.46.12'
+    catalogNumber: '2.46.12',
+    images: [
+      { imageURL: '2.46.12.jpg' }
+    ]
   },
 
   // 50
   { id: '50',
     name: 'Ролик направляющий (2 шт.)',
-    catalogNumber: '2.46.12.01'
+    catalogNumber: '2.46.12.01',
+    images: [
+      { imageURL: '2.46.12.01.jpg' }
+    ]
   },
 
   // 51
   { id: '51',
     name: 'Скребок',
-    catalogNumber: '6.46.14'
+    catalogNumber: '6.46.14',
+    images: [
+      { imageURL: '6.46.14.jpg' }
+    ]
   },
 
   // 52
   { id: '52',
     name: 'Ролик (132 шт.)',
-    catalogNumber: '2.46.15'
+    catalogNumber: '2.46.15',
+    images: [
+      { imageURL: '2.46.15.jpg' }
+    ]
   },
 
   // 53
   { id: '53',
     name: 'Ролик (12 шт.)',
-    catalogNumber: '2.46.15.01'
+    catalogNumber: '2.46.15.01',
+    images: [
+      { imageURL: '2.46.15.01.jpg' }
+    ]
   },
 
   // 54
   { id: '54',
     name: 'Бункер-дозатор (5 шт.)',
     catalogNumber: '6.46.18',
+    images: [
+      { imageURL: '6.46.18.jpg' }
+    ],
     children: [
       { id: 'id5400',
         name: 'Транспортер (5 шт.)',
-        catalogNumber: '6.46.18.2'
+        catalogNumber: '6.46.18.2',
+        images: [
+          { imageURL: '6.46.18.2.jpg' }
+        ]
       },
       { id: 'id5401',
         name: 'Датчик уровня (5 шт.)',
-        catalogNumber: '6.46.18.5'
+        catalogNumber: '6.46.18.5',
+        images: [
+          { imageURL: '6.46.18.5.jpg' }
+        ]
       },
       { id: 'id5402',
         name: 'Шторка (5 шт.)',
-        catalogNumber: '6.46.18.7'
+        catalogNumber: '6.46.18.7',
+        images: [
+          { imageURL: '6.46.18.7.jpg' }
+        ]
       },
       { id: 'id5403',
         name: 'Щиток (10 шт.)',
-        catalogNumber: '6.46.18.9'
+        catalogNumber: '6.46.18.9',
+        images: [
+          { imageURL: '6.46.18.9.jpg' }
+        ]
       },
       { id: 'id5404',
         name: 'Кронштейн (10 шт.)',
@@ -5395,7 +5458,10 @@ var abz = [
       },
       { id: 'id5405',
         name: 'Вибратор (2 шт.)',
-        catalogNumber: '6.46.18.26'
+        catalogNumber: '6.46.18.26',
+        images: [
+          { imageURL: '6.46.18.26.jpg' }
+        ]
       }
     ]
   },
@@ -5407,39 +5473,66 @@ var abz = [
     children: [
       { id: 'id5500',
         name: 'Барабан ведомый (5 шт.)',
-        catalogNumber: '6.46.18.2.2'
+        catalogNumber: '6.46.18.2.2',
+        images: [
+          { imageURL: '6.46.18.2.2.jpg' }
+        ]
       },
       { id: 'id5501',
         name: 'Барабан ведомый (5 шт.)',
-        catalogNumber: '6.46.18.2.3.01'
+        catalogNumber: '6.46.18.2.3.01',
+        images: [
+          { imageURL: '6.46.18.2.3.01.jpg' }
+        ]
       },
       { id: 'id5502',
         name: 'Ролик (35 шт.)',
-        catalogNumber: '6.46.18.2.7'
+        catalogNumber: '6.46.18.2.7',
+        images: [
+          { imageURL: '6.46.18.2.7.jpg' }
+        ]
       },
       { id: 'id5503',
         name: 'Корпус подшипника (20 шт.)',
-        catalogNumber: '6.46.18.2.12Л'
+        catalogNumber: '6.46.18.2.12Л',
+        images: [
+          { imageURL: '6.46.18.2.12l.jpg' }
+        ]
       },
       { id: 'id5504',
         name: 'Шпонка (5 шт.)',
-        catalogNumber: '6.46.18.2.55'
+        catalogNumber: '6.46.18.2.55',
+        images: [
+          { imageURL: '6.46.18.2.55.jpg' }
+        ]
       },
       { id: 'id5505',
         name: 'Манжета (20 шт.)',
-        catalogNumber: '6.46.18.2.57'
+        catalogNumber: '6.46.18.2.57',
+        images: [
+          { imageURL: '6.46.18.2.57.jpg' }
+        ]
       },
       { id: 'id5506',
         name: 'Подшипник (20 шт.)',
-        catalogNumber: '6.46.18.2.59'
+        catalogNumber: '6.46.18.2.59',
+        images: [
+          { imageURL: '6.46.18.2.59.jpg' }
+        ]
       },
       { id: 'id5507',
         name: 'Лента конвейерная (5 шт.)',
-        catalogNumber: '6.46.18.2.61'
+        catalogNumber: '6.46.18.2.61',
+        images: [
+          { imageURL: '6.46.18.2.61.jpg' }
+        ]
       },
       { id: 'id5508',
         name: 'Мотор-редуктор (5 шт.)',
-        catalogNumber: '6.46.18.2.63'
+        catalogNumber: '6.46.18.2.63',
+        images: [
+          { imageURL: '6.46.18.2.63.jpg' }
+        ]
       }
     ]
   },
@@ -5447,25 +5540,25 @@ var abz = [
   // 56
   { id: '56',
     name: 'Барабан натяжной',
-    catalogNumber: '6.46.21'
+    catalogNumber: '6.46.21',
+    images: [
+      { imageURL: '6.46.21.jpg' }
+    ]
   },
 
   // 57
   { id: '57',
     name: 'Сбрасыватель',
-    catalogNumber: '2.46.23'
+    catalogNumber: '2.46.23',
+    images: [
+      { imageURL: '2.46.23.jpg' }
+    ]
   },
 
   // 58
   { id: '58',
-    name: 'Опора (3 шт.)',
-    catalogNumber: '6.46.30',
-    children: [
-      { id: 'id5800',
-        name: 'Лента транспортерная',
-        catalogNumber: '6.46.110'
-      }
-    ]
+    name: 'Лента транспортерная',
+    catalogNumber: '6.46.110'
   },
 
   // 59
