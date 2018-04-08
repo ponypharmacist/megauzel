@@ -5780,19 +5780,31 @@ var abz = [
   // 59
   { id: '59',
     name: 'Емкость битумная в сборе (2 шт.)',
-    catalogNumber: '6.СБ.1',
+    catalogNumber: '6.100.1',
+    images: [
+      { imageURL: '6.100.1.jpg' }
+    ],
     children: [
       { id: 'id5900',
         name: 'Поплавок в сборе (2 шт.)',
-        catalogNumber: '6.СБ.1.2'
+        catalogNumber: '6.100.1.2',
+        images: [
+          { imageURL: '6.100.1.2.jpg' }
+        ]
       },
       { id: 'id5901',
         name: 'Датчик уровня (2 шт.)',
-        catalogNumber: '6.СБ.1.38'
+        catalogNumber: '6.100.1.38',
+        images: [
+          { imageURL: '6.100.1.38.jpg' }
+        ]
       },
       { id: 'id5902',
         name: 'Измеритель температуры (2 шт.)',
-        catalogNumber: '6.СБ.1.40'
+        catalogNumber: '6.100.1.40',
+        images: [
+          { imageURL: '6.100.1.40.jpg' }
+        ]
       }
     ]
   },
@@ -5800,43 +5812,63 @@ var abz = [
   // 60
   { id: '60',
     name: 'Станция закачки битума',
-    catalogNumber: '6.СБ.3.Д',
+    catalogNumber: '6.100.3.Д',
+    images: [
+      { imageURL: '6.100.3.d.jpg' }
+    ],
     children: [
       { id: 'id6000',
         name: 'Насос битумный закачной',
-        catalogNumber: '6.СБ.3.5'
+        catalogNumber: '6.100.3.5',
+        images: [
+          { imageURL: '6.100.3.5.jpg' }
+        ]
       },
       { id: 'id6001',
         name: 'Полумуфта',
-        catalogNumber: '6.СБ.3.5.2'
+        catalogNumber: '6.100.3.5.2',
+        images: [
+          { imageURL: '6.100.3.5.2.jpg' }
+        ]
       },
       { id: 'id6002',
         name: 'Полумуфта',
-        catalogNumber: '6.СБ.3.5.3'
+        catalogNumber: '6.100.3.5.3',
+        images: [
+          { imageURL: '6.100.3.5.3.jpg' }
+        ]
       },
       { id: 'id6003',
         name: 'Шпонка',
-        catalogNumber: '6.СБ.3.5.16'
+        catalogNumber: '6.100.3.5.16'
       },
       { id: 'id6004',
         name: 'Электродвигатель',
-        catalogNumber: '6.СБ.3.5.17'
+        catalogNumber: '6.100.3.5.17',
+        images: [
+          { imageURL: '6.100.3.5.17.jpg' }
+        ]
       },
       { id: 'id6005',
         name: 'Насос шестеренчатый',
-        catalogNumber: '6.СБ.3.5.18'
+        catalogNumber: '6.100.3.5.18',
+        images: [
+          { imageURL: '6.100.3.5.18.jpg' }
+        ]
       },
       { id: 'id6006',
         name: 'Упругий вкладыш (3 шт.)',
-        catalogNumber: '6.СБ.3.5.19'
+        catalogNumber: '6.100.3.5.19',
+        images: [
+          { imageURL: '6.100.3.5.19.jpg' }
+        ]
       },
       { id: 'id6007',
-        name: 'Шаровый кран',
-        catalogNumber: '6.СБ.3.7.Д'
-      },
-      { id: 'id6008',
         name: 'Кран шаровый',
-        catalogNumber: '6.СБ.3.7.8.Д'
+        catalogNumber: '6.100.3.7.8.Д',
+        images: [
+          { imageURL: '6.100.3.7.8.d.jpg' }
+        ]
       }
     ]
   },
@@ -5844,79 +5876,136 @@ var abz = [
   // 61
   { id: '61',
     name: 'Нагреватель в контейнере',
-    catalogNumber: '6.СБ.31.А',
+    catalogNumber: '6.100.31.А',
+    images: [
+      { imageURL: '6.100.31.a.jpg' }
+    ],
     children: [
       { id: 'id6100',
         name: 'Бак расширительный',
-        catalogNumber: '6.СБ.31.2'
+        catalogNumber: '6.100.31.2',
+        images: [
+          { imageURL: '6.100.31.2.jpg' }
+        ]
       },
       { id: 'id6101',
         name: 'Поплавок в сборе',
-        catalogNumber: '6.СБ.31.2.2'
+        catalogNumber: '6.100.31.2.2',
+        images: [
+          { imageURL: '6.100.31.2.2.jpg' }
+        ]
       },
       { id: 'id6102',
         name: 'Нагреватель проточный',
-        catalogNumber: '6.СБ.30.А'
+        catalogNumber: '6.100.30.А',
+        images: [
+          { imageURL: '6.100.30.a.jpg' }
+        ]
       },
       { id: 'id6103',
         name: 'Насос',
-        catalogNumber: '6.СБ.30.4.'
+        catalogNumber: '6.100.30.4.',
+        images: [
+          { imageURL: '6.100.30.4.jpg' }
+        ]
       },
       { id: 'id6104',
         name: 'Котел отопительный',
-        catalogNumber: '6.СБ.30.1'
+        catalogNumber: '6.100.30.1',
+        images: [
+          { imageURL: '6.100.30.1.jpg' }
+        ]
       },
       { id: 'id6105',
         name: 'Контур обогрева',
-        catalogNumber: '6.СБ.30.1.2'
+        catalogNumber: '6.100.30.1.2',
+        images: [
+          { imageURL: '6.100.30.1.2.jpg' }
+        ]
       },
       { id: 'id6106',
         name: 'Горелка',
-        catalogNumber: '6.СБ.30.83'
+        catalogNumber: '6.100.30.83',
+        images: [
+          { imageURL: '6.100.30.83.jpg' }
+        ]
       },
       { id: 'id6107',
         name: 'Кран шаровый (3 шт.)',
-        catalogNumber: '6.СБ.30.89'
+        catalogNumber: '6.100.30.89',
+        images: [
+          { imageURL: '6.100.30.89.jpg' }
+        ]
       },
       { id: 'id6108',
         name: 'Кран шаровый (2 шт.)',
-        catalogNumber: '6.СБ.30.91'
+        catalogNumber: '6.100.30.91',
+        images: [
+          { imageURL: '6.100.30.91.jpg' }
+        ]
       },
       { id: 'id6109',
         name: 'Кран шаровый (5 шт.)',
-        catalogNumber: '6.СБ.30.92'
+        catalogNumber: '6.100.30.92',
+        images: [
+          { imageURL: '6.100.30.92.jpg' }
+        ]
       },
       { id: 'id6110',
         name: 'Насос центробежный',
-        catalogNumber: '6.СБ.30.94'
+        catalogNumber: '6.100.30.94',
+        images: [
+          { imageURL: '6.100.30.94.jpg' }
+        ]
       },
       { id: 'id6111',
         name: 'Датчик-реле (2 шт.)',
-        catalogNumber: '6.СБ.30.100'
+        catalogNumber: '6.100.30.100',
+        images: [
+          { imageURL: '6.100.30.100.jpg' }
+        ]
       },
       { id: 'id6112',
         name: 'Датчик (2 шт.)',
-        catalogNumber: '6.СБ.30.100'
+        catalogNumber: '6.100.30.100',
+        images: [
+          { imageURL: '6.100.30.100.jpg' }
+        ]
       },
       { id: 'id6113',
         name: 'Термометр',
-        catalogNumber: '6.СБ.30.102'
+        catalogNumber: '6.100.30.102',
+        images: [
+          { imageURL: '6.100.30.102.jpg' }
+        ]
       },
       { id: 'id6114',
         name: 'Фильтр',
-        catalogNumber: '6.СБ.30.104'
+        catalogNumber: '6.100.30.104',
+        images: [
+          { imageURL: '6.100.30.104.jpg' }
+        ]
       },
       { id: 'id6115',
         name: 'Кран 3-х ход. (4 шт.)',
-        catalogNumber: '6.СБ.30.106'
+        catalogNumber: '6.100.30.106',
+        images: [
+          { imageURL: '6.100.30.106.jpg' }
+        ]
       },
       { id: 'id6116',
         name: 'Манометр',
-        catalogNumber: '6.СБ.30.110'
+        catalogNumber: '6.100.30.110',
+        images: [
+          { imageURL: '6.100.30.110.jpg' }
+        ]
       },
       { id: 'id6117',
         name: 'Преобразователь давления (3 шт.)',
-        catalogNumber: '6.СБ.30.111'
+        catalogNumber: '6.100.30.111',
+        images: [
+          { imageURL: '6.100.30.111.jpg' }
+        ]
       }
     ]
   },
@@ -5924,35 +6013,56 @@ var abz = [
   // 62
   { id: '62',
     name: 'Насос битумный',
-    catalogNumber: '6.СБ.34.М',
+    catalogNumber: '6.100.34.М',
+    images: [
+      { imageURL: '6.100.34.m.jpg' }
+    ],
     children: [
       { id: 'id6200',
         name: 'Насос битумный',
-        catalogNumber: '6.СБ.34.1.А'
+        catalogNumber: '6.100.34.1.А',
+        images: [
+          { imageURL: '6.100.34.1.a.jpg' }
+        ]
       },
       { id: 'id6201',
         name: 'Полумуфта',
-        catalogNumber: '6.СБ.34.1.15'
+        catalogNumber: '6.100.34.1.15',
+        images: [
+          { imageURL: '6.100.34.1.15.jpg' }
+        ]
       },
       { id: 'id6202',
         name: 'Полумуфта',
-        catalogNumber: '6.СБ.34.1.16'
+        catalogNumber: '6.100.34.1.16',
+        images: [
+          { imageURL: '6.100.34.1.16.jpg' }
+        ]
       },
       { id: 'id6203',
         name: 'Мотор-редуктор',
-        catalogNumber: '6.СБ.34.1.41'
+        catalogNumber: '6.100.34.1.41',
+        images: [
+          { imageURL: '6.100.34.1.41.jpg' }
+        ]
       },
       { id: 'id6204',
         name: 'Шпонка',
-        catalogNumber: '6.СБ.34.1.38'
+        catalogNumber: '6.100.34.1.38'
       },
       { id: 'id6205',
         name: 'Насос',
-        catalogNumber: '6.СБ.34.1.43'
+        catalogNumber: '6.100.34.1.43',
+        images: [
+          { imageURL: '6.100.34.1.43.jpg' }
+        ]
       },
       { id: 'id6206',
         name: 'Упругий вкладыш (6 шт.)',
-        catalogNumber: '6.СБ.34.1.45'
+        catalogNumber: '6.100.34.1.45',
+        images: [
+          { imageURL: '6.100.34.1.45.jpg' }
+        ]
       }
     ]
   },
