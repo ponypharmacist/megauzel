@@ -5782,7 +5782,28 @@ var abz = [
     name: 'Емкость битумная в сборе (2 шт.)',
     catalogNumber: '6.100.1',
     images: [
-      { imageURL: '6.100.1.jpg' }
+      { imageURL: '6.100.1.jpg',
+        mapMarkers: [
+          { top: '54.3',
+            left: '76',
+            width: '14',
+            height: '3.5',
+            href: '59,0'
+          },
+          { top: '54.5',
+            left: '56.4',
+            width: '16',
+            height: '3.5',
+            href: '59,1'
+          },
+          { top: '85.9',
+            left: '62.6',
+            width: '16',
+            height: '3.5',
+            href: '59,2'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id5900',
@@ -5814,7 +5835,52 @@ var abz = [
     name: 'Станция закачки битума',
     catalogNumber: '6.100.3.Д',
     images: [
-      { imageURL: '6.100.3.d.jpg' }
+      { imageURL: '6.100.3.d.jpg',
+        mapMarkers: [
+          { top: '89.4',
+            left: '49.8',
+            width: '12',
+            height: '3.5',
+            href: '60,0'
+          },
+          { top: '89.8',
+            left: '31.4',
+            width: '14.5',
+            height: '3.5',
+            href: '60,1'
+          },
+          { top: '89.4',
+            left: '69.3',
+            width: '14.5',
+            height: '3.5',
+            href: '60,2'
+          },
+          { top: '93.6',
+            left: '12.3',
+            width: '14.5',
+            height: '3.5',
+            href: '60,3'
+          },
+          { top: '89.7',
+            left: '12.3',
+            width: '14.5',
+            height: '3.5',
+            href: '60,4'
+          },
+          { top: '88.4',
+            left: '89.9',
+            width: '14.5',
+            height: '3.5',
+            href: '60,5'
+          },
+          { top: '93.7',
+            left: '69.7',
+            width: '14.5',
+            height: '3.5',
+            href: '60,6'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id6000',
@@ -5878,7 +5944,136 @@ var abz = [
     name: 'Нагреватель в контейнере',
     catalogNumber: '6.100.31.А',
     images: [
-      { imageURL: '6.100.31.a.jpg' }
+      { imageURL: '6.100.31.a.jpg',
+        mapMarkers: [
+          { top: '15.6',
+            left: '34.8',
+            width: '10',
+            height: '4',
+            href: '61,0'
+          },
+          { top: '9.2',
+            left: '35.2',
+            width: '11',
+            height: '4',
+            href: '61,1'
+          },
+          { top: '33.4',
+            left: '93.6',
+            width: '10',
+            height: '4',
+            href: '61,2'
+          },
+          { top: '95',
+            left: '75',
+            width: '10',
+            height: '4',
+            href: '61,3'
+          },
+          { top: '95.5',
+            left: '93.3',
+            width: '10',
+            height: '4',
+            href: '61,4'
+          },
+          { top: '27.9',
+            left: '93.7',
+            width: '10',
+            height: '4',
+            href: '61,5'
+          },
+          { top: '39',
+            left: '93.9',
+            width: '10',
+            height: '4',
+            href: '61,6'
+          },
+          { top: '94.7',
+            left: '55.8',
+            width: '10',
+            height: '4',
+            href: '61,7'
+          },
+          { top: '40.8',
+            left: '78.1',
+            width: '10',
+            height: '4',
+            href: '61,7'
+          },
+          { top: '92.1',
+            left: '83.2',
+            width: '10',
+            height: '4',
+            href: '61,8'
+          },
+          { top: '36.2',
+            left: '63.7',
+            width: '10',
+            height: '4',
+            href: '61,8'
+          },
+          { top: '92.1',
+            left: '93.5',
+            width: '10',
+            height: '4',
+            href: '61,9'
+          },
+          { top: '91.7',
+            left: '73.5',
+            width: '10',
+            height: '4',
+            href: '61,9'
+          },
+          { top: '94.7',
+            left: '45.6',
+            width: '10',
+            height: '4',
+            href: '61,9'
+          },
+          { top: '49.5',
+            left: '78.1',
+            width: '10',
+            height: '4',
+            href: '61,10'
+          },
+          { top: '77',
+            left: '54.2',
+            width: '11',
+            height: '4',
+            href: '61,11'
+          },
+          { top: '94.6',
+            left: '33.8',
+            width: '11',
+            height: '4',
+            href: '61,12'
+          },
+          { top: '99',
+            left: '56.2',
+            width: '11',
+            height: '4',
+            href: '61,13'
+          },
+          { top: '62.4',
+            left: '84.3',
+            width: '11',
+            height: '4',
+            href: '61,14'
+          },
+          { top: '95.6',
+            left: '12.8',
+            width: '11',
+            height: '4',
+            href: '61,15'
+          },
+          { top: '59.5',
+            left: '31.7',
+            width: '10',
+            height: '4',
+            href: '61,16'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id6100',
@@ -5966,41 +6161,34 @@ var abz = [
         ]
       },
       { id: 'id6112',
-        name: 'Датчик (2 шт.)',
-        catalogNumber: '6.100.30.100',
-        images: [
-          { imageURL: '6.100.30.100.jpg' }
-        ]
-      },
-      { id: 'id6113',
         name: 'Термометр',
         catalogNumber: '6.100.30.102',
         images: [
           { imageURL: '6.100.30.102.jpg' }
         ]
       },
-      { id: 'id6114',
+      { id: 'id6113',
         name: 'Фильтр',
         catalogNumber: '6.100.30.104',
         images: [
           { imageURL: '6.100.30.104.jpg' }
         ]
       },
-      { id: 'id6115',
+      { id: 'id6114',
         name: 'Кран 3-х ход. (4 шт.)',
         catalogNumber: '6.100.30.106',
         images: [
           { imageURL: '6.100.30.106.jpg' }
         ]
       },
-      { id: 'id6116',
+      { id: 'id6115',
         name: 'Манометр',
         catalogNumber: '6.100.30.110',
         images: [
           { imageURL: '6.100.30.110.jpg' }
         ]
       },
-      { id: 'id6117',
+      { id: 'id6116',
         name: 'Преобразователь давления (3 шт.)',
         catalogNumber: '6.100.30.111',
         images: [
@@ -6015,7 +6203,52 @@ var abz = [
     name: 'Насос битумный',
     catalogNumber: '6.100.34.М',
     images: [
-      { imageURL: '6.100.34.m.jpg' }
+      { imageURL: '6.100.34.m.jpg',
+        mapMarkers: [
+          { top: '92.8',
+            left: '50.7',
+            width: '11',
+            height: '3.5',
+            href: '62,0'
+          },
+          { top: '97.8',
+            left: '17.4',
+            width: '11',
+            height: '3.5',
+            href: '62,1'
+          },
+          { top: '94.6',
+            left: '17.5',
+            width: '11',
+            height: '3.5',
+            href: '62,2'
+          },
+          { top: '42.8',
+            left: '56.7',
+            width: '11',
+            height: '3.5',
+            href: '62,3'
+          },
+          { top: '38.2',
+            left: '56.7',
+            width: '11',
+            height: '3.5',
+            href: '62,4'
+          },
+          { top: '86.9',
+            left: '7.2',
+            width: '11',
+            height: '3.5',
+            href: '62,5'
+          },
+          { top: '33.2',
+            left: '56.5',
+            width: '11',
+            height: '3.5',
+            href: '62,6'
+          }
+        ]
+      }
     ],
     children: [
       { id: 'id6200',
