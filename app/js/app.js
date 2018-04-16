@@ -205,15 +205,26 @@ $(document).ready(function(){
       }
     });
   });
+  
   // Выключаем поиск на Esc
   $(document).keyup(function(e) {
     if (e.keyCode == 27) {
-      $('#tree-root').removeClass('being-filtered');
-      $('#tree-root li').css('display', '');
-      $('.filter-hint').css('display', 'none');
+	  filterOff();
     } else {};
+  });
+  
+  $('#filter-reset').onclick(function() {
+	filterOff();
   });
 
   // ...
 
 });
+
+
+// Выключение поиска
+function filterOff() {
+  $('#tree-root').removeClass('being-filtered');
+  $('#tree-root li').css('display', '');
+  $('.filter-hint').css('display', 'none');
+}
