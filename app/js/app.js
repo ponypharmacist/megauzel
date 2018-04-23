@@ -205,14 +205,14 @@ $(document).ready(function(){
       }
     });
   });
-  
+
   // Выключаем поиск на Esc
   $(document).keyup(function(e) {
     if (e.keyCode == 27) {
 	  filterOff();
     } else {};
   });
-  
+
   $('#filter-reset').onclick(function() {
 	filterOff();
   });

@@ -6304,10 +6304,16 @@ var abz = [
   { id: '63',
     name: 'Вентилятор',
     catalogNumber: '4.13.9.М',
+    images: [
+      { imageURL: '4.13.9.m.jpg' }
+    ],
     children: [
       { id: 'id6300',
         name: 'Электродвигатель',
-        catalogNumber: '4.13.9.20'
+        catalogNumber: '4.13.9.20',
+        images: [
+          { imageURL: '4.13.9.20.jpg' }
+        ]
       }
     ]
   },
@@ -6316,10 +6322,43 @@ var abz = [
   { id: '64',
     name: 'Питатель роторный',
     catalogNumber: '4.13.10.М',
+    images: [
+      { imageURL: '4.13.10.m.jpg',
+        mapMarkers: [
+          { top: '82.4',
+            left: '80.4',
+            width: '15',
+            height: '4',
+            href: '64,0'
+          },
+          { top: '64',
+            left: '89.8',
+            width: '15',
+            height: '4',
+            href: '64,1'
+          },
+          { top: '49',
+            left: '12.3',
+            width: '15',
+            height: '4',
+            href: '64,2'
+          },
+          { top: '16.6',
+            left: '85.3',
+            width: '15',
+            height: '4',
+            href: '64,3'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id6400',
         name: 'Подшипник (2 шт.)',
-        catalogNumber: '4.13.10.27'
+        catalogNumber: '4.13.10.27',
+        images: [
+          { imageURL: '4.13.10.27.jpg' }
+        ]
       },
       { id: 'id6401',
         name: 'Шпонка',
@@ -6327,7 +6366,10 @@ var abz = [
       },
       { id: 'id6402',
         name: 'Кольцо (2 шт.)',
-        catalogNumber: '4.13.10.32'
+        catalogNumber: '4.13.10.32',
+        images: [
+          { imageURL: '4.13.10.32.jpg' }
+        ]
       },
       { id: 'id6403',
         name: 'Мотор-редуктор',
@@ -6339,13 +6381,40 @@ var abz = [
   // 65
   { id: '65',
     name: 'Вибратор',
-    catalogNumber: '4.13.59'
+    catalogNumber: '4.13.59',
+    images: [
+      { imageURL: '4.13.59.jpg' }
+    ]
   },
 
   // 66
   { id: '66',
     name: 'Загрузочный трубопровод виатопа',
     catalogNumber: '6.70.Н',
+    images: [
+      { imageURL: '6.70.n.jpg',
+        mapMarkers: [
+          { top: '74.2',
+            left: '42.5',
+            width: '18',
+            height: '3.5',
+            href: '66,0'
+          },
+          { top: '80.4',
+            left: '43.3',
+            width: '18',
+            height: '3.5',
+            href: '66,1'
+          },
+          { top: '74.4',
+            left: '71.8',
+            width: '18',
+            height: '3.5',
+            href: '66,2'
+          }
+        ]
+      }
+    ],
     children: [
       { id: 'id6600',
         name: 'Труба (24 шт.)',
@@ -6365,7 +6434,49 @@ var abz = [
   // 67
   { id: '67',
     name: 'Труба виатопа',
-    catalogNumber: '6.247'
+    catalogNumber: '6.247',
+    images: [
+      { imageURL: '6.247.jpg' }
+    ]
+  },
+
+  // 68
+  { id: '68',
+    name: 'Заслонка',
+    catalogNumber: '4.3.2.32',
+    images: [
+      { imageURL: '4.3.2.32.jpg' }
+    ]
+  },
+
+  // 69
+  { id: '69',
+    name: 'Питатель виатопа',
+    catalogNumber: '4.13М',
+    images: [
+      { imageURL: '4.13m.jpg',
+        mapMarkers: [
+          { top: '37.5',
+            left: '87.5',
+            width: '14',
+            height: '3',
+            href: '65'
+          },
+          { top: '90.5',
+            left: '10',
+            width: '15',
+            height: '3',
+            href: '63'
+          },
+          { top: '95',
+            left: '10',
+            width: '15',
+            height: '3',
+            href: '63,0'
+          }
+        ]
+      }
+    ]
   }
 //======================
 ] // end Megauzels array
