@@ -22,7 +22,7 @@ function renderChildren(uzel, parentIndex) {
   let childrenHtml = '&nbsp;<a class="expand-link" rel="' + thisUzelId + '">[+]</a></li>';
   childrenHtml += '<ul id="childrenof-' + thisUzelId + '">'
   thisUzelChildren.forEach(function(child, k, thisUzelChildren) {
-    childrenHtml += '<li><a ' + (child.images ? 'class="has-image"' : '') + ' onclick="renderNode(' + parentIndex + ',' + k + ');">' + child.name + '</a>';
+    childrenHtml += '<li><a ' + (child.images ? 'class="has-image"' : '') + ' onclick="renderNode(' + parentIndex + ',' + k + ');">' + child.name + '<span>' + (child.catalogNumber ? child.catalogNumber : 0) + '</span></a>';
     childrenHtml += child.children ? renderSubChildren(child, k, parentIndex) : '</li>';
   });
   childrenHtml += '</ul>'
@@ -38,7 +38,7 @@ function renderSubChildren(uzel, parentIndex, megaParentIndex) {
   let childrenHtml = '&nbsp;<a class="expand-link" rel="' + thisUzelId + '">[+]</a></li>';
   childrenHtml += '<ul id="childrenof-' + thisUzelId + '">'
   thisUzelChildren.forEach(function(child, l, thisUzelChildren) {
-    childrenHtml += '<li><a onclick="renderNode(' + megaParentIndex + ',' + parentIndex + ',' + l + ');">' + child.name + '</a></li>';
+    childrenHtml += '<li><a onclick="renderNode(' + megaParentIndex + ',' + parentIndex + ',' + l + ');">' + child.name + '<span>' + (child.catalogNumber ? child.catalogNumber : 0) + '</span></a></li>';
   });
   childrenHtml += '</ul>'
   return childrenHtml;

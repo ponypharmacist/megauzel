@@ -201,6 +201,15 @@ a {
   float: left;
   margin-left: -32px;
 }
+#tree-root li > a > span {
+  display: none;
+  padding-left: 6px;
+  color: #666;
+  font-size: 12px;
+}
+#tree-root.being-filtered li > a > span {
+  display: inline;
+}
 #tree-root a { cursor: pointer; }
 
 .has-image {
