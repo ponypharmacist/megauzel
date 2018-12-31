@@ -213,8 +213,8 @@ $(document).ready(function(){
     } else {};
   });
 
-  $('#filter-reset').onclick(function() {
-	filterOff();
+  $('#filter-reset').click(function() {
+	  filterOff();
   });
 
   // ...

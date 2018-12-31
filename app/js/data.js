@@ -59,17 +59,17 @@ var abz = [
             height: '5',
             href: '0,7'
           },
-          { top: '73',
-            left: '49.4',
-            width: '14.5',
-            height: '14',
-            href: '0,8'
+          { top: '72',
+            left: '47.4',
+            width: '10.5',
+            height: '10',
+            href: '42'
           },
           { top: '56.5',
             left: '6.2',
             width: '10.5',
             height: '5',
-            href: '0,9'
+            href: '0,8'
           },
           { top: '21.9',
             left: '45.5',
@@ -583,13 +583,21 @@ var abz = [
           }
         ]
       },
-      { id: 'id0008',
-        name: 'Устройство предварительного дозирования',
-        catalogNumber: ''
-      },
       { id: 'id0009',
         name: 'Склад битума',
-        catalogNumber: '6.100.M'
+        catalogNumber: '6.100.M',
+	      images: [
+	        { imageURL: '6.100.m.jpg',
+            mapMarkers: [
+              { top: '28.3',
+                left: '18.8',
+                width: '9',
+                height: '3',
+                href: '59'
+              }
+            ]
+          }
+	      ]
       }
     ]
   },
